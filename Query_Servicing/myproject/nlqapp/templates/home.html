@@ -1,0 +1,19 @@
+<html>
+<h1>Here you can access the information regarding Aircraft Accidents...</h1>
+<body>
+<form action="../nlqapp/views.py" method="GET">
+  {% csrf_token %}
+  <label for="fname">Please Enter your Query:</label>
+  <h2><input type="text" id="fname" name="query" size='150' height="20"></h2>
+  <br>
+  {{data1}}
+  <input type="submit" value="Submit" name="mybtn">
+  <input type="submit" value="List of Instances" name="mybtn2">
+  <input type="submit" value="List of SubClasses" name="mybtn3">
+  <input type="submit" value="List of classes" name="mybtn4">
+  <input type="submit" value="List of SuperClasses" name="mybtn5">
+</form>
+<br><br> 
+{% if output %}<h3><textarea rows='15' cols='150'>{{ output }}</textarea></h3>{% endif %}	
+</body>
+</html>

@@ -1,0 +1,3468 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl">
+    <Prefix name="" IRI="https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl</Import>
+    <Declaration>
+        <Class IRI="#Accident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccidentIssue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirTrafficCotrollerPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftIssue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirplaneRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airspace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirworthinessCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefiningEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalIssue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FederalAviationRegulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstrumentFlightRulesApproach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnelIssue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PilotCertificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RunwaySurfaceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentPilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisualFlightRulesApproach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Witness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraftCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraftDamage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraftManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAircraftModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAirplaneRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAirport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAirspace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAirworthinessCertificate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCertificate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDefiningEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDestination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngineManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngineModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFederalAviationRegulation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstrumentFlightRulesApproach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLandingGear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPilot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRunwaySurfaceType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVisualFlightRulesApproach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedByAircraftIssue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedByEnvironmentIssue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedByPersonnelIssue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurredAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurredAtCity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurredAtCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfAirportElevation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfAltimeterSetting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfCertifiedMaxGrossWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfDewPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfDirectionFromAccidentSite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfDistanceFromAccidentSite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfElevation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfGusts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfLatitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfLongitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfRatedPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfRunwayLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfRunwayWidth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfTemperature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfTimeSinceLastInspection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfVisibility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfWindDirection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unitOfWindSpeed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hadLastFAAMedicalExam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hadLastFlightReview"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAircraftExplosion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAircraftFire"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAirframeTotalTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAirportElevation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAirportName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAltimeterSetting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCertifiedMaxGrossWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasClearance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConditionOfLight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConditionsAtAccidentSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCrewInjury"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateOfLastInspection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDepartureTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDewPoint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDirectionFromAccidentSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDistanceFromAccidentSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasElevation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterActivated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterInstalled"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFlightPlanFiled"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGusts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInjury"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInstructorRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInstrumentRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLastInspection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLowestCeiling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLowestCloudCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMedicalCertification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasObscuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasObservationFacility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasObservationTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOccupationalPilot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOperatingCertificatesHeld"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOperator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOtherAircraftRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPassangerInjury"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrecipitation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRatedPower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRegisteredOwner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRestraintUsed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRunwayLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRunwaySurfaceCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRunwayUsed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRunwayWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSeatOccupied"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSeats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSecondPilotPresent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSerialNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTemperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeSinceLastInspection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTotalInjury"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTurbulenceActual"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTurbulenceForecast"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTurbulenceSeverityActual"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTurbulenceSeverityForecast"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVisibility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVisibilityRVR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWindDirection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWindSpeed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYearOfManufacture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAmateurBuilt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#occurredAtLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#occurredAtLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasToxicologyPerformed"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#defintion"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AirTrafficCotrollerPersonnel"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AircraftIssue"/>
+        <Class IRI="#AccidentIssue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalIssue"/>
+        <Class IRI="#AccidentIssue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonnelIssue"/>
+        <Class IRI="#AccidentIssue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudentPilot"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Witness"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AirTrafficCotrollerPersonnel"/>
+        <Class IRI="#Pilot"/>
+        <Class IRI="#StudentPilot"/>
+        <Class IRI="#Witness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AircraftIssue"/>
+        <Class IRI="#EnvironmentalIssue"/>
+        <Class IRI="#PersonnelIssue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Country"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAircraft"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAircraftCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAircraftDamage"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAircraftManufacturer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAircraftModel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAirplaneRating"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAirport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAirspace"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAirworthinessCertificate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCertificate"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDefiningEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDestination"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEngineManufacturer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEngineModel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFederalAviationRegulation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInstrumentFlightRulesApproach"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPilot"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRunwaySurfaceType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVisualFlightRulesApproach"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCausedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCausedByAircraftIssue"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCausedByEnvironmentIssue"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCausedByPersonnelIssue"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occurredAt"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occurredAtCity"/>
+        <ObjectProperty IRI="#occurredAt"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occurredAtCountry"/>
+        <ObjectProperty IRI="#occurredAt"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfAge"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfAirportElevation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfAltimeterSetting"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfCertifiedMaxGrossWeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfDewPoint"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfDirectionFromAccidentSite"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfDistanceFromAccidentSite"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfElevation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfGusts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfLatitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfLongitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfRatedPower"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfRunwayLength"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfRunwayWidth"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfTemperature"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfTimeSinceLastInspection"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfVisibility"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfWindDirection"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unitOfWindSpeed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraft"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraftCategory"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraftDamage"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraftManufacturer"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAircraftModel"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAirplaneRating"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAirport"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAirspace"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAirworthinessCertificate"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCertificate"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDefiningEvent"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDestination"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngine"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngineManufacturer"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngineModel"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFederalAviationRegulation"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstrumentFlightRulesApproach"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLandingGear"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPilot"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRunwaySurfaceType"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVisualFlightRulesApproach"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCausedBy"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCausedByAircraftIssue"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCausedByEnvironmentIssue"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCausedByPersonnelIssue"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occurredAtCity"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occurredAtCountry"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfAge"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfAirportElevation"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfAltimeterSetting"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfCertifiedMaxGrossWeight"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfDewPoint"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfDirectionFromAccidentSite"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfDistanceFromAccidentSite"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfElevation"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfGusts"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfLatitude"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfLongitude"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfRatedPower"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfRunwayLength"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfRunwayWidth"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfTemperature"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfTimeSinceLastInspection"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfVisibility"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfWindDirection"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unitOfWindSpeed"/>
+        <Class IRI="#Accident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraft"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraftCategory"/>
+        <Class IRI="#AircraftCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraftDamage"/>
+        <Class IRI="#AircraftDamage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraftManufacturer"/>
+        <Class IRI="#AircraftManufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAircraftModel"/>
+        <Class IRI="#AircraftModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAirplaneRating"/>
+        <Class IRI="#AirplaneRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAirport"/>
+        <Class IRI="#Airport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAirspace"/>
+        <Class IRI="#Airspace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAirworthinessCertificate"/>
+        <Class IRI="#AirworthinessCertificate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCertificate"/>
+        <Class IRI="#PilotCertificate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDefiningEvent"/>
+        <Class IRI="#DefiningEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+        <Class IRI="#Airport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDestination"/>
+        <Class IRI="#Airport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngine"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Engine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngineManufacturer"/>
+        <Class IRI="#EngineManufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngineModel"/>
+        <Class IRI="#EngineModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFederalAviationRegulation"/>
+        <Class IRI="#FederalAviationRegulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstrumentFlightRulesApproach"/>
+        <Class IRI="#InstrumentFlightRulesApproach"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLandingGear"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#LandingGear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPilot"/>
+        <Class IRI="#Pilot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRunwaySurfaceType"/>
+        <Class IRI="#RunwaySurfaceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVisualFlightRulesApproach"/>
+        <Class IRI="#VisualFlightRulesApproach"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCausedBy"/>
+        <Class IRI="#AccidentIssue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCausedByAircraftIssue"/>
+        <Class IRI="#AircraftIssue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCausedByEnvironmentIssue"/>
+        <Class IRI="#EnvironmentalIssue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCausedByPersonnelIssue"/>
+        <Class IRI="#PersonnelIssue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#occurredAtCity"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#occurredAtCountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfAge"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DurationUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfAirportElevation"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfAltimeterSetting"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressureUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfCertifiedMaxGrossWeight"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#MassUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfDewPoint"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfDirectionFromAccidentSite"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfDistanceFromAccidentSite"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfElevation"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfGusts"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#VelocityOrSpeedUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfLatitude"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfLongitude"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfRatedPower"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#PowerUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfRunwayLength"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfRunwayWidth"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfTemperature"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfTimeSinceLastInspection"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DurationUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfVisibility"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfWindDirection"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unitOfWindSpeed"/>
+        <Class IRI="http://purl.oclc.org/NET/ssnx/qu/dim#VelocityOrSpeedUnit"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hadLastFAAMedicalExam"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hadLastFlightReview"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAge"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAircraftExplosion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAircraftFire"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAirframeTotalTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAirportElevation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAirportName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAltimeterSetting"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCertifiedMaxGrossWeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasClearance"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasConditionOfLight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasConditionsAtAccidentSite"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCrewInjury"/>
+        <DataProperty IRI="#hasInjury"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDateOfLastInspection"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDepartureTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDewPoint"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDirectionFromAccidentSite"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDistanceFromAccidentSite"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasElevation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitter"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterActivated"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterInstalled"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFlightPlanFiled"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasGusts"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasInstructorRating"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasInstrumentRating"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLastInspection"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLowestCeiling"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLowestCloudCondition"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasMedicalCertification"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasObscuration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasObservationFacility"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasObservationTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOccupationalPilot"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOperatingCertificatesHeld"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOperator"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOtherAircraftRating"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPassangerInjury"/>
+        <DataProperty IRI="#hasInjury"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasPrecipitation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRatedPower"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRegisteredOwner"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRestraintUsed"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRunwayLength"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRunwaySurfaceCondition"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRunwayUsed"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRunwayWidth"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSeatOccupied"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSeats"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSecondPilotPresent"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSerialNumber"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTemperature"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTimeSinceLastInspection"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTotalInjury"/>
+        <DataProperty IRI="#hasInjury"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTurbulenceActual"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTurbulenceSeverityActual"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasVisibility"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasVisibilityRVR"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWindDirection"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWindSpeed"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasYearOfManufacture"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isAmateurBuilt"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#occurredAtLatitude"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#occurredAtLongitude"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#wasToxicologyPerformed"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hadLastFAAMedicalExam"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hadLastFlightReview"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAircraftExplosion"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAircraftFire"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAirframeTotalTime"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAirportElevation"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAirportName"/>
+        <Class IRI="#Airport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAltimeterSetting"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCertifiedMaxGrossWeight"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasClearance"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConditionOfLight"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasConditionsAtAccidentSite"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCrewInjury"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateOfLastInspection"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateTime"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDepartureTime"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDewPoint"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDirectionFromAccidentSite"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDistanceFromAccidentSite"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasElevation"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitter"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterActivated"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterInstalled"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFlightPlanFiled"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGusts"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInjury"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInstructorRating"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInstrumentRating"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLastInspection"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLowestCeiling"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLowestCloudCondition"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMedicalCertification"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasObscuration"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasObservationFacility"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasObservationTime"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOccupationalPilot"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOperatingCertificatesHeld"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOperator"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOtherAircraftRating"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPassangerInjury"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrecipitation"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRatedPower"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRegisteredOwner"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRestraintUsed"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRunwayLength"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRunwaySurfaceCondition"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRunwayUsed"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRunwayWidth"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSeatOccupied"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSeats"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSecondPilotPresent"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSerialNumber"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTemperature"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeSinceLastInspection"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTotalInjury"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTurbulenceActual"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTurbulenceForecast"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTurbulenceSeverityActual"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTurbulenceSeverityForecast"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisibility"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisibilityRVR"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWindDirection"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWindSpeed"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYearOfManufacture"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAmateurBuilt"/>
+        <Class IRI="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl#Aircraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#occurredAtLatitude"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#occurredAtLongitude"/>
+        <Class IRI="#Accident"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasToxicologyPerformed"/>
+        <Class IRI="#Pilot"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hadLastFAAMedicalExam"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hadLastFlightReview"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAircraftExplosion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAircraftFire"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAirframeTotalTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAirportElevation"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAirportName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAltimeterSetting"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCertifiedMaxGrossWeight"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasClearance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConditionOfLight"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConditionsAtAccidentSite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCrewInjury"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateOfLastInspection"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDepartureTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDewPoint"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDirectionFromAccidentSite"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDistanceFromAccidentSite"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasElevation"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitter"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterActivated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmergencyLocatorTransmitterInstalled"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFlightPlanFiled"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGusts"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInjury"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInstructorRating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInstrumentRating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLastInspection"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLowestCeiling"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLowestCloudCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMedicalCertification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasObscuration"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasObservationFacility"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasObservationTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOccupationalPilot"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOperatingCertificatesHeld"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOperator"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOtherAircraftRating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPassangerInjury"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrecipitation"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRatedPower"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRegisteredOwner"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRestraintUsed"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRunwayLength"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRunwaySurfaceCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRunwayUsed"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRunwayWidth"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSeatOccupied"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSeats"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSecondPilotPresent"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSerialNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTemperature"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeSinceLastInspection"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTotalInjury"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTurbulenceActual"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTurbulenceForecast"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTurbulenceSeverityActual"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTurbulenceSeverityForecast"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVisibility"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVisibilityRVR"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWindDirection"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWindSpeed"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYearOfManufacture"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAmateurBuilt"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#occurredAtLatitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#occurredAtLongitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasToxicologyPerformed"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.oclc.org/NET/ssnx/qu/qu#baseDimension</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.bauhaus-luftfahrt.net/ontologies/2012/AircraftDesign.owl#AircraftSubComponent</IRI>
+        <Literal>AircraftSubComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#Accident</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Aviation_accidents_and_incidents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accident</IRI>
+        <Literal>This class contains instances of all the accidents in the form of accident IDs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Accident</IRI>
+        <Literal>Accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#Accident</IRI>
+        <Literal>In aviation, an accident is defined by the Convention on International Civil Aviation Annex 13 as an occurrence associated with the operation of an aircraft, which takes place from the time any person boards the aircraft with the intention of flight until all such persons have disembarked, and in which a) a person is fatally or seriously injured, b) the aircraft sustains significant damage or structural failure, or c) the aircraft goes missing or becomes completely inaccessible. Annex 13 defines an incident as an occurrence, other than an accident, associated with the operation of an aircraft that affects or could affect the safety of operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AccidentIssue</IRI>
+        <Literal>Causes of an accident can be of 3 types viz. Aircraft related, personal, or environmental.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AccidentIssue</IRI>
+        <Literal>AircraftIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AircraftCategory</IRI>
+        <Literal>Aircraft can be any of the following 2 types: Airplane &amp; Helicopter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AircraftCategory</IRI>
+        <Literal>The class contains instances for all aircraft’s categories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AircraftCategory</IRI>
+        <Literal>AircraftCategory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AircraftDamage</IRI>
+        <Literal>This class tells the severity of damage of the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AircraftDamage</IRI>
+        <Literal>This class contains instances which explain the severity of the damage. Example of levels of severity is substantial, damaged, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AircraftDamage</IRI>
+        <Literal>AircraftDamage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AircraftIssue</IRI>
+        <Literal>AircraftIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AircraftManufacturer</IRI>
+        <Literal>Companies that make aircraft for sale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AircraftManufacturer</IRI>
+        <Literal>This class contains instances of companies manufacturing aircrafts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AircraftManufacturer</IRI>
+        <Literal>AircraftManufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AircraftModel</IRI>
+        <Literal>Model number of an aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AircraftModel</IRI>
+        <Literal>This class contains instances of model names of aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AircraftModel</IRI>
+        <Literal>AircraftModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AirplaneRating</IRI>
+        <Literal>There are seven categories of aircraft, which may be further subdivided into two or more classes:
+airplane category
+    -single-engine land class
+    -multi-engine land class
+         Multi-engine class aircraft are more commonly known as &quot;multis,&quot; and their pilots are called &quot;multi pilots&quot; or &quot;multi-engine pilots.&quot;
+         Pilots of larger multi-engine aircraft are sometimes called transport pilots, although mostly in the realm of military aviation (see the article on military transport aircraft). The term transport pilot can be ambiguous in civil aviation, since the Airline Transport Pilot License is a very specific civil Acceleration
+    -single-engine sea class - Pilots of all sea class aircraft are usually called &quot;seaplane pilots&quot; or &quot;float-plane pilots&quot;
+    -multi-engine sea class
+rotorcraft category
+    -helicopter class
+    -gyroplane class
+powered lift category
+glider category
+lighter than air category
+    -airship class
+    -balloon class
+powered parachute category
+    -powered parachute land class
+    -powered parachute sea class
+weight-shift-control aircraft category
+    -weight-shift-control aircraft land class
+    -weight-shift-control aircraft sea class
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#AirplaneRating</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Pilot_licensing_and_certification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AirplaneRating</IRI>
+        <Literal>AirplaneRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#AirplaneRating</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Type_rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#AirplaneRating</IRI>
+        <Literal>In aviation, a class rating is an allowance to fly a certain group of aircraft that require training common to all aircraft within the group. A type rating is specified if a particular aircraft requires additional specialized training beyond the scope of initial license and aircraft class training.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#Airport</IRI>
+        <Literal>An airport consists of a landing area, which comprises an aerially accessible open space including at least one operationally active surface such as a runway for a plane to take off or a helipad for helicopter.
+Airport also includes adjacent utility buildings such as control towers, hangars and terminals. Larger airports may have airport aprons, taxiway bridges, air traffic control centres, passenger facilities such as restaurants and lounges.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#Airport</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Airport</IRI>
+        <Literal>This class contains all instances of airports in the form of thier codes. For example, Mumbai international airport will be represented as BOM, New delhi as DEL.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airport</IRI>
+        <Literal>Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#Airspace</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Airspace_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Airspace</IRI>
+        <Literal>This class contains instances of classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airspace</IRI>
+        <Literal>Airspace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#AirworthinessCertificate</IRI>
+        <Literal>A Certificate of Airworthiness (CofA), or an Airworthiness Certificate, is issued for an aircraft by the national aviation authority in the state in which the aircraft is registered. The airworthiness certificate attests that the aircraft is airworthy insofar as the aircraft conforms to its type design. Each airworthiness certificate is issued in one of a number of different categories. A certificate of airworthiness is issued when the aircraft is registered in the name of the owner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AirworthinessCertificate</IRI>
+        <Literal>A standard airworthiness certificate is issued in one of the following categories:
+Transport, Commuter, Normal, Utility, Acrobatic, Manned free balloons, Special class of aircraft.
+An aircraft can have one or more such certificates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AirworthinessCertificate</IRI>
+        <Literal>AirworthinessCertificate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#AirworthinessCertificate</IRI>
+        <Literal>A Standard Certificate of Airworthiness is a permit for commercial passenger or cargo operation, issued for an aircraft by the national aviation authority in the state/nation in which the aircraft is registered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#DefiningEvent</IRI>
+        <Literal>Defining event is a prime event causing an accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DefiningEvent</IRI>
+        <Literal>This class contains instances of frequent events.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DefiningEvent</IRI>
+        <Literal>DefiningEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#EngineManufacturer</IRI>
+        <Literal>Companies that make aircraft’s engine. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EngineManufacturer</IRI>
+        <Literal>This class contains instances of companies manufacturing aircraft’s engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EngineManufacturer</IRI>
+        <Literal>EngineManufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#EngineModel</IRI>
+        <Literal>Model number of an aircraft engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EngineModel</IRI>
+        <Literal>This class contains instances of model names of aircraft engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EngineModel</IRI>
+        <Literal>EngineModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EnvironmentalIssue</IRI>
+        <Literal>EnvironmentalIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#FederalAviationRegulation</IRI>
+        <Literal>The FARs are organized into sections, called parts due to their organization within the CFR. Each part deals with a specific type of activity. For example, 14 CFR Part 141 contains rules for pilot training schools. The sections most relevant to aircraft pilots and AMTs (Aviation Maintenance Technicians) are listed below. Many of the FARs are designed to regulate certification of pilots, schools, or aircraft rather than the operation of airplanes. Once an airplane design is certified using some parts of these regulations, it is certified regardless of whether the regulations change in the future. For that reason, newer planes are certified using newer versions of the FARs, and in many aspects may be thus considered safer designs.
+
+Some examples of regulations are as follows:
+Part 1 – Definitions and Abbreviations
+Part 13 – Investigation and Enforcement Procedures
+Part 21 – Certification Procedures for Products and Parts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#FederalAviationRegulation</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Federal_Aviation_Regulations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FederalAviationRegulation</IRI>
+        <Literal>This class contains instances of federal aviation regulations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FederalAviationRegulation</IRI>
+        <Literal>FederalAviationRegulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#FederalAviationRegulation</IRI>
+        <Literal>The Federal Aviation Regulations, or FARs, are rules prescribed by the Federal Aviation Administration (FAA) governing all aviation activities in the United States. The FARs are part of Title 14 of the Code of Federal Regulations (CFR)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#InstrumentFlightRulesApproach</IRI>
+        <Literal>The U.S. Federal Aviation Administration&apos;s (FAA) Instrument Flying Handbook defines IFR as: &quot;Rules and regulations established by the FAA to govern flight under conditions in which flight by outside visual reference is not safe. IFR flight depends upon flying by reference to instruments in the flight deck, and navigation is accomplished by reference to electronic signals.&quot;[1] It is also a term used by pilots and controllers to indicate the type of flight plan an aircraft is flying, such as an IFR or VFR flight plan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#InstrumentFlightRulesApproach</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Instrument_flight_rules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InstrumentFlightRulesApproach</IRI>
+        <Literal>InstrumentFlightRulesApproach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InstrumentFlightRulesApproach</IRI>
+        <Literal>This class contains instances of instrument flight rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#InstrumentFlightRulesApproach</IRI>
+        <Literal>Instrument flight rules (IFR) is one of two sets of regulations governing all aspects of civil aviation aircraft operations; the other is visual flight rules (VFR)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PersonnelIssue</IRI>
+        <Literal>PersonnelIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#Pilot</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Aircraft_pilot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pilot</IRI>
+        <Literal>This class contains an instance of a pilot involved in each aircraft accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pilot</IRI>
+        <Literal>Pilot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#Pilot</IRI>
+        <Literal>An aircraft pilot or aviator is a person who controls the flight of an aircraft by operating its directional flight controls.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#PilotCertificate</IRI>
+        <Literal>Pilots are certified to fly aircraft at one or more named privilege levels and, at each privilege level, are rated to fly aircraft of specific categories. In the US, privilege levels of pilot certificates are (in order of increasing privilege):
+-Student: Cannot fly solo without proper endorsement from a certificated flight instructor (CFI). Passenger-carrying is prohibited.
+
+-Sport: Cannot carry more than one passenger, authorized to fly only light-sport aircraft and are limited to daytime flying only. If an individual elects to receive additional instruction, some of the limitations may be removed.
+
+-Recreational: May fly aircraft of up to 180 horsepower (130 kW) and 4 seats in the daytime for pleasure only.
+
+-Private: May fly for pleasure or personal business. Private pilots cannot be paid, compensated to fly, or hired by any operator.
+
+-Commercial: Can be paid, compensated to fly, or hired by operators and are required to have higher training standards than private or sport pilots.
+
+-Flight instructor: Flight instructors are commercial pilots who have been trained and can demonstrate various teaching techniques, skills, and knowledge related to safely teaching people to fly.
+
+-Airline transport pilot: ATPs, as they are called, typically qualify to fly the major airlines of the US transit system. ATPs must qualify with a range of experience and training to be considered for this certificate.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#PilotCertificate</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Pilot_licensing_and_certification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PilotCertificate</IRI>
+        <Literal>This class contains instances of various pilot certificates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PilotCertificate</IRI>
+        <Literal>PilotCertificate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#PilotCertificate</IRI>
+        <Literal>Pilot licensing or certification refers to permits on how to operate aircraft that are issued by the Civil Aviation Authority (CAA) in each country, establishing that the holder has met a specific set of knowledge and experience requirements. This includes taking a flying test.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#RunwaySurfaceType</IRI>
+        <Literal>Runways may be a man-made surface (often asphalt, concrete, or a mixture of both) or a natural surface (grass, dirt, gral, ice, or salt).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#RunwaySurfaceType</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Runway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RunwaySurfaceType</IRI>
+        <Literal>This class contains instances of types of runways.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RunwaySurfaceType</IRI>
+        <Literal>RunwaySurfaceType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#RunwaySurfaceType</IRI>
+        <Literal>According to the International Civil Aviation Organization (ICAO), a runway is a &quot;defined rectangular area on a land aerodrome prepared for the landing and takeoff of aircraft&quot;. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#VisualFlightRulesApproach</IRI>
+        <Literal>the weather must be better than basic VFR weather minima, i.e. in visual meteorological conditions (VMC), as specified in the rules of the relevant aviation authority. The pilot must be able to operate the aircraft with visual reference to the ground, and by visually avoiding obstructions and other aircraft. If the weather is less than VMC, pilots are required to use instrument flight rules, and operation of the aircraft will primarily be through referencing the instruments rather than visual reference. In a control zone, a VFR flight may obtain a clearance from air traffic control to operate as Special VFR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#VisualFlightRulesApproach</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Visual_flight_rules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VisualFlightRulesApproach</IRI>
+        <Literal>This class contains instances of visual flight rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VisualFlightRulesApproach</IRI>
+        <Literal>VisualFlightRulesApproach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#VisualFlightRulesApproach</IRI>
+        <Literal>Visual flight rules (VFR) are a set of regulations under which a pilot operates an aircraft in weather conditions generally clear enough to allow the pilot to see where the aircraft is going.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hadLastFAAMedicalExam</IRI>
+        <Literal>Specifies the date of recent FAA medical exam taken by pilot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hadLastFAAMedicalExam</IRI>
+        <Literal>hadLastFAAMedicalExam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hadLastFlightReview</IRI>
+        <Literal>Specifies the date of the last review of the flight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hadLastFlightReview</IRI>
+        <Literal>hadLastFlightReview</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAge</IRI>
+        <Literal>Age of pilot is specified in years.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAge</IRI>
+        <Literal>hasAge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraft</IRI>
+        <Literal>This property connects the accident ID to the registration ID of an aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraft</IRI>
+        <Literal>hasAircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftCategory</IRI>
+        <Literal>This property connects the aircraft registration ID to the aircraft category.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftCategory</IRI>
+        <Literal>hasAircraftCategory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftDamage</IRI>
+        <Literal>This property connects the accident ID to the severity of the aircraft damage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftDamage</IRI>
+        <Literal>hasAircraftDamage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftExplosion</IRI>
+        <Literal>Describes when aircraft explodes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftExplosion</IRI>
+        <Literal>hasAircraftExplosion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftFire</IRI>
+        <Literal>Describes when aircraft caught fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftFire</IRI>
+        <Literal>hasAircraftFire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftManufacturer</IRI>
+        <Literal>This property connects the aircraft registration ID to the aircraft manufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftManufacturer</IRI>
+        <Literal>hasAircraftManufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAircraftModel</IRI>
+        <Literal>This property connects the aircraft registration ID to the aircraft model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAircraftModel</IRI>
+        <Literal>hasAircraftModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasAirframeTotalTime</IRI>
+        <Literal>https://seebarryfly.wordpress.com/2011/12/15/terms-for-hours-and-overhaul-alphabet-soup/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirframeTotalTime</IRI>
+        <Literal>This property tells the airframe total time of an aircraft. The time is specified in hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirframeTotalTime</IRI>
+        <Literal>hasAirframeTotalTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasAirframeTotalTime</IRI>
+        <Literal>Total Time Airframe and Engine(s) is usually an airframe time reference for the total number of flight hours on a used aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirplaneRating</IRI>
+        <Literal>This property connects the pilot instance to the airplane rating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirplaneRating</IRI>
+        <Literal>hasAirplaneRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirport</IRI>
+        <Literal>This property connects the accident ID to the airport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirport</IRI>
+        <Literal>hasAirport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirportElevation</IRI>
+        <Literal>The elevation of the airport is specified in feet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirportElevation</IRI>
+        <Literal>hasAirportElevation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirportName</IRI>
+        <Literal>Specifies the name of the airport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirportName</IRI>
+        <Literal>hasAirportName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirspace</IRI>
+        <Literal>This property connects the accident ID to the type of airspace.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirspace</IRI>
+        <Literal>hasAirspace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAirworthinessCertificate</IRI>
+        <Literal>This property connects the aircraft registration ID to the airworthiness certificate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAirworthinessCertificate</IRI>
+        <Literal>hasAirworthinessCertificate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasAltimeterSetting</IRI>
+        <Literal>In aircraft, an aneroid barometer measures the atmospheric pressure from a static port outside the aircraft. Air pressure decreases with an increase of altitude—approximately 100 hectopascals per 800 meters or one inch of mercury per 1000 feet near sea level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasAltimeterSetting</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Altimeter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAltimeterSetting</IRI>
+        <Literal>This property connects the accident ID to the pressure. The pressure is measured in an inch of mercury(inches Hg).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAltimeterSetting</IRI>
+        <Literal>hasAltimeterSetting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasAltimeterSetting</IRI>
+        <Literal>An altimeter or an altitude meter is an instrument used to measure the altitude of an object above a fixed level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCertificate</IRI>
+        <Literal>This property connects the pilot instance to the pilot certificate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCertificate</IRI>
+        <Literal>hasCertificate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasCertifiedMaxGrossWeight</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Aircraft_gross_weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCertifiedMaxGrossWeight</IRI>
+        <Literal>This property tells the total carrying capacity of an aircraft. The weight is specified in pounds(lbs).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCertifiedMaxGrossWeight</IRI>
+        <Literal>hasCertifiedMaxGrossWeight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasCertifiedMaxGrossWeight</IRI>
+        <Literal>The aircraft gross weight (also known as the all-up weight (AUW)) is the total aircraft weight at any moment during the flight or ground operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClearance</IRI>
+        <Literal>This property connects the accident ID to the type of clearance. The type of clearance can be VFR, IFR etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasClearance</IRI>
+        <Literal>hasClearance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasConditionOfLight</IRI>
+        <Literal>Described the presence of sunlight during the accident. (eg. Day)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConditionOfLight</IRI>
+        <Literal>This property connects the accident ID to the condition of light.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasConditionOfLight</IRI>
+        <Literal>hasConditionOfLight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasConditionsAtAccidentSite</IRI>
+        <Literal>Describes the weather condition of the accident site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConditionsAtAccidentSite</IRI>
+        <Literal>This property connects the accident ID to the accident site condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasConditionsAtAccidentSite</IRI>
+        <Literal>hasConditionsAtAccidentSite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDateOfLastInspection</IRI>
+        <Literal>This property tells the last date of inspection of the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDateOfLastInspection</IRI>
+        <Literal>hasDateOfLastInspection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDefiningEvent</IRI>
+        <Literal>This property connects the accident ID to the prime event causing an accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDefiningEvent</IRI>
+        <Literal>hasDefiningEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDeparturePoint</IRI>
+        <Literal>This property connects the accident ID to the source airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDeparturePoint</IRI>
+        <Literal>hasDeparturePoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDepartureTime</IRI>
+        <Literal>Specifies time in Coordinated Universal Time(UTC).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDepartureTime</IRI>
+        <Literal>hasDepartureTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDestination</IRI>
+        <Literal>This property connects the accident ID to the destination airport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDestination</IRI>
+        <Literal>hasDestination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasDewPoint</IRI>
+        <Literal>When air cools to its dew point through contact with a surface that is colder than the air, water will condense on the surface. When the temperature is below the freezing point of water, the dew point is called the frost point, as frost is formed rather than dew. The measurement of the dew point is related to humidity. A higher dew point means there will be more moisture in the air.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasDewPoint</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Dew_point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDewPoint</IRI>
+        <Literal>The dew point is specified in degree Celsius.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDewPoint</IRI>
+        <Literal>hasDewPoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasDewPoint</IRI>
+        <Literal>The dew point is the temperature to which air must be cooled to become saturated with water vapor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDirectionFromAccidentSite</IRI>
+        <Literal>The direction is specified in degrees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDirectionFromAccidentSite</IRI>
+        <Literal>hasDirectionFromAccidentSite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDistanceFromAccidentSite</IRI>
+        <Literal>Distance from accident site is specified in nautical miles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDistanceFromAccidentSite</IRI>
+        <Literal>hasDistanceFromAccidentSite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasElevation</IRI>
+        <Literal>Aviation altitude is measured using either mean sea level (MSL) or local ground level (above ground level, or AGL) as the reference datum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasElevation</IRI>
+        <Literal>The elevation is specified in feet(ft) mean sea level(MSL).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasElevation</IRI>
+        <Literal>hasElevation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasElevation</IRI>
+        <Literal>Altitude or height (sometimes known as &apos;depth&apos;) is defined based on the context in which it is used (aviation, geometry, geographical survey, sport, atmospheric pressure, and many more). As a general definition, altitude is a distance measurement, usually in the vertical or &quot;up&quot; direction, between a reference datum and a point or object. The reference datum also often varies according to the context. Although the term altitude is commonly used to mean the height above sea level of a location, in geography the term elevation is often preferred for this usage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasEmergencyLocatorTransmitter</IRI>
+        <Literal>In the event of an aircraft accident, these devices are designed to transmit a distress signal on 121.5 and 243.0 MHz frequencies, and for newer ELTs, on 406 MHz. ELTs are required to be installed in almost all U.S.-registered civil aircraft, including general aviation aircraft, as a result of a congressional mandate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasEmergencyLocatorTransmitter</IRI>
+        <Literal>https://www.aopa.org/advocacy/aircraft/aircraft-operations/emergency-locator-transmitters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEmergencyLocatorTransmitter</IRI>
+        <Literal>This property tells the type of Emergency Locator Transmitter installed in the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasEmergencyLocatorTransmitter</IRI>
+        <Literal>hasEmergencyLocatorTransmitter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasEmergencyLocatorTransmitter</IRI>
+        <Literal>ELTs are emergency transmitters that are carried aboard most general aviation aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasEmergencyLocatorTransmitterActivated</IRI>
+        <Literal>In the event of an aircraft accident, these devices are designed to transmit a distress signal on 121.5 and 243.0 MHz frequencies, and for newer ELTs, on 406 MHz. ELTs are required to be installed in almost all U.S.-registered civil aircraft, including general aviation aircraft, as a result of a congressional mandate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasEmergencyLocatorTransmitterActivated</IRI>
+        <Literal>https://www.aopa.org/advocacy/aircraft/aircraft-operations/emergency-locator-transmitters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEmergencyLocatorTransmitterActivated</IRI>
+        <Literal>This property tells if the Emergency Locator Transmitter was activated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasEmergencyLocatorTransmitterActivated</IRI>
+        <Literal>hasEmergencyLocatorTransmitterActivated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasEmergencyLocatorTransmitterActivated</IRI>
+        <Literal>ELTs are emergency transmitters that are carried aboard most general aviation aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasEmergencyLocatorTransmitterInstalled</IRI>
+        <Literal>In the event of an aircraft accident, these devices are designed to transmit a distress signal on 121.5 and 243.0 MHz frequencies, and for newer ELTs, on 406 MHz. ELTs are required to be installed in almost all U.S.-registered civil aircraft, including general aviation aircraft, as a result of a congressional mandate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasEmergencyLocatorTransmitterInstalled</IRI>
+        <Literal>https://www.aopa.org/advocacy/aircraft/aircraft-operations/emergency-locator-transmitters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEmergencyLocatorTransmitterInstalled</IRI>
+        <Literal>This property tells if the aircraft had Emergency Locator Transmitter installed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasEmergencyLocatorTransmitterInstalled</IRI>
+        <Literal>hasEmergencyLocatorTransmitterInstalled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasEmergencyLocatorTransmitterInstalled</IRI>
+        <Literal>ELTs are emergency transmitters that are carried aboard most general aviation aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEngineManufacturer</IRI>
+        <Literal>This property connects the aircraft registration ID to the engine manufacturer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasEngineManufacturer</IRI>
+        <Literal>hasEngineManufacturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEngineModel</IRI>
+        <Literal>This property connects the aircraft registration ID to the engine model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasEngineModel</IRI>
+        <Literal>hasEngineModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFederalAviationRegulation</IRI>
+        <Literal>This property connects the accident ID to the associated federal aviation regulations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasFederalAviationRegulation</IRI>
+        <Literal>hasFederalAviationRegulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasFlightPlanFiled</IRI>
+        <Literal>Flight plan format is specified in ICAO Doc 4444. They generally include basic information such as departure and arrival points, estimated time en route, alternate airports in case of bad weather, type of flight (whether instrument flight rules [IFR] or visual flight rules [VFR]), the pilot&apos;s information, number of people on board and information about the aircraft itself. In most countries, flight plans are required for flights under IFR but may be optional for flying VFR unless crossing international borders. Flight plans are highly recommended, especially when flying over inhospitable areas, such as water, as they provide a way of alerting rescuers if the flight is overdue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasFlightPlanFiled</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Flight_plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFlightPlanFiled</IRI>
+        <Literal>This property accident ID to the flight plan followed. Some examples of flight plans are VFR, IFR, CompanyVFR etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasFlightPlanFiled</IRI>
+        <Literal>hasFlightPlanFiled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasFlightPlanFiled</IRI>
+        <Literal>Flight plans are documents filed by a pilot or flight dispatcher with the local Civil Aviation Authority (e.g. the FAA in the United States) prior to departure which indicates the plane&apos;s planned route or flight path.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasGusts</IRI>
+        <Literal>It is of a more transient character than a squall, which lasts minutes, and is followed by a lull or slackening in the wind speed. Generally, winds are least gusty over large water surfaces and most gusty over rough land and near high buildings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasGusts</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Wind_gust</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGusts</IRI>
+        <Literal>Gust is specified in knots.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasGusts</IRI>
+        <Literal>hasGusts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasGusts</IRI>
+        <Literal>A gust or wind gust is a brief increase in the speed of the wind, usually less than 20 seconds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasInstructorRating</IRI>
+        <Literal>A flight instructor is a person who teaches others to fly aircraft. Especially Rotor/Helicopter Flight Instructors. Specific privileges granted to holders of a flight instructor qualification vary from country to country, but very generally, a flight instructor serves to enhance or evaluate the knowledge and skill level of an aviator in pursuit of a higher pilot&apos;s license, certificate or rating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasInstructorRating</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Flight_instructor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInstructorRating</IRI>
+        <Literal>Specifies the rating of the instructor. Examples of rating are Airplane Single Engine, InstrumentAirplane, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasInstructorRating</IRI>
+        <Literal>hasInstructorRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInstrumentFlightRulesApproach</IRI>
+        <Literal>label:
+This property connects the accident ID to the associated instrument flight rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasInstrumentFlightRulesApproach</IRI>
+        <Literal>hasInstrumentFlightRulesApproach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasInstrumentRating</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Instrument_rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInstrumentRating</IRI>
+        <Literal>This property connects the pilot instance to the instrument rating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasInstrumentRating</IRI>
+        <Literal>hasInstrumentRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasInstrumentRating</IRI>
+        <Literal>Instrument rating refers to the qualifications that a pilot must have in order to fly under instrument flight rules (IFR). It requires additional training and instruction beyond what is required for a private pilot certificate or commercial pilot certificate, including rules and procedures specific to instrument flying, additional instruction in meteorology, and more intensive training in flight solely by reference to instruments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasLastInspection</IRI>
+        <Literal>FAR 91.409 establishes minimum requirements pertaining to annual and 100-hour inspections. Not only does the FAA require these inspections, but they stipulate in FAR 91.405 that the owner/operator must maintain the airworthiness of the aircraft and engine during the time between the required inspections by having any airworthiness defects corrected and by ensuring that maintenance personnel make the proper entries in aircraft records approving the return to service. Although maintenance requirements will vary for different types of aircraft, the FAA states that experience shows most aircraft will need some type of preventive maintenance after every 25 hours of flying time and minor maintenance at least every 100 hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasLastInspection</IRI>
+        <Literal>https://www.lycoming.com/content/basics-maintenance-general-aviation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLastInspection</IRI>
+        <Literal>The inspection can be of type Annual or 100-hour etc. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLastInspection</IRI>
+        <Literal>hasLastInspection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasLowestCloudCondition</IRI>
+        <Literal>Describes if the clouds were clear/scattered during the accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLowestCloudCondition</IRI>
+        <Literal>This property connects the accident ID to the cloud condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLowestCloudCondition</IRI>
+        <Literal>hasLowestCloudCondition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasMedicalCertification</IRI>
+        <Literal>There are three classes of medical certifications for pilots. The three kinds are:
+-Third Class Medical Certificate: necessary to exercise the privileges of a Private pilot license or certificate, or any lower pilot certification level except for the FAA&apos;s Sport pilot certificate (which only requires the same medical clearance required to drive a car, as evidenced by a valid driver license). In the United States, a third-class medical expires after 60 calendar months for someone under the age of forty years (as of the date of examination), or 24 calendar months for someone over forty.
+-Second Class Medical Certificate: necessary to exercise the privileges of a Commercial pilot license or certificate. In the United States, it expires after 12 calendar months regardless of the pilot&apos;s age.
+-First Class Medical Certificate: necessary to exercise the privileges of an airline transport pilot license or certificate. In the United States, it expires after 12 calendar months for a pilot under 40, 6 months for pilots over 40.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasMedicalCertification</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Medical_certifications_for_pilots</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMedicalCertification</IRI>
+        <Literal>Example of medical certificates are Class2WithoutWaivers, Class2WithWaivers, Class3WithWaivers, Class1WithoutWaivers, etc. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMedicalCertification</IRI>
+        <Literal>hasMedicalCertification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasMedicalCertification</IRI>
+        <Literal>Medical certificates are required to legally exercise the privileges of a Pilot exercising the privileges of either a Private, Commercial or Airline Transport Pilot license.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasObscuration</IRI>
+        <Literal>This property tells if the precipitation was present.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasObscuration</IRI>
+        <Literal>hasObscuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasObscuration</IRI>
+        <Literal>Obscuration is the act of preventing something from being seen or heard or something that prevents something else from being seen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasObservationFacility</IRI>
+        <Literal>This property connects the accident ID to the observation facility. The observation facility can be LAR, MGY, TCS, KMSO, PAIG, KTRK, 3R7, ORE, FLL etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasObservationFacility</IRI>
+        <Literal>hasObservationFacility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasObservationTime</IRI>
+        <Literal>It is the time when the accident was seen/observed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasObservationTime</IRI>
+        <Literal>Time is specified in Coordinated Universal Time(UTC)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasObservationTime</IRI>
+        <Literal>hasObservationTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOccupationalPilot</IRI>
+        <Literal>Specifies if the occupational pilot was present or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOccupationalPilot</IRI>
+        <Literal>hasOccupationalPilot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOperatingCertificatesHeld</IRI>
+        <Literal>This property tells which operating certificates are held by the aircraft. An aircraft can have more than one operating certificate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOperatingCertificatesHeld</IRI>
+        <Literal>hasOperatingCertificatesHeld</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOperator</IRI>
+        <Literal>This property connects the aircraft registration ID to the operator of the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOperator</IRI>
+        <Literal>hasOperator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasOtherAircraftRating</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Type_rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOtherAircraftRating</IRI>
+        <Literal>The other aircraft rating include helicopter etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOtherAircraftRating</IRI>
+        <Literal>hasOtherAircraftRating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasOtherAircraftRating</IRI>
+        <Literal>A type rating is a regulating agency&apos;s certification of an airplane pilot to fly a certain aircraft type that requires additional training beyond the scope of the initial license and aircraft class training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPilot</IRI>
+        <Literal>This property connects the accident ID to the pilot instance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPilot</IRI>
+        <Literal>hasPilot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasPrecipitation</IRI>
+        <Literal>Precipitation occurs when a portion of the atmosphere becomes saturated with water vapor, so that the water condenses and &quot;precipitates&quot;. Thus, fog and mist are not precipitation but suspensions, because the water vapor does not condense sufficiently to precipitate. Two processes, possibly acting together, can lead to air becoming saturated: cooling the air or adding water vapor to the air. Precipitation forms as smaller droplets coalesce via collision with other rain drops or ice crystals within a cloud.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasPrecipitation</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Precipitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPrecipitation</IRI>
+        <Literal>This property tells if the precipitation was present.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPrecipitation</IRI>
+        <Literal>hasPrecipitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasPrecipitation</IRI>
+        <Literal>In meteorology, precipitation is any product of the condensation of atmospheric water vapor that falls under gravity. The main forms of precipitation include drizzle, rain, sleet, snow, graupel, and hail.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRatedPower</IRI>
+        <Literal>The power is specified in horsepower(hp)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRatedPower</IRI>
+        <Literal>hasRatedPower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRegisteredOwner</IRI>
+        <Literal>This property tells the name of the registered owner of the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRegisteredOwner</IRI>
+        <Literal>hasRegisteredOwner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasRestraintUsed</IRI>
+        <Literal>Seatbelts are considered Primary Restraint Systems (PRS), because of their vital role in occupant safety.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRestraintUsed</IRI>
+        <Literal>The types of seat belts include 2-point, 3-point, 4-point, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRestraintUsed</IRI>
+        <Literal>hasRestraintUsed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunwayLength</IRI>
+        <Literal>The length of the runway is specified in ft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRunwayLength</IRI>
+        <Literal>hasRunwayLength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunwaySurfaceCondition</IRI>
+        <Literal>The runway surface condition can be Dry, Holes, Rough, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRunwaySurfaceCondition</IRI>
+        <Literal>hasRunwaySurfaceCondition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunwaySurfaceType</IRI>
+        <Literal>This property connects the accident ID to the type of runway surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRunwaySurfaceType</IRI>
+        <Literal>hasRunwaySurfaceType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunwayUsed</IRI>
+        <Literal>Specifies the number of the runway used during the flight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRunwayUsed</IRI>
+        <Literal>hasRunwayUsed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunwayWidth</IRI>
+        <Literal>The width of the runway is specified in ft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRunwayWidth</IRI>
+        <Literal>hasRunwayWidth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSeatOccupied</IRI>
+        <Literal>Specified the left/right/rear seat occupied by the pilot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSeatOccupied</IRI>
+        <Literal>hasSeatOccupied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSeats</IRI>
+        <Literal>This property tells the total number of seats in aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSeats</IRI>
+        <Literal>hasSeats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSecondPilotPresent</IRI>
+        <Literal>Specifies if the second pilot was present or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSecondPilotPresent</IRI>
+        <Literal>hasSecondPilotPresent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasSerialNumber</IRI>
+        <Literal>https://en.wikipedia.org/wiki/United_States_military_aircraft_serial_numbers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSerialNumber</IRI>
+        <Literal>This property connects the aircraft registration ID to its serial number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSerialNumber</IRI>
+        <Literal>hasSerialNumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasSerialNumber</IRI>
+        <Literal>All military aircraft display a serial number to identify individual aircraft. These numbers are located on the aircraft tail, so they are sometimes referred to unofficially as &quot;tail numbers&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTemperature</IRI>
+        <Literal>The temperature of the accident site is measured in degree Celsius.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTemperature</IRI>
+        <Literal>hasTemperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTimeSinceLastInspection</IRI>
+        <Literal>It tells how since much time the aircraft is not inspected. The time is specified in hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTimeSinceLastInspection</IRI>
+        <Literal>hasTimeSinceLastInspection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTurbulenceActual</IRI>
+        <Literal>This property connects the accident ID to the turbulence type. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTurbulenceActual</IRI>
+        <Literal>hasTurbulenceActual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTurbulenceForecast</IRI>
+        <Literal>hasTurbulenceForecast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTurbulenceSeverityActual</IRI>
+        <Literal>This property connects the accident ID to the turbulence severity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTurbulenceSeverityActual</IRI>
+        <Literal>hasTurbulenceSeverityActual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTurbulenceSeverityForecast</IRI>
+        <Literal>hasTurbulenceSeverityForecast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#hasVisibilityRVR</IRI>
+        <Literal>RVR is normally expressed in feet or meters. RVR is used to determine the landing and takeoff conditions for aircraft pilots, as well as the type of operational visual aids used at the airport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#hasVisibilityRVR</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Runway_visual_range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVisibilityRVR</IRI>
+        <Literal>The runway visual range is specified in feet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasVisibilityRVR</IRI>
+        <Literal>hasVisibilityRVR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#hasVisibilityRVR</IRI>
+        <Literal>Runway visual range (RVR) is in aviation meteorology the distance over which a pilot of an aircraft on the centreline of the runway can see the runway surface markings delineating the runway or identifying its center line.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasVisualFlightRulesApproach</IRI>
+        <Literal>This property connects the accident ID to the associated visual flight rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasVisualFlightRulesApproach</IRI>
+        <Literal>hasVisualFlightRulesApproach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWindDirection</IRI>
+        <Literal>Wind direction is specified in degrees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasWindDirection</IRI>
+        <Literal>hasWindDirection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWindSpeed</IRI>
+        <Literal>Wind speed is specified in knots.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasWindSpeed</IRI>
+        <Literal>hasWindSpeed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasYearOfManufacture</IRI>
+        <Literal>This property connects the aircraft registration ID to the manufacturing year of an aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasYearOfManufacture</IRI>
+        <Literal>hasYearOfManufacture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#isAmateurBuilt</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Homebuilt_aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isAmateurBuilt</IRI>
+        <Literal>This property says whether the aircraft involved in an accident was an amateur-built or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAmateurBuilt</IRI>
+        <Literal>isAmateurBuilt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#isAmateurBuilt</IRI>
+        <Literal>Homebuilt aircraft, also known as amateur-built aircraft or kit planes, are constructed by persons for whom this is not a professional activity. These aircraft may be constructed from &quot;scratch,&quot; from plans, or from assembly kits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isCausedByAircraftIssue</IRI>
+        <Literal>This property connects the accident ID to the aircraft issue occurred during an accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isCausedByAircraftIssue</IRI>
+        <Literal>isCausedByAircraftIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isCausedByEnvironmentIssue</IRI>
+        <Literal>This property connects the accident ID to the environmental issue occurred during an accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isCausedByEnvironmentIssue</IRI>
+        <Literal>isCausedByEnvironmentIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isCausedByPersonnelIssue</IRI>
+        <Literal>This property connects the accident ID to the personnel issue occurred during an accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isCausedByPersonnelIssue</IRI>
+        <Literal>isCausedByPersonnelIssue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#occurredAtCity</IRI>
+        <Literal>This property connects the accident ID to the city of the accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#occurredAtCity</IRI>
+        <Literal>occurredAtCity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#occurredAtCountry</IRI>
+        <Literal>This property connects the accident ID to the country of the accident.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#occurredAtCountry</IRI>
+        <Literal>occurredAtCountry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#occurredAtLatitude</IRI>
+        <Literal>The latitude at which the aircraft accident occurred.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#occurredAtLatitude</IRI>
+        <Literal>The latitude is specified in degrees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#occurredAtLatitude</IRI>
+        <Literal>occurredAtLatitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#occurredAtLongitude</IRI>
+        <Literal>The longitude at which the aircraft accident occurred.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#occurredAtLongitude</IRI>
+        <Literal>The longitude is specified in degrees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#occurredAtLongitude</IRI>
+        <Literal>occurredAtLongitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#wasToxicologyPerformed</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Toxicology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wasToxicologyPerformed</IRI>
+        <Literal>Specifies if the toxicology was performed on the pilot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wasToxicologyPerformed</IRI>
+        <Literal>wasToxicologyPerformed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defintion"/>
+        <IRI>#wasToxicologyPerformed</IRI>
+        <Literal>Toxicology is a discipline, overlapping with biology, chemistry, pharmacology, and medicine, that involves the study of the adverse effects of chemical substances on living organisms[1] and the practice of diagnosing and treating exposures to toxins and toxicants.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,313 @@
+After departure and during the cruise climb phase, the flight encountered airframe ice and 
+departed from controlled flight.  
+The flight crew encountered light rime icing on the inbound leg while descending from 9,000 
+to 5,000 feet. Before the incident takeoff, they reviewed the dispatch package weather and 
+noted two AIRMET (airmen's meteorological information) reports for icing in clouds. The 
+captain decided to perform the departure and turn control of the airplane over to the first 
+officer after completing the climb checklist at the acceleration altitude. In accordance with the 
+operator's minimum equipment list (MEL), the airplane was dispatched with the continuous 
+mode of the boot deice system inoperable, which would require the crew to manually operate 
+the deice boots. Company procedures require activation of the deice system at the first sign of 
+ice accretion, and operation of the deice boots continually thereafter while in icing conditions. 
+The departure was into level 2 weather conditions (defined as 10 degree Celsius or colder with 
+visible moisture).
+The airline's Airplane Operating manual (AOM) for the airplane calls for computation of a 
+minimum speed (Vcln+15) in icing conditions, which for this flight was 141 KIAS.  The 
+limitations section stipulates that Indicated Air Speed (IAS) is the only authorized flight 
+director/autopilot mode while climbing when ice accretion is occurring or with residual ice on 
+the airframe.  In IAS mode, the flight control computer gives pitch commands to maintain the 
+selected indicated airspeed as opposed to the Vertical Speed (VS) mode where the autopilot 
+sacrifices airspeed to maintain climb rate.  Even though the crew had encountered icing on the 
+inbound leg and the dispatch weather reports predicted an icing encounter during the climb on 
+the outbound leg, the captain engaged the autopilot in the medium (M) climb mode and shortly 
+after taking the controls at 2,500 feet, the first officer changed the autopilot to VS mode.
+As the airplane climbed through 11,700 feet, the captain noted light rime ice accumulating on 
+the windshield wiper blades and about a 1/2-inch-wide area of ice on the left wing.  During this 
+time, the crew failed to detect a decaying indicated airspeed due to the ice that was 
+accumulating.  As he began to activate the manual deice boot system, he felt a heavy vibration 
+Page 2 of 12LAX06IA076
+in the airframe and the windscreen immediately turned white with ice. The airplane's nose and 
+left wing dropped and the autopilot disconnected. As he was grabbing the yoke, the clacker 
+sounded (indicating an imminent stall), the stick shaker activated, and the ground proximity 
+warning system emitted a "bank angle" aural warning. Digital Flight Data Recorder (DFDR) 
+data showed that the indicated airspeed went from 144 to 130 KIAS over the 26 seconds before 
+the upset, and that the rate of airspeed decay accelerated in the final 10 seconds before the 
+autopilot disconnected. The airplane departed controlled flight at an indicated airspeed of 130 
+knots, and before the stall warning activated.  The data establishes that the airplane went 
+through a series of roll and pitch excursions, reaching maximum values of 86 degrees left wing 
+down, 140 degrees right wing down, 23 degrees nose up, and 40 degrees nose down before the 
+flight crew recovered control. The data also revealed that about 26 seconds before the stall 
+while the airplane was at a speed of 144 KIAS, the airplane began to experience a likely ice-
+induced slight rolling anomaly that was counter to the direction of the aileron input.  Aileron 
+input from the autopilot arrested this slight rolling motion.
+The DFDR data also disclosed that 14 seconds after the initial stall, both ailerons 
+simultaneously traveled to the full up position for approximately 14 seconds. The Safety Board 
+believes that the initial stall that occurred prior to stall warning, the upset, and the aileron 
+upward deflections were caused by ice accreted on the wing in supercooled liquid droplets 
+(SLD) conditions.  Furthermore, the period of simultaneous upward deflection of the ailerons 
+were caused by airflow separations over the ailerons, and not by opposite control wheel inputs 
+by the captain and first officer (FO). This conclusion was based on the similar nature of past 
+experience in accidents and incidents involving modification of aileron forces by SLD ice 
+accretions, the higher airspeed and dynamic nature of the initiating events, the captain's and 
+FO's statements, and the captain removing one hand from the control wheel to reduce the 
+power. Also contributing to this conclusion was extrapolation of aileron and control wheel 
+force measurements obtained in high speed taxi testing with a simulated ice shape in front of 
+one aileron, and the development of airflow separation over the ailerons into a complete full 
+wing stall.
+Recommendations
+The Safety Board issued several recommendations as a result of the investigation.
+Urgent recommendation A-06-48 asked the FAA to require all operators of Saab SF340 series 
+airplanes to instruct pilots to maintain a minimum operating airspeed of 1.45xVs during icing 
+encounters and before entering known or forecast icing conditions and to exit icing conditions 
+as soon as performance degradations prevent the airplane from maintaining 1.45xVs. 
+Recommendation A-06-49 and A-06-50 asked the FAA to require the installation of modified 
+stall protection logic in Saab SF340 series airplanes certified for flight into known icing 
+conditions and to require the installation of an icing detection system on Saab SF340 series 
+airplanes.
+Recommendation A-06-51 asked the FAA to require all operators of turbo propeller-driven 
+airplanes to instruct pilots, to disengage the autopilot and fly the airplane manually when 
+operating in icing conditions. 
+Page 3 of 12LAX06IA076
+The Safety Board also reiterated the following prior recommendations to the FAA.
+Recommendation A-03-53 and A-03-54 asked the FAA to convene a panel of airplane design, 
+operations, and aviation human factors specialists to determine whether a requirement for the 
+installation of low-airspeed alert systems in airplanes engaged in commercial operations under 
+14 Code of Federal Regulations Parts 121 and 135 would be feasible, and if the panel 
+determined that such feasibility exists, establish requirements for low-airspeed alert systems.
+An in-flight loss of control due to ice accreted in supercooled liquid droplets (SLD) conditions, 
+and the flight crew's failure to maintain the specified minimum airspeed in icing conditions.  
+Contributing to the accident was the flight crew's decision to climb the airplane in known and 
+forecast icing conditions using an autopilot mode contrary to that specified in the operator's 
+Airplane Operations Manual for climbs during periods of ice accretion or when ice was present 
+on the airframe.
+HISTORY OF FLIGHT
+On January 2, 2006, at 1439 Pacific standard time, a Saab-Scania AB SF340B+, N390AE, 
+operated by American Eagle Airlines, Inc., as flight 3008, encountered icing conditions during 
+the en route climb over Santa Maria, California.  The airplane was at 11,700 feet mean sea level 
+(msl) when it departed controlled flight, and descended to an altitude of about 6,500 feet msl.  
+The pilots recovered control of the airplane, and continued to their scheduled destination of 
+Los Angeles International Airport (LAX), Los Angeles California, where they landed at 1540 
+without further incident.  The 2 flight crew members, 1 flight attendant, and 25 passengers 
+were uninjured, and the airplane did not sustain substantial damage.  Instrument 
+meteorological conditions prevailed for the 14 Code of Federal Regulations (CFR) Part 121 
+scheduled domestic passenger flight that was operating on an instrument flight rules (IFR) 
+flight plan.  The flight originated from San Luis County Regional Airport (SBP), San Luis 
+Obispo, California, at 1414.
+A review of the American Eagle Airlines, Inc., flight log disclosed that the accident flight was 
+scheduled to be the flight crew's fifth trip of the day, and their second trip in the accident 
+airplane.  The 1 hour 26 minute accident flight was scheduled to depart from Santa Barbara at 
+1408, and terminate in Los Angeles at 1513.
+The flight crew members stated in post incident interviews that before the incident flight, they 
+had encountered light rime icing and moderate turbulence on the inbound leg to San Luis 
+Obispo as they were descending from 9,000 to 5,000 feet. The pilots stated that, while 
+preparing for the return flight to Los Angeles, they reviewed the weather conditions for the 
+intended route of flight. The operator's dispatch package noted two AIRMET (airmen's 
+meteorological information) reports for icing in clouds and two PIREPs (pilot weather reports) 
+for turbulence. The pilots discussed the conditions that they had encountered on the way in, as 
+well as the conditions for the intended route of flight outbound. Because of the gusty wind 
+conditions and the short runway at San Luis Obispo, the captain decided to perform the 
+departure. He was going to turn control of the airplane over to the first officer after completing 
+the climb checklist at the acceleration altitude.
+In accordance with American Eagle's minimum equipment list (MEL), the incident airplane 
+was dispatched with the continuous mode of the boot deice system inoperable for the inbound 
+flight and the return incident flight. The flight crew reported that they performed the manual 
+test of the deicer boots as called for in the MEL, and observed the operation of the inboard and 
+outboard wing boot segments. However, they could not see the stabilizer segments, and did not 
+have qualified ground personnel available to observe the test as required by the MEL. The 
+pilots reported that they did confirm illumination of the green boot inflation lights on the 
+overhead panel when they pressed the manual buttons.
+In accordance with company procedures that require flight crews to activate the deice system 
+at the first sign of ice accretion and operate the deice boots continually, the crew stated that 
+they were prepared to operate the deice boots in manual mode as needed during the flight. 
+They departed in level 2 weather conditions (defined as 10 degree Celsius or colder with visible 
+moisture) and with the engine anti-ice on.
+The pilots stated that the weather radar was on, and they did not observe any activity on it. The 
+captain had the autopilot engaged in the medium (M) climb mode. Shortly after taking the 
+controls about 2,500 feet, the first officer changed the autopilot to vertical speed (VS) mode, 
+which gave pitch attitude commands to maintain the vertical speed existing at the time of mode 
+engagement.
+As the airplane climbed through 11,000 feet, the captain noted light rime ice accumulating on 
+the windshield wiper blades and about a 1/2-inch-wide area of ice on the left wing.
+The captain reported that, as he began to reach up to activate the manual deice boot system, he 
+felt a heavy vibration in the airframe.  He said that the windscreen immediately turned white. 
+Immediately thereafter, the airplane's nose dropped, the left wing dropped, and the autopilot 
+disconnected. He grabbed the yoke to take control of the airplane. He said that the clacker 
+sounded (indicating an imminent stall), the stick shaker activated, and the ground proximity 
+warning system emitted a "bank angle" aural warning.
+The flight crew reported that the airplane vibrated again, but less violently than the first 
+episode. The captain leveled the wings, and began pulling up on the control yoke. At this point, 
+he instructed the first officer to manually operate the deice boots. The captain stated that he 
+pushed the condition levers to the maximum position, and brought the power levers to idle. 
+The airplane stabilized in roll, and he could hear chunks of ice shedding off and hitting the 
+fuselage. He kept the airplane in a nose-down attitude, maintaining a 500 feet per minute rate 
+of descent until the airplane was below the freezing level.
+PERSONNEL INFORMATION
+Captain
+The operator reported that the 34-year-old captain held an airline transport pilot (ATP) 
+certificate with a rating for airplane multi-engine land.  He held a commercial pilot certificate 
+with ratings for airplane single-engine land and instrument airplane. He had a type rating in 
+the SF340.
+The captain held a first-class medical certificate issued on September 21, 2005. It had no 
+limitations or waivers.
+The captain had a total flight time of 6,764.08 hours, with 3,981.87 hours accumulated in Saab 
+340 airplanes, of which 2,519.46 hours was as the pilot-in-command (PIC). He had a total of 
+970 hours of instrument experience and between 1,700 and 1,900 hours of night flight. During 
+the preceding 90 days, 30 days, and 24 hours, he reported that he had flown in both the 
+capacity of PIC and second-in-command (SIC) approximately 172, 47, and 7 hours, 
+respectively. He added that he had acquired numerous hours of aerobatic flight time in a 
+Cessna 150 Aerobat airplane.
+First Officer (FO)
+The operator reported that the 32-year-old FO held a commercial pilot certificate with airplane 
+instrument and multi-engine land ratings. He additionally held an SF340 Type Rating, with 
+the limitations of SF340 SIC privileges only and circling approaches to be completed only in 
+visual meteorological conditions (VMC). The FO was also a certified flight instructor (CFI) for 
+instrument and multi-engine land airplane.
+The FO's second-class medical certificate was issued on May 25, 2005, with the limitation that 
+he must wear corrective lenses.
+The FO had a total flight time of 1,367.48 hours, with 132.48 hours accumulated in Saab 340 
+airplanes. He had a total of 94 hours of instrument experience and 185 hours of night flight. 
+During the preceding 90 days, 30 days, and 24 hours, he reported that he had flown 
+approximately 120, 71, and 5 hours, respectively.
+AIRCRAFT INFORMATION
+The airplane was a Saab SF340B+, serial number 340B-390.  The airplane had a total airframe 
+time of 17,291 hours at the examination following the incident. 
+Systems
+National Transportation Safety Board investigators reviewed the airplane's maintenance 
+records and logbooks.  The day prior to the incident, a flight crew reported that during an en 
+route deice boot check, the timer light illuminated.  The deicer timer failure light was later 
+deferred in accordance with the operator's MEL.  The deferral procedures required a placard to 
+be placed adjacent to the deicer timer switch and the auto cycling switch to remain in the "off" 
+position.  Investigators did observe an MEL placard (sticker) next to the deice system controls 
+in the cockpit.
+Initial examinations revealed that the airplane's deice systems were operational; the deicer 
+timer failure light illuminated.
+Aileron Interconnect
+The airplane was equipped with an Aileron Spring Unit. This would allow the flight crew to 
+initially maintain authority in the roll axis if one aileron seized, until the aileron disconnect 
+handle in the cockpit was pulled by a pilot. In the event an aileron seized, the pilot would have 
+to overpower a preloaded spring unit to manipulate an aileron. When the pilot reduced control 
+input pressure, the unit would close allowing the ailerons to be normally coupled. The FO 
+stated that he believed that he did not have his hands on the controls after the captain assumed 
+authority. The roll disconnect handle was not pulled during this incident. 
+WEATHER
+A Safety Board meteorologist prepared a factual report, which is part of the public docket. 
+AIRMET Zulu Update 4 for icing (SFOZ WA 022045) was issued on January 2, 2006, at 1345, 
+and valid until 2000.  It noted occasional moderate rime/mixed icing in clouds and in 
+precipitation between the freezing level and FL220.  The freezing level in central California was 
+6,000 to 8,000 feet; the freezing level in southern California was 7,000 to 11,000 feet.
+The specialist reviewed San Joaquin Valley, California (HNX) Level II Doppler weather radar 
+Base Reflectivity Images. At 1437:38 at the location of the icing encounter, the HNX beam 
+center was about 16,500 feet with a beam width of about 8,000 feet. The top of the beam was 
+about 20,500 feet, and the bottom of the beam was about 12,500 feet.
+At 1442:36 at the location of the icing encounter, the HNX beam center was about 7,500 feet 
+with a beam width of about 8,000 feet. The top of the beam was about 11,500 feet, and the 
+bottom of the beam was about 3,500 feet.
+A GOES-10 infrared image at 1441 PST at the location of the icing incident recorded a radiative 
+temperature of 244 degrees K (-29 degrees C). Using NAM12 upper air data, this temperature 
+corresponded to a cloud top of about 21,000 feet.
+The report contained experimental Current Icing Potential (CIP) plots that a scientist at the 
+National Center for Atmospheric Research in Boulder, Colorado, provided. It noted that the 
+CIP product (Supercooled Liquid Droplets (SLD) and Ice) combines sensor and numerical 
+model data to provide a three-dimensional diagnosis of the icing environment. The current CIP 
+output consists of a likelihood field ranging from 0 (no icing) to 100 (certain icing). While this 
+is not yet calibrated as a true probability value, CIP has value in pointing out real differences in 
+the likelihood of encountering icing at a given location.
+The plots were: icing severity category composite, maximum SLD potential in the column, 
+maximum potential in column for experiencing icing field, icing severity at 12,000 feet, 
+potential for SLD ice at 12,000 feet, potential for experiencing ice at 12,000 feet, icing severity 
+at 9,000 feet, potential for experiencing ice at 9,000 feet, potential for SLD ice at 9,000 feet, 
+and current icing potential.
+DIGITAL FLIGHT DATA RECORDER (DFDR)
+A Safety Board specialist examined the DFDR data, and the factual report is part of the public 
+docket.
+About 6 minutes after takeoff, the airplane was passing through 9,200 feet. The airspeed began 
+to decline from 180 knots, and the pitch angle began to increase. Around 2 minutes later, at 
+1439:36, the pitch of the airplane was 14 degrees up and the roll was neutral. One second later, 
+the altitude reached a maximum recorded value of 11,712 feet, and the airplane was in a 16-
+degree left roll. During the next second, the autopilot disconnected, and the airspeed registered 
+118 knots.
+The rate of airspeed decay accelerated in the final 10 seconds before the autopilot 
+disconnected. The airplane departed controlled flight at an airspeed of 130 knots indicated 
+airspeed (KIAS), and before the stall warning activated. The DFDR data also revealed that 
+about 26 seconds before the stall roll departure, while the airplane was at a speed of 144 KIAS, 
+the airplane began to experience a slight rolling anomaly that was counter to the direction of 
+the aileron input.  Aileron input from the autopilot arrested this slight rolling motion.
+The airplane rolled to 86 degrees left wing down, and then went through a series of roll and 
+pitch movements. It reached 140 degrees of right roll, and a maximum pitch down angle of 48 
+degrees. It rolled to 75 degrees left wing down, and a pitch of 31 degrees nose down.  It then 
+rolled to 94 degrees right wing down, followed by a pitch angle to 40 degrees nose down. 
+Starting at 1440, the altitude and outside air temperature parameters stopped recording valid 
+data for a period of 15 seconds. At 1440:06, the airplane's pitch angle began to increase. It 
+passed through 0 degrees about 6 seconds later at an airspeed of 219 knots, and a recorded 
+maximum vertical acceleration of 2.5 g's. The pitch reached 23 degrees nose up at 1440:24; the 
+minimum recorded airspeed value of 105 knots occurred 11 seconds later while the airplane 
+was at an altitude of 7,840 feet. The parameters began to stabilize after this time.
+The DFDR data disclosed that 14 seconds after the initial stall, both ailerons simultaneously 
+traveled to the full up position for approximately 14 seconds.
+DFDR Study
+The DFDR specialist participated in a ground test to validate the control wheel and aileron 
+position data recorded on the event flight and gather additional data related to a breakout 
+scenario. The test did demonstrate that, under a normal scenario, the control wheel being 
+manipulated would lead the control wheel not being manipulated. Also, it showed that moving 
+the control wheel would drive the ailerons to their maximum range values, but moving the 
+ailerons would not drive the control wheels to full range. Additionally, in manually 
+manipulating the ailerons, the left one did not reach its full upwards range.
+TESTS AND RESEARCH
+Performance Study
+A Safety Board specialist conducted a vehicle performance study, which is a part of the public 
+docket. It showed that the airplane's aerodynamics degraded with time until the airplane 
+stalled.  This stall occurred at a lower angle of attack than would be expected for an 
+uncontaminated airframe.  The study concluded that the aerodynamic degradation and early 
+stall was consistent with airframe icing.
+ADDITIONAL INFORMATION
+Training
+American Eagle had a recurrent and requalification simulator training syllabus for captains 
+and first officers.  It included approach to stalls in the takeoff, clean, and landing 
+configurations.  It also included unusual attitudes recoveries from nose low and nose high 
+positions.  One section dealt with normal and abnormal emergency situations operations 
+including anti-icing and deicing systems, stall warning, and stick pusher.
+American Eagle's advanced aircraft maneuvering program (AAMP) includes a review of 
+phenomena that cause upset events and unusual attitude recovery procedures.
+The Operations Group chairperson interviewed several American Eagle pilots. All the pilots 
+interviewed, including the incident captain and first officer, stated that they never practiced 
+encountering a stall in icing conditions as part of their simulator training. Additionally, the 
+pilots could not recall ever having the opportunity to practice a complete stall in the simulator, 
+as they were always instructed to recover at the first indication of an impending stall.
+Minimum Airspeeds for Flight in Icing Conditions
+American Eagle's 340B+ Airplane Operating manual (AOM) calls for flight crews to compute a 
+final clean airplane climb speed, or Vcln, and to add 15 knots to that value to determine the 
+minimum speed (Vcln+15) in icing conditions.  For the incident flight, Vcln was computed to 
+be 126 knots indicated airspeed (KIAS), and the minimum speed in icing conditions was 141 
+KIAS.  
+Use of Autopilot in Icing Conditions
+The limitations section of the American Eagle 340B+ AOM stipulates that the indicated 
+airspeed (IAS) mode is the only authorized flight director/autopilot mode if an airplane is 
+climbing when ice accretion is occurring, or with residual ice on the airframe.  In IAS mode, the 
+flight control computer gives pitch attitude commands to maintain the indicated airspeed 
+existing at the time of mode engagement. In the vertical speed (VS) mode of the incident flight, 
+the autopilot would sacrifice airspeed to maintain climb rate.
+Recommendations
+The Safety Board issued several recommendations as a result of the investigation.
+Urgent recommendation A-06-48 asked the FAA to require all operators of Saab SF340 series 
+airplanes to instruct pilots to maintain a minimum operating airspeed of 1.45xVs during icing 
+encounters and before entering known or forecast icing conditions and to exit icing conditions 
+as soon as performance degradations prevent the airplane from maintaining 1.45xVs. 
+Recommendation A-06-49 asked the FAA to require the installation of modified stall 
+protection logic in Saab SF340 series airplanes certified for flight into known icing conditions.
+Recommendation A-06-50 asked the FAA to require the installation of an icing detection 
+system on Saab SF340 series airplanes.
+Recommendation A-06-51 asked the FAA to require all operators of turbo propeller-driven 
+airplanes to instruct pilots, except during intermittent periods of high workload, to disengage 
+the autopilot and fly the airplane manually when operating in icing conditions. 
+The Safety Board also reiterated the following recommendations to the FAA.
+Recommendation A-03-53 asked the FAA to convene a panel of airplane design, aviation 
+operations, and aviation human factors specialists, including representatives from the National 
+Aeronautics and Space Administration, to determine whether a requirement for the installation 
+of low-airspeed alert systems in airplanes engaged in commercial operations under 14 Code of 
+Federal Regulations Parts 121 and 135 would be feasible, and submit a report of the panel's 
+findings.
+Recommendation A-03-54 asked that if the panel requested in Safety Recommendation A-03-
+53 determines that a requirement for the installation of low-airspeed alert systems in airplanes 
+engaged in commercial operations under 14 Code of Federal Regulations Part 121 and 135 is 
+feasible, establish requirements for low-airspeed alert systems, based on the findings of the 
+panel.

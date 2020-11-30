@@ -1,0 +1,306 @@
+Page 1 of 7
+National Transportation Safety Board
+Aviation Accident Final Report
+Location:
+Battle Creek, MI
+Accident Number:
+CEN11LA459
+Date & Time:
+07/02/2011, 2040 EDT 
+Registration:
+N330JK
+Aircraft:
+WINGTIP TO WINGTIP, LLC PANZL 
+S-330
+Aircraft Damage:
+Substantial
+Defining Event:
+Part(s) separation from AC
+Injuries:
+1 None
+Flight Conducted Under:
+Part 91: General Aviation - Air Race/Show
+Analysis 
+The entire left aileron separated from the airplane as the pilot was performing an aerobatic 
+aileron-roll maneuver during an airshow aerobatic demonstration flight. The pilot was able to 
+recover into level flight and make an uneventful landing. The pilot stated that his preflight 
+inspection before the accident flight did not reveal any mechanical issues with the airplane, 
+including loose jam nuts or any other aileron anomalies. However, the pilot reported that his 
+aviation mechanic had to retighten the jam nut for the center aileron hinge rod-end after it had 
+been found loose on several occasions before the accident flight.
+A postaccident examination revealed that the center aileron hinge had failed in the shank 
+region of the rod end due to reverse bending fatigue. No material issues were identified with 
+the center aileron rod end, which met the part specifications. A design analysis confirmed that 
+the aileron rod ends were adequate for the limit loads on the structure but were inadequate for 
+fatigue tolerance. The stress levels in the rod end shank were at or above the endurance limit 
+for the specified rod end material, regardless of a loose or tight jam nut. However, a loose jam 
+nut further increased the stress in the rod end about 28 percent and would have reduced the 
+cycles to a fatigue failure. Following the accident, the airplane manufacturer redesigned the 
+aileron bracket assemblies by increasing the diameter of the rod end shank and reducing the 
+moment arm between the bearing and the aileron bracket. The redesign yielded a total stress 
+reduction of about 83 percent in the rod end, which was significantly below the endurance 
+limit for the specified material.
+ 
+Probable Cause and Findings
+The National Transportation Safety Board determines the probable cause(s) of this accident to be:
+The inadequate aileron hinge design, which resulted in the in-flight separation of the left 
+Page 2 of 7CEN11LA459
+aileron following a fatigue failure of the center hinge rod-end.
+Findings
+Aircraft
+Aileron control system - Design (Cause)
+Aileron control system - Fatigue/wear/corrosion (Cause)
+Aileron control system - Failure (Cause)
+Page 3 of 7CEN11LA459
+Factual Information
+On July 2, 2011, at 2040 eastern daylight time, a Wingtip to Wingtip, LLC model Panzl S-330 
+airplane, N330JK, was substantially damaged when the entire left aileron separated from the 
+airplane during an aerobatic flight over W K Kellogg Airport (BTL), Battle Creek, Michigan. 
+The pilot, who was not injured, was able to land the airplane without further issue. The 
+experimental airplane was registered to and operated by John Klatt Airshows, Inc., under the 
+provisions of 14 Code of Federal Regulations Part 91, without a flight plan. Day visual 
+meteorological conditions prevailed for the local airshow demonstration flight that departed at 
+2035.
+ 
+The pilot reported that the left aileron departed the airplane as he was performing an aerobatic 
+aileron-roll maneuver about 50 feet above the ground at 160 miles per hour with a 30-degree 
+nose-up attitude. The pilot was able to recover into level flight and make an uneventful landing. 
+The pilot reported that his aviation mechanic had to retighten the jam nut for the center 
+aileron hinge rod-end after it had been found loose on several occasions before the accident 
+flight. The pilot stated that his preflight inspection before the accident flight did not reveal any 
+mechanical issues with the airplane, including loose jam nuts or any other aileron anomalies.
+ 
+The left aileron was recovered in three major sections and was sent to the NTSB Materials 
+Laboratory for additional examination. The examination revealed that the center aileron hinge 
+had failed in the shank region of the rod end due to reverse bending fatigue that covered about 
+90-percent of the fracture face. The remaining 10-percent of the fracture face exhibited 
+overstress signatures. The fatigue zones were located on the upper and lower portions of the 
+fracture face as installed, indicating that the predominant loading was due to the actuation of 
+the aileron. No material issues were identified with the center aileron rod end, which met the 
+specification for a FAFNIR USA part number RE3ML6-2N. The rod end was constructed of 
+AISI 8620 steel that had a specified tensile strength of 90 ksi. The remaining inboard and 
+outboard aileron hinges exhibited fracture features consistent with overstress. The 
+examination did not reveal any material anomalies with the inboard or outboard hinge 
+assemblies.
+ 
+The center rod end was installed in a 2024-T3 aluminum bracket that was attached to the wing 
+rear spar. The rod end was threaded into the end of the bracket utilizing Loctite on the threads 
+and a jam nut that was seated against the bracket to prevent the rod end from backing out. The 
+accident airplane reportedly had experienced a loose jam nut on several flights before the 
+accident. The rod end failed in the area of the shank adjacent to the aft edge of the bracket 
+beneath the area where the jam nut normally was secured. A Finite Element Analysis (FEA) 
+was performed on the design with a loose jam nut and a tight jam nut. The analysis indicated a 
+maximum tensile stress of about 60 ksi at the upper surface of the shank for the loose jam nut 
+Page 4 of 7CEN11LA459
+condition and about 47.5 ksi for the tightened jam nut. The fore-aft location of the maximum 
+stress was at the shank-to-bracket interface for the loose jam nut condition and at the shank to 
+jam nut interface for the tight jam nut condition.
+ 
+Considering a typical airplane operating weight of 1,600 pounds and the design load factor of 
+10 G, the total aileron load was about 681 pounds due primarily to the bending stress produced 
+by the vertical load at the bearing. The calculated load on the center hinge was about 286 
+pounds. The maximum bending stress was about 51.0 ksi and 65.7 ksi for the tight jam nut and 
+loose jam nut conditions, respectively. The maximum bending stress occurred at the upper 
+surface of the shank for the aileron deflected full trailing edge up. The total tensile stress at the 
+upper edge of the shank was 52.4 ksi and 67.1 ksi for the tight jam nut and loose jam nut 
+conditions, respectively. The loose jam nut condition yielded a 28-percent increase in the 
+tensile stress versus the tight jam nut condition.
+ 
+For steel components with a tensile strength less than 160 ksi, the endurance limit is expected 
+to be about 50-percent of the tensile strength for smooth polished specimens. Based on the 
+load estimates, the stress in the rod end was at or above the corresponding endurance limit.
+ 
+Following the accident, the airplane manufacturer redesigned the aileron bracket assemblies 
+by increasing the diameter of the rod end shank and reducing the moment arm between the 
+bearing and the aileron bracket. The redesign yielded a total stress reduction of about 83-
+percent in the rod end, which was significantly below the endurance limit for the specified 
+material.
+History of Flight
+Maneuvering-aerobatics
+Part(s) separation from AC (Defining event)
+Page 5 of 7CEN11LA459
+Pilot Information
+Certificate: 
+Airline Transport
+Age:
+44
+Airplane Rating(s):
+Multi-engine Land; Single-engine 
+Land
+Seat Occupied:
+Single
+Other Aircraft Rating(s): 
+None
+Restraint Used: 
+Seatbelt, Shoulder 
+harness
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+No
+Instructor Rating(s): 
+Airplane Multi-engine; Airplane 
+Single-engine; Instrument Airplane
+Toxicology Performed: 
+No
+Medical Certification:
+Class 2 Without 
+Waivers/Limitations
+Last FAA Medical Exam:
+03/03/2011
+Occupational Pilot:
+Yes
+Last Flight Review or Equivalent:
+10/08/2009
+Flight Time:
+(Estimated) 13000 hours (Total, all aircraft), 180 hours (Total, this make and model), 10000 
+hours (Pilot In Command, all aircraft), 100 hours (Last 90 days, all aircraft), 50 hours (Last 30 
+days, all aircraft), 2 hours (Last 24 hours, all aircraft)
+Aircraft and Owner/Operator Information
+Aircraft Make:
+WINGTIP TO WINGTIP, LLC
+Registration:
+N330JK
+Model/Series:
+PANZL S-330 
+Aircraft Category:
+Airplane
+Year of Manufacture:
+Amateur Built:
+No
+Airworthiness Certificate:
+Experimental
+Serial Number:
+009
+Landing Gear Type: 
+Tailwheel
+Seats: 
+1
+Date/Type of Last Inspection:
+04/20/2011, Condition
+Certified Max Gross Wt.:
+1900 lbs
+Time Since Last Inspection:
+Engines:
+1 Reciprocating
+Airframe Total Time:
+180 Hours at time of 
+accident
+Engine Manufacturer:
+Lycoming
+ELT:
+Not installed
+Engine Model/Series:
+AEIO-540-EXP
+Registered Owner:
+John Klatt Airshows, Inc.
+Rated Power:
+300 hp
+Operator:
+John Klatt Airshows, Inc.
+Operating Certificate(s) 
+Held:
+None
+Page 6 of 7CEN11LA459
+Meteorological Information and Flight Plan
+Conditions at Accident Site:
+Visual Conditions
+Condition of Light:
+Dusk
+Observation Facility, Elevation:
+BTL, 952 ft msl
+Distance from Accident Site:
+0 Nautical Miles
+Observation Time:
+2053 EDT
+Direction from Accident Site:
+Lowest Cloud Condition:
+ 
+Visibility
+8 Miles
+Lowest Ceiling:
+Overcast / 3500 ft agl
+Visibility (RVR):
+Wind Speed/Gusts: 
+8 knots / 
+Turbulence Type 
+Forecast/Actual:
+ / 
+Wind Direction:
+260°
+Turbulence Severity 
+Forecast/Actual:
+ / 
+Altimeter Setting:
+29.98 inches Hg
+Temperature/Dew Point:
+26°C / 21°C
+Precipitation and Obscuration:
+No Obscuration; No Precipitation
+Departure Point: 
+Battle Creek, MI (BTL)
+Type of Flight Plan Filed:
+None
+Destination: 
+Battle Creek, MI (BTL)
+Type of Clearance:
+VFR
+Departure Time:
+2035 EDT
+Type of Airspace: 
+Class C
+Airport Information
+Airport:
+W K Kellogg Airport (BTL)
+Runway Surface Type:
+Asphalt
+Airport Elevation:
+952 ft
+Runway Surface Condition:
+Dry
+Runway Used:
+23R
+IFR Approach:
+None
+Runway Length/Width:
+10004 ft / 150 ft
+VFR Approach/Landing:
+Precautionary Landing
+Wreckage and Impact Information
+Crew Injuries:
+1 None
+Aircraft Damage:
+Substantial
+Passenger Injuries:
+N/A
+Aircraft Fire:
+None
+Ground Injuries:
+N/A
+Aircraft Explosion:
+None
+Total Injuries:
+1 None
+Latitude, Longitude:
+42.306389, -85.250000 (est)
+Administrative Information
+Investigator In Charge (IIC):
+Andrew T Fox
+Adopted Date:
+12/05/2013
+Additional Participating Persons:
+Ralph J Payne; Federal Aviation Administration, Grand Rapids FSDO; Grand Rapids, MI
+Publish Date:
+12/05/2013
+Investigation Docket:
+http://dms.ntsb.gov/pubdms/search/dockList.cfm?mKey=81032
+Page 7 of 7CEN11LA459
+The National Transportation Safety Board (NTSB), established in 1967, is an independent federal agency mandated 
+by Congress through the Independent Safety Board Act of 1974 to investigate transportation accidents, determine 
+the probable causes of the accidents, issue safety recommendations, study transportation safety issues, and evaluate 
+the safety effectiveness of government agencies involved in transportation. The NTSB makes public its actions and 
+decisions through accident reports, safety studies, special investigation reports, safety recommendations, and 
+statistical reviews. 
+The Independent Safety Board Act, as codified at 49 U.S.C. Section 1154(b), precludes the admission into evidence 
+or use of any part of an NTSB report related to an incident or accident in a civil action for damages resulting from a 
+matter mentioned in the report.

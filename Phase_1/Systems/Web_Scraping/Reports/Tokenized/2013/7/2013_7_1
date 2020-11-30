@@ -1,0 +1,58 @@
+National Transportation Safety Board
+Aviation Accident Final Report
+Location: Hamilton, MT
+Accident Number: WPR13LA302
+Date & Time: 07/01/2013, 1100 MDT
+Registration: N989WC
+Aircraft: S.N.I.A.S. AS-350B ECUREUIL
+Aircraft Damage: Substantial
+Defining Event: Loss of engine power (total)
+Injuries: 1 None
+Flight Conducted Under: Part 91: General Aviation - Personal
+ Analysis The pilot reported that, about 20 minutes after departure, the helicopter lost all engine power during cruise flight.
+The pilot performed an autorotation into a small forest clearing.
+During the landing sequence, the helicopter sustained substantial damage.
+Examination of the engine revealed that the pneumatic fuel controller (P2) pipe that delivered air pressure from the centrifugal compressor to the fuel control unit (FCU) had separated at the FCU fitting.
+The P2 pipe™s failure allowed ambient air pressure to enter the line and resulted in the FCU commanding the engine to spool down to ground idle speed.
+The pipe exhibited deformation due to bending damage and signatures indicating that it was making contact with its union fitting at the FCU.
+The P2 pipe was a thin-walled type, which the engine manufacturer had recommended be replaced with a thicker version 29 years previously.
+Further, the engine manufacturer had issued multiple service letters advising maintenance personnel of the correct procedures for fitting, inspecting, and maintaining such air lines.
+The pipe™s fracture surfaces at the separation point exhibited signatures consistent with fatigue as a result of noncompliance with the manufacturer™s recommendations.
+Probable Cause and Findings The National Transportation Safety Board determines the probable cause(s) of this accident to be: The loss of engine power during cruise flight due to the fatigue failure of a pneumatic fuel controller pipe.
+Also causal was maintenance personnel™s failure to adequately maintain the pipe and replace it with a thicker type.
+Findings Aircraft Fuel controlling system - Fatigue/wear/corrosion (Cause) Personnel issues Replacement - Maintenance personnel (Cause) Installation - Maintenance personnel (Cause) Factual Information HISTORY OF FLIGHT On July 1, 2013, about 1100 mountain daylight time, an S.N.I.A.S.
+(Eurocopter) AS-350B, N989WC, landed hard following a loss of engine power near Hamilton, Montana.
+The helicopter was registered to Hat Creek Helicopters LLC, and operated by the pilot under the provisions of 14 Code of Federal Regulations Part 91.
+The commercial pilot was not injured.
+The helicopter sustained substantial damage during the accident sequence.
+The local flight departed Ravalli County Airport, Hamilton, about 20 minutes prior, with a planned destination of Riddick Field Airport, Philipsburg, Montana.
+Visual meteorological conditions prevailed, and a company VFR flight plan had been filed.
+The pilot reported that during cruise flight, about 20 minutes after departure, and at an altitude of 7,200 feet msl, the helicopter suddenly began to yaw.
+The low rpm horn then sounded and he glanced at the engine instruments, which indicated the engine speed had reduced to ground idle.
+He lowered the collective and initiated a 180-degree autorotation into a small clearing in wooded terrain 1,000 feet below.
+During the landing sequence the tailboom partially separated from the aft bulkhead, and the lower fuselage sustained substantial damage.
+AIRCRAFT INFORMATION The helicopter, manufactured in 1985, was equipped with a Turbomeca Arriel 1B engine, serial number 857.
+Maintenance records indicated that the engine was originally manufactured in 1985, and had accrued a total of 9,921.5 flight hours as of January 28, 2013.
+The most recent inspection was a 150-hour Airframe/Engine Inspection, and was completed on April 30, 2013.
+At that time the airframe had accumulated a total of 9,999.8 hours, with a total of 10,058.5 hours at the time of the accident.
+TESTS AND RESEARCH Engine Examination Examination of the engine revealed that the pneumatic control pipe (P2) which delivered air pressure from the centrifugal compressor to the Fuel Control Unit (FCU) had separated at the FCU fitting.
+According to Turbomeca engine maintenance documentation, P2 pressure is utilized within the fuel control unit as a means (via the acceleration controller) to regulate fuel flow into the engine.
+A loss of pressure will result in the reduction of fuel delivered to the engine, and its subsequent deceleration to idle.
+P2 Pipe Examination The pipe was removed from the engine and sent to the Turbomeca Accident Investigation Laboratory in France for metallurgical evaluation.
+The pipe (part number 0 301 02 766 0) was comprised of Z2CN18-10 (AISI 304L) stainless steel, with a wall thickness of 0.5 mm.
+Examination revealed that the pipe had separated just above the intersection of the flare and the pipe wall.
+The separation surface was examined utilizing scanning electron microscopy, and frontal lines in the shape of crescents could be seen emanating from an incipient area on the outer diameter of the pipe.
+Examination of the pipe's outer surface revealed buffeting marks in the area of the union sleeve edge, consistent with union sleeve contact.
+A geometric inspection of the pipe was performed after it was mounted in a pipe reference fixture.
+The pipe exhibited deformation at the FCU end, such that it had displaced about 50 mm from the FCU inlet location.
+Maintenance Instructions Turbomeca had released multiple service letters and maintenance instructions documenting the installation, evaluation, and replacement of air system pipes.
+Turbomeca Service Letter 1131/86/ARL/98, issued May 1986, documented the rupture of a P2 pipe encountered on an engine which had over 4,000 hours of operating time.
+The letter recommended that all engines with operating times of 2,500 or more hours undergo a dye- penetrant, deformation, and clearance inspection.
+Subsequently, in October 1986, Turbomeca issued an internal "Change Advice" notice 37616, documenting the replacement of the 0.5mm wall thickness P2 pipe, with a pipe of 0.8mm thickness to improve, "mechanical strength" and to "facilitate maintenance".
+Service Letter No.
+2188/02/ARRIEL1/68, issued June 2002, continued to describe further incidents of P2 pipe rupture, and reminded maintenance personnel of the importance of periodical inspections of pipes and unions, the use of correct torque when tightening union components, and the consequences of not utilizing pipe supports correctly.
+The letter further stated, "No stressing of pipes.
+Too great a stress can lead to cracks, or even rupture of the pipe, which can lead to leaks."
+Service Letter 1807/98/ARRIEL1/40, issued October 2003, described further incidents regarding the engine air system, and reminded maintenance personnel of the importance of maintaining proper torque of system unions, and the consequences of both a lack of proper pipe support, as well as component distortion as a result of mishandling.
+The letter also made recommendation that the 0.8mm pipe be installed.
+Registration: N989WC Model/Series: AS-350B ECUREUIL Aircraft Category: Helicopter Year of Manufacture: Amateur Built: No Airworthiness Certificate: Normal Serial Number: 1923 Landing Gear Type: Skid Seats: 6 Date/Type of Last Inspection: 04/30/2013, Continuous Airworthiness Certified Max Gross Wt.

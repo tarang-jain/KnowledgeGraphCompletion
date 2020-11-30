@@ -1,0 +1,1781 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-48"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-48">
+    <Prefix name="" IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Other_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_fire/explosion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Abrupt_manoeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Adverse_cloud_condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AerodromePersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aeroplane_flight_path_deviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_bird_strike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_aloft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_on_ground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_high_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_moving_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_object_aloft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_other_than_midair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_off_movement_area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_overrun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_propellers_-_general"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ConsequentialEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Crosswind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Damage_to_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Decompression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Ditching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_mechanical_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_non_mechanical_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventJustification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Forced_landing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hail_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hard_landing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Headwind_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Helicopter_flight_path_deviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#High_wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IMC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Icing_conditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Lightning_strike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Loss_of_separation_between_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MaintenancePersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Missing_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Non-component_specific_events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OtherPersonsOnBoard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propellers_generally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Tailwind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Undershoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Wheels-up_landings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Windshear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#___Unknown___EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_near_collisions/loss_of_separation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tree/tall_vegetation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Dragged_wing/pod/float"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Maintenance/Repair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear_-_collapsed/retracted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nosed_down/overturned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations/Persons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propeller/rotor/jet_blast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#IN_FLIGHT_COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_HANGAR/AIRPORT_BUILDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ABRUPT_MANEUVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AIRPORT_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPANY_MAINTENANCE_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPLETE_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DECOMPRESSION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DITCHING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DRIVER_OF_VEHICLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DUAL_STUDENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FAA_INSPECTOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FBO_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FIRE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FORCED_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_NOT_EXTENDED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_RETRACTION_ON_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GROUND_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#HARD_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_GUY_WIRE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_POLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UNKNOWN_OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-__COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CARBURETOR_ICING_CONDITIONS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CLOUDS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CROSSWIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_DOWNDRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_FOG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_GUSTS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HAIL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HIGH_DENSITY_ALTITUDE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HIGH_WIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_ICING_CONDITIONS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_LIGHTNING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_LOW_CEILING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_MOUNTAIN_WAVE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_OBSCURATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_RAIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_SNOW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_SUDDEN_WINDSHIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TAILWIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_THUNDERSTORM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE_IN_CLOUDS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_UNFAVORABLE_WIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_VARIABLE_WIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_WHITEOUT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_WINDSHEAR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#KIT_MANUFACTURER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_CONTROL_-_IN_FLIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MAIN_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MIDAIR_COLLISION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MISSING_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NEAR_COLLISION_BETWEEN_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_DOWN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_OVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OTHER_MAINTENANCE_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OTHER_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OVERRUN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PASSENGER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOTS_OF_BOTH_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_IN_COMMAND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_OF_OTHER_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_PASSENGER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ROLL_OVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#TAIL_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#UNDERSHOOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#UNDETERMINED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#UNQUALIFIED_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#VORTEX_TURBULENCE_ENCOUNTERED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#WHEELS_UP_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__FLIGHTCREW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__MANUFACTURER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AIRFRAME/COMPONENT/SYSTEM_FAILURE/MALFUNCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ALTITUDE_DEVIATION,UNCONTROLLED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(ARTCC)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(DEP/APCH)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(LCL/GND/CLNC)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COLLISION_BETWEEN_AIRCRAFT_(OTHER_THAN_MIDAIR)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPANY/OPERATOR_MANAGEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COPILOT/SECOND_PILOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DRAGGED_WING,ROTOR,POD,FLOAT_OR_TAIL/SKID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FIRE/EXPLOSION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FLIGHT_INSTRUCTOR(ON_GROUND)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#HAZARDOUS_MATERIALS_LEAK/SPILL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BIRD(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(RESIDENTIAL)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIND_SOCK/INDICATOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,STATIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_HIGH_TERRAIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_OPEN_FIELD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_MOUNTAINOUS/HILLY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,FROZEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,ROUGH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TOWER(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_WIRE,STATIC(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_BELOW_APPROACH/LANDING_MINIMUMS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_DRIZZLE/MIST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HAZE/SMOKE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TEMPERATURE,LOW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE(THUNDERSTORMS)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE,CLEAR_AIR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE,TERRAIN_INDUCED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_CONTROL_-_ON_GROUND/WATER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(PARTIAL)_-_NONMECHANICAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(PARTIAL)_-_MECH_FAILURE/MALF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(TOTAL)_-_NONMECHANICAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(TOTAL)_-_MECH_FAILURE/MALF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MISCELLANEOUS/OTHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRPORT_FACILITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_POLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_TAXIWAY_LIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_UNDETERMINED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_UTILITY_POLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_CROSSWIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_GUSTS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_HIGH_WIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_TAILWIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_THUNDERSTORM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_UNFAVORABLE_WIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRCRAFT_PARKED/STANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_APPROACH_LIGHT/NAVAID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_TERRAIN/WATER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_DUST_DEVIL/WHIRLWIND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OWNER/BUILDER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OWNER/PILOT_MECHANIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_IN_COMMAND(CFI)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PRODUCTION/DESIGN_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER/ROTOR_CONTACT_TO_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER_BLAST_OR_JET_EXHAUST/SUCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER_FAILURE/MALFUNCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER_FAILURE/MALFUNCTION_-_PROPELLER_SEPARATION"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Other_Event"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_fire/explosion"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Abrupt_manoeuvre"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Adverse_cloud_condition"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AerodromePersonnel"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aeroplane_flight_path_deviation"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_bird_strike"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_object_aloft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_aloft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_moving_aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_on_ground"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_moving_aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_high_terrain"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_moving_aircraft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_object_aloft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_other_than_midair"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_moving_aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_off_movement_area"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_overrun"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_off_movement_area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_propellers_-_general"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propellers_generally"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-animal"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-person"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-vehicle"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ConsequentialEvents"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Crosswind"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Damage_to_aircraft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Decompression"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Non-component_specific_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Ditching"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ConsequentialEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_mechanical_failure"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_non_mechanical_failure"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventJustification"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventPhase"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Forced_landing"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ConsequentialEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hail_encounter"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hard_landing"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Headwind_encounter"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Helicopter_flight_path_deviation"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#High_wind"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IMC"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Icing_conditions"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Landing_gear"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Lightning_strike"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Loss_of_separation_between_aircraft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_near_collisions/loss_of_separation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MaintenancePersonnel"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Manufacturer"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Missing_aircraft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#___Unknown___EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Non-component_specific_events"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Operator"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations/Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Other"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OtherPersonsOnBoard"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations/Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propellers_generally"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Tailwind"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Undershoot"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unknown"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Wheels-up_landings"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Windshear"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#___Unknown___EventType"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft/system/component"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_-_near_collisions/loss_of_separation"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tree/tall_vegetation"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Dragged_wing/pod/float"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Maintenance/Repair"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear_-_collapsed/retracted"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nosed_down/overturned"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ConsequentialEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations/Persons"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#EventJustification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propeller/rotor/jet_blast"/>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Damage_to_aircraft"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#IN_FLIGHT_COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/Events.owl#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_HANGAR/AIRPORT_BUILDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Abrupt_manoeuvre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ABRUPT_MANEUVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AerodromePersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AIRPORT_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Maintenance/Repair"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPANY_MAINTENANCE_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPLETE_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Decompression"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DECOMPRESSION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Ditching"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DITCHING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DUAL_STUDENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_fire/explosion"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FIRE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Forced_landing"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FORCED_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Wheels-up_landings"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_NOT_EXTENDED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#GEAR_RETRACTION_ON_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hard_landing"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#HARD_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_other_than_midair"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_GUY_WIRE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER_PERSON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_POLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UNKNOWN_OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-vehicle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-__COLLISION_WITH_OBJECT_-___UNKOWN__OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Icing_conditions"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CARBURETOR_ICING_CONDITIONS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Adverse_cloud_condition"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CLOUDS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Crosswind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_CROSSWIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_DOWNDRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_FOG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_GUSTS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Hail_encounter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HAIL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HIGH_DENSITY_ALTITUDE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#High_wind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HIGH_WIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Icing_conditions"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_ICING_CONDITIONS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_LIGHTNING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_LOW_CEILING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_MOUNTAIN_WAVE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_OBSCURATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_RAIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_SNOW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_SUDDEN_WINDSHIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Tailwind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TAILWIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_THUNDERSTORM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE_IN_CLOUDS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_UNFAVORABLE_WIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_VARIABLE_WIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_WHITEOUT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Windshear"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_WINDSHEAR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Event"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_CONTROL_-_IN_FLIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Main_landing_gear_-_collapse_or_retraction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MAIN_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_aloft"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MIDAIR_COLLISION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Missing_aircraft"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MISSING_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Loss_of_separation_between_aircraft"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NEAR_COLLISION_BETWEEN_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nosed_down/overturned"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_DOWN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear_-_collapsed/retracted"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nosed_down/overturned"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#NOSE_OVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MaintenancePersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OTHER_MAINTENANCE_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_overrun"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OVERRUN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#OtherPersonsOnBoard"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PASSENGER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOTS_OF_BOTH_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_IN_COMMAND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_OF_OTHER_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Helicopter_flight_path_deviation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ROLL_OVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Supervisor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Nose/tail_landing_gear_-_collapsed/retracted"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#TAIL_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Undershoot"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#UNDERSHOOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#___Unknown___EventType"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#UNDETERMINED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#VORTEX_TURBULENCE_ENCOUNTERED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Wheels-up_landings"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#WHEELS_UP_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__FLIGHTCREW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Manufacturer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__MANUFACTURER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unknown"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#__UNKNOWN__PERSON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Non-component_specific_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#AIRFRAME/COMPONENT/SYSTEM_FAILURE/MALFUNCTION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aeroplane_flight_path_deviation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ALTITUDE_DEVIATION,UNCONTROLLED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(ARTCC)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(DEP/APCH)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATSPersonnel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ATC_PERSONNEL(LCL/GND/CLNC)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_other_than_midair"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COLLISION_BETWEEN_AIRCRAFT_(OTHER_THAN_MIDAIR)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Operator"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COMPANY/OPERATOR_MANAGEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Organizations"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#COPILOT/SECOND_PILOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Dragged_wing/pod/float"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#DRAGGED_WING,ROTOR,POD,FLOAT_OR_TAIL/SKID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_fire/explosion"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FIRE/EXPLOSION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Event"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#HAZARDOUS_MATERIALS_LEAK/SPILL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-animal"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_bird_strike"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BIRD(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(RESIDENTIAL)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tree/tall_vegetation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIND_SOCK/INDICATOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,STATIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_high_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_HIGH_TERRAIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_OPEN_FIELD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_high_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_MOUNTAINOUS/HILLY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,FROZEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,ROUGH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_TOWER(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_COLLISION_WITH_WIRE,STATIC(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_BELOW_APPROACH/LANDING_MINIMUMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_DRIZZLE/MIST"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_HAZE/SMOKE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TEMPERATURE,LOW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE(THUNDERSTORMS)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE,CLEAR_AIR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Turbulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#IN_FLIGHT_ENCOUNTER_WITH_WEATHER_-_TURBULENCE,TERRAIN_INDUCED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Event"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_CONTROL_-_ON_GROUND/WATER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_non_mechanical_failure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(PARTIAL)_-_NONMECHANICAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_mechanical_failure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(PARTIAL)_-_MECH_FAILURE/MALF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_non_mechanical_failure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(TOTAL)_-_NONMECHANICAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Engine_-_mechanical_failure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#LOSS_OF_ENGINE_POWER(TOTAL)_-_MECH_FAILURE/MALF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Event"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#MISCELLANEOUS/OTHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_on_ground"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRPORT_FACILITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_POLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_TAXIWAY_LIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_UNDETERMINED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_UTILITY_POLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-vehicle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Crosswind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_CROSSWIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_GUSTS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#High_wind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_HIGH_WIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Tailwind"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_TAILWIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_THUNDERSTORM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_UNFAVORABLE_WIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_collision_-_both_aircraft_on_ground"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRCRAFT_PARKED/STANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-animal"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-lights"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_APPROACH_LIGHT/NAVAID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-building"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-tree/tall_vegetation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Collision_aircraft_-_terrain"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_TERRAIN/WATER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Unexpected_weather"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#ON_GROUND/WATER_ENCOUNTER_WITH_WEATHER_-_DUST_DEVIL/WHIRLWIND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#FlightCrew"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PILOT_IN_COMMAND(CFI)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Manufacturer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PRODUCTION/DESIGN_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Event"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER/ROTOR_CONTACT_TO_PERSON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Propeller/rotor/jet_blast"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER_BLAST_OR_JET_EXHAUST/SUCTION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#Aircraft_propellers_-_general"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48#PROPELLER_FAILURE/MALFUNCTION"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

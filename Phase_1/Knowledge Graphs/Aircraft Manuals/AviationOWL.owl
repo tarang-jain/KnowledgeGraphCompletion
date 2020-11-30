@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://onto.fel.cvut.cz/ontologies/aviation"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://onto.fel.cvut.cz/ontologies/aviation">
+    <Prefix name="" IRI="http://onto.fel.cvut.cz/ontologies/aviation#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="ufo" IRI="http://onto.fel.cvut.cz/ontologies/ufo/"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="aviation-safety" IRI="http://onto.fel.cvut.cz/ontologies/aviation-safety/"/>
+    <Import>http://onto.fel.cvut.cz/ontologies/documentation</Import>
+    <Import>http://onto.fel.cvut.cz/ontologies/aviation/aerodrome</Import>
+    <Import>http://onto.fel.cvut.cz/ontologies/aviation/airline</Import>
+    <Import>http://onto.fel.cvut.cz/ontologies/aviation/atm</Import>
+    <Import>http://onto.fel.cvut.cz/ontologies/aviation/maintenance</Import>
+    <Declaration>
+        <Class abbreviatedIRI="ufo:Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="ufo:has_object_part"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="-safety/Air_conditioning_system_part"/>
+        <Class IRI="-safety/Airborne_auxiliary_power_unit_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="-safety/Hydraulic_compartment_doors"/>
+        <Class IRI="-safety/Tail_cone_door"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Accessory_compartment_doors</IRI>
+        <Literal>Accessory compartment doors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Accessory_compartments</IRI>
+        <Literal>Accessory compartments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Air_Conditioning_System_Wiring</IRI>
+        <Literal>Air Conditioning System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Air_conditioning_system_wiring</IRI>
+        <Literal>Air conditioning system wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Auxiliary_power_unit_door</IRI>
+        <Literal>Auxiliary power unit door</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_pressure_control_system</IRI>
+        <Literal>Cabin pressure control system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_pressure_controller</IRI>
+        <Literal>Cabin pressure controller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_pressure_indicator</IRI>
+        <Literal>Cabin pressure indicator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_temperature_control_system</IRI>
+        <Literal>Cabin temperature control system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_temperature_controller</IRI>
+        <Literal>Cabin temperature controller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabin_temperature_indicator</IRI>
+        <Literal>Cabin temperature indicator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cabine_pressure_sensor</IRI>
+        <Literal>Cabine pressure sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo</IRI>
+        <Literal>Cargo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo-accessory_compartment_insulation</IRI>
+        <Literal>Cargo-accessory compartment insulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo_and_accessory_compartments</IRI>
+        <Literal>Cargo and accessory compartments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo_and_accessory_compartments_wiring</IRI>
+        <Literal>Cargo and accessory compartments wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo_compartments</IRI>
+        <Literal>Cargo compartments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo_loading_system</IRI>
+        <Literal>Cargo compartments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Cargo_related_systems</IRI>
+        <Literal>Cargo compartments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Central_Maintenance_System_Wiring</IRI>
+        <Literal>Central Maintenance System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Electrical_Power_System_Wiring</IRI>
+        <Literal>Electrical Power System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Equipment_cooling_system</IRI>
+        <Literal>Equipment cooling system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Fire_protection_system</IRI>
+        <Literal>Fire protection system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Helicopter_Vibration_System_Wiring</IRI>
+        <Literal>Helicopter Vibration System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Helicopter_noise_analysis</IRI>
+        <Literal>Helicopter noise analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Helicopter_vibration_analysis</IRI>
+        <Literal>Helicopter vibration analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Heliport</IRI>
+        <Literal>Heliport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Humidity_control_system</IRI>
+        <Literal>Humidity control system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Ice_detection_system</IRI>
+        <Literal>Ice detection system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Main_Rotor_System_Wiring</IRI>
+        <Literal>Main Rotor System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Miscellaneous_Wiring</IRI>
+        <Literal>Miscellaneous Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Pressure_indicator</IRI>
+        <Literal>Pressure indicator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Pressure_regulator</IRI>
+        <Literal>Pressure regulator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="-safety/has_related_eccairs_term"/>
+        <IRI>-safety/Ramp_service_equipment</IRI>
+        <IRI>http://onto.fel.cvut.cz/ontologies/2014/ECCAIRS_Aviation_1.3.0.12/eccairs-descriptive-factors#category_44100000</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Reciprocating_Engine_System_Wiring</IRI>
+        <Literal>Reciprocating Engine System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Reciprocating_engine</IRI>
+        <Literal>Reciprocating engine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Reportable_event</IRI>
+        <Literal>Reportable event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Rotorcraft_main_rotor_system</IRI>
+        <Literal>Rotorcraft main rotor system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Turbine_Engine_System_Wiring</IRI>
+        <Literal>Turbine Engine System Wiring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Water_line_anti-ice_system</IRI>
+        <Literal>Water line anti-ice system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/Wiring_specific_to_the_electrical_power_system_not_part_of_the_power_distribution_systems</IRI>
+        <Literal>Wiring specific to the electrical power system not part of the power distribution systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-safety/runway_strip</IRI>
+        <Literal xml:lang="en">Runway strip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/AtomicStatements</IRI>
+        <Literal>AtomicStatements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/AudioData</IRI>
+        <Literal>AudioData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/ChangeStatement</IRI>
+        <Literal>ChangeStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/CompositeManifestation</IRI>
+        <Literal>CompositeManifestation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Data</IRI>
+        <Literal>Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Diagrams</IRI>
+        <Literal>Diagrams</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/ExistentialStatement</IRI>
+        <Literal>ExistentialStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/FactualStatements</IRI>
+        <Literal>FactualStatements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/ImageData</IRI>
+        <Literal>ImageData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/ImperativeStatement</IRI>
+        <Literal>ImperativeStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/NaturalLanguage</IRI>
+        <Literal>NaturalLanguage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/NegationStatement</IRI>
+        <Literal>NegationStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/OWL</IRI>
+        <Literal>OWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Relational</IRI>
+        <Literal>Relational</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/RuleStatement</IRI>
+        <Literal>RuleStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/SensoryData</IRI>
+        <Literal>SensoryData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/SimpleDocumentation</IRI>
+        <Literal>SimpleDocumentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Statement</IRI>
+        <Literal>Statement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Structured</IRI>
+        <Literal>Structured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/Tabular</IRI>
+        <Literal>Tabular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/TropeAttributionStatement</IRI>
+        <Literal>TropeAttributionStatement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://onto.fel.cvut.cz/ontologies/documentation/VideoData</IRI>
+        <Literal>VideoData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>ufo:Fact</AbbreviatedIRI>
+        <Literal>Fact</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

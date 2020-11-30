@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://onto.fel.cvut.cz/ontologies/ufo-language-ontouml#"
+     xml:base="http://onto.fel.cvut.cz/ontologies/ufo-language-ontouml"
+     xmlns:See="http://www.geneontology.org/formats/oboInOwl#303 See "
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ufo="http://onto.fel.cvut.cz/ontologies/ufo/">
+    <owl:Ontology rdf:about="http://onto.fel.cvut.cz/ontologies/ufo-language-ontouml">
+        <owl:versionIRI rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language-ontouml/1.1"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language/1.0.0"/>
+        <terms:created xml:lang="en">2.10.2018</terms:created>
+        <terms:creator rdf:resource="http://onto.fel.cvut.cz/ontologies/kbss/people/petr-kremen"/>
+        <terms:description xml:lang="en">The ontology aims at formalize the basic notions of the OntoUML language.</terms:description>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0"/>
+        <terms:title xml:lang="en">Unified Foundational Ontology - OntoUML</terms:title>
+        <bibo:status xml:lang="en">Ontology Specification</bibo:status>
+        <vann:preferredNamespacePrefix xml:lang="en">ufo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">http://onto.fel.cvut.cz/ontologies/ufo/</vann:preferredNamespaceUri>
+        <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-ontouml/1.0.2"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/contains-type -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/contains-type">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/has-object-part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-object-part -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-object-part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/language"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relational-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relational-language"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/typing-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/typing-language"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/category -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/category"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-moment-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-moment-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/kind -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/kind"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/language-ontouml -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/language-ontouml">
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/category"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-moment-type"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/kind"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/mixin"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/phase"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relator-type"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/role"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/role-mixin"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/sub-kind"/>
+        <rdfs:label xml:lang="cs">Jazyk OntoUML</rdfs:label>
+        <rdfs:label xml:lang="en">OntoUML Language</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/mixin -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/phase -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/phase"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/role -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/role"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/role-mixin -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/role-mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/sub-kind -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/sub-kind"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-48" uri="Events.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="duplicate:http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48" uri="AircraftAccident_Event_merged_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="duplicate:http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48" uri="AAE3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="http://www.semanticweb.org/tarangjain/ontologies/AircraftAccident_merged.owl" uri="AircraftAccidentEvent_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="http://www.semanticweb.org/tarangjain/ontologies/untitled-ontology-48" uri="AircraftAccident_Event_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="duplicate:https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl" uri="AircraftAccident.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="duplicate:https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl" uri="AAE3_copy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1606211725417" name="https://www.cse.iitb.ac.in/~amitpatil/aircraft_base.owl" uri="aircraft_base.owl"/>
+    </group>
+</catalog>

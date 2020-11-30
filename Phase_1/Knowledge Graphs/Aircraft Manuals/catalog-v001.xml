@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="duplicate:http://onto.fel.cvut.cz/ontologies/aviation" uri="aviation.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="duplicate:http://onto.fel.cvut.cz/ontologies/aviation" uri="AviationOWL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/aviation/aerodrome" uri="aerodrome.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/aviation/airline" uri="airline.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/aviation/atm" uri="atm.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/aviation/core" uri="core.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/aviation/maintenance" uri="maintenance.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/communication" uri="communication.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/documentation" uri="documentation.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/safety-management" uri="safety-management.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1560239990348" name="http://onto.fel.cvut.cz/ontologies/ufo" uri="ontology.xml"/>
+    </group>
+</catalog>

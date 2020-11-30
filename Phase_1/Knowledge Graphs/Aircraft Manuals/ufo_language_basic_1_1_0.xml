@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://onto.fel.cvut.cz/ontologies/ufo-language-basic#"
+     xml:base="http://onto.fel.cvut.cz/ontologies/ufo-language-basic"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:annot="http://onto.fel.cvut.cz/ontologies/ufo/annot/"
+     xmlns:content="http://www.w3.org/2011/content#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ufo="http://onto.fel.cvut.cz/ontologies/ufo/">
+    <owl:Ontology rdf:about="http://onto.fel.cvut.cz/ontologies/ufo-language-basic">
+        <owl:versionIRI rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language-basic/1.0.1"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language/1.0.0"/>
+        <terms:created xml:lang="en">17.10.2018</terms:created>
+        <terms:creator rdf:resource="http://onto.fel.cvut.cz/ontologies/kbss/people/petr-kremen"/>
+        <terms:description xml:lang="en">The ontology aims at formalize the basic language for UFO-compliant annotation of entities.</terms:description>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0"/>
+        <terms:title xml:lang="en">Unified Foundational Ontology - Basic Language</terms:title>
+        <bibo:status xml:lang="en">Ontology Specification</bibo:status>
+        <vann:preferredNamespacePrefix xml:lang="en">ufo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">http://onto.fel.cvut.cz/ontologies/ufo/</vann:preferredNamespaceUri>
+        <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language-basic/1.0.0"/>
+        <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-height -->
+
+
+    <owl:AnnotationProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-height"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-icon -->
+
+
+    <owl:AnnotationProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-icon"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-width -->
+
+
+    <owl:AnnotationProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-width"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2011/content#bytes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2011/content#bytes"/>
+    
+
+
+    <!-- http://www.w3.org/2011/content#characterEncoding -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2011/content#characterEncoding"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/contains-type -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/contains-type">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/has-object-part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-icon -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-icon">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/language"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relational-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relational-language"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/typing-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/typing-language"/>
+    
+
+
+    <!-- http://www.w3.org/2011/content#ContentAsBase64 -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2011/content#ContentAsBase64"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/event -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/event">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/event-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/event-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/event-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGFBMVEUAAAD8AAD8AAD9AAD+
+AAD+AAD/AAD///+jnw2FAAAABnRSTlMAREB8rJTw+pSpAAAAAWJLR0QHFmGI6wAAAAlwSFlzAAAL
+EwAACxMBAJqcGAAAAAd0SU1FB+IKEgA4LXW4dxIAAAAqSURBVDjLY2AYXoAxDQqSqCCRjMuO4SIB
+BQ5UkBicHqRjIKZSLDEKCAMAVZguzVj+dPwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMThU
+MDk6MDA6MTArMDI6MDCz3tR4AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE4VDAwOjU2OjQ1
+KzAyOjAwI4eb6gAAAABJRU5ErkJggg==</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/event-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/event-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/event-type-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/event-type-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJ1BMVEUAAAD9AAD+AAD8AAD4
+AAAAAAAAAAAAAAAAAADMAAD/AAAAAAD///8fm6juAAAACnRSTlMAYLBIIOgwjNQEa+QjGgAAAAFi
+S0dEDIGzUWMAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChIANgs5Nt9hAAAAOklEQVQ4
+y2NgGF6AcRUUKFBBYjEuO4aYBBQ4UEECZgfrbhDYRoIEAwP77gbszh0SElCwkmKJUUABAADokmEL
+PjoHSQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0xMC0xOFQwOTowMDoxMCswMjowMLPe1HgAAAAl
+dEVYdGRhdGU6bW9kaWZ5ADIwMTgtMTAtMThUMDA6NTQ6MTErMDI6MDCb3WGgAAAAAElFTkSuQmCC</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEUAAADT5QDe6wCZzADd
+6wDe7AD///82Z9h/AAAABXRSTlMAHPAE2IEEAqQAAAABYktHRAZhZrh9AAAACXBIWXMAAAsTAAAL
+EwEAmpwYAAAAB3RJTUUH4goSADQ1ymGgSAAAACNJREFUOMtjYBgJQDQUARQokwAD01AH7BaNSoxK
+0EJiFEABAOK+H0+bNcH4AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEwLTE4VDA5OjAwOjEwKzAy
+OjAws97UeAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMC0xOFQwMDo1Mjo1MyswMjowMIUWDjQA
+AAAASUVORK5CYII=</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAHlBMVEUAAADT5QDe6wCZzADd
+6wAAAAAAAADe7AAAAAD///9NjqeOAAAAB3RSTlMAHPAE2Axkg9ZhdwAAAAFiS0dECfHZpewAAAAJ
+cEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChIANRCYfkVOAAAAMUlEQVQ4y2NgGAlAvBwBFCiT
+AAPzcgfsFo1K4JKI6ACBABIkGBjY2nDYMeIkRgEUAABalTPfTnaxBAAAACV0RVh0ZGF0ZTpjcmVh
+dGUAMjAxOC0xMC0xOFQwOTowMDoxMCswMjowMLPe1HgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgt
+MTAtMThUMDA6NTM6MTYrMDI6MDC8pkRXAAAAAElFTkSuQmCC</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/language-basic -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/language-basic">
+        <rdf:type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relational-language"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/event"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/event-type"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object-type"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relator"/>
+        <ufo:contains-type rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relator-type"/>
+        <rdfs:label xml:lang="en">Basic language</rdfs:label>
+        <rdfs:label xml:lang="cs">Základní jazyk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABlVBMVEUAAAAAAPoAAP0AAP4A
+AP4AAP4AAP4AAP4AAP4AAP4AAP4AAP0AAOgAAIAAAP0AAP4AAP4AAP4AAPUAAPgAAP4AAP4AAP0A
+APwAAP4AAP4AAPwAAPgAAOMAAPQAAPoAAP0AAP4AAP4AAP4AAKoAAPsAAP4AAP4AAP4AAOAAAPsA
+AP4AAPcAAP4AAP4AAPwAAP4AAP0AAP4AAPwAAO4AAP4AAP4AAPoAAPwAAP4AAPoAAP4AAP4AAP4A
+APIAAP4AAP4AAPgAAP4AAP4AAP4AAP0AAPwAAPAAAP4AAP0AAPsAAP0AAO0AAP4AAP0AAP0AAP4A
+AP4AAP0AAPwAAP4AAP4AAP0AAP4AAP4AAPsAAP4AAOwAAPAAAPsAAP0AAP0AAPwAAP4AAPoAAP4A
+AP4AAPgAAP4AAP4AAPEAAP4AAP4AAPwAAP4AAP4AAOYAAPsAAP4AAP4AAP4AAP4AAP4AAP4AAPwA
+APMAAP0AAPkAAP4AAP0AAP4AAPYAAPsAAP0AAP4AAP4AAP4AAP4AAP4AAOoAAP////+I025xAAAA
+hXRSTlMAMXu12vH89ufHl1UKAVnS9JAYIsPwYj/t5kEhCBUvZ8D+lQI79fuHBz2cHur4RcJzu1AO
+z/osVJkuvtPsEpGLIKXZ229CD6h4OXYNpFdY7sFrSd/VdNDeOtYMEDx5bkSTK7+KH6frEY/9Tc33
+CT6E2J/v5Y5AE2UkxlzUGjN+ttzz6ckLKvfrSAAAAAFiS0dEhozeO10AAAAJcEhZcwAACxMAAAsT
+AQCanBgAAAAHdElNRQfiChIANCCnvESjAAABsklEQVRIx+2UaT9CQRTGByVSyJYlFJVCsqYSsmSL
+LEXZkzX7nn3ve5uTH+rOmeKdF5539/+c59w7c88MIf/6m0pLzxCJMyVZ2dIcWepqeW5e9Fv5ioIU
+9YVF0UQVlyStV5ZCUZmivEJVWVWt1sBTTS2/XqujBfo6w+ezUQSJem59QyO1TU1xRGaGRDMv0EJN
+TWsCamunrMOC13dCN6sA2jIptOOBLmo5uoW0B9oY0RWD08tgJ2xVHxaItUK+Vk2xzoAE+qkxgPBB
+aORi+RC8ehgJGCEwwvJR4GNIwA2dxlk+AQEPtrhJakyxeBoCM1jASw0fi2choMUCc9TwcwIBLADT
+4f3NJ/mpMc9iD3fRcEbMLA7wtnWBMxuLUc6PWwJjGTFEnNFYgcAqYgTBWGN5CIZPhQRiM7PO4A1Y
+wia2GcRHna1tId2BPko0EJsmqQBa9BSqCS479cK7Cci9B5eAjRNwOqi7H39WDkK8v/OhQwlcZEdf
+51F7DPUnhC/XKVScnV84DZe2iD12VVqTXJWEXF0LLmNxhCSX/OY2/roP3pHUun94fHoOm15erZ63
+H5T/C9M7IFCybAQ6nqEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMThUMDk6MDA6MTArMDI6
+MDCz3tR4AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE4VDAwOjUyOjMyKzAyOjAw5Q4MBwAA
+AABJRU5ErkJggg==</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object-type">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object-type-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object-type-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object-type-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABoVBMVEUAAAAAAPoAAP0AAP4A
+AP4AAP4AAP4AAP4AAP4AAP4AAP4AAP0AAOgAAIAAAP0AAP4AAP4AAP4AAPUAAPgAAP4AAP4AAP0A
+APwAAP4AAP4AAPwAAPgAAOMAAPQAAPoAAP0AAP4AAP4AAP4AAKoAAPsAAP4AAP4AAP4AAOAAAPsA
+AP4AAPcAAP4AAP4AAPwAAP4AAP0AAP4AAPwAAO4AAP4AAP4AAPoAAPwAAP4AAPoAAP4AAP4AAP4A
+APIAAP4AAP4AAPgAAP4AAP4AAP4AAP0AAPwAAPAAAP4AAP0AAPsAAP0AAO0AAP4AAP0AAP0AAP4A
+AP4AAP0AAPwAAP4AAP4AAP0AAP4AAP4AAPsAAP4AAOwAAPAAAPsAAP0AAAAAAP0AAPwAAP4AAPoA
+AP4AAAAAAAAAAP4AAPgAAP4AAP4AAPEAAP4AAP4AAPwAAP4AAP4AAOYAAPsAAP4AAP4AAP4AAP4A
+AP4AAP4AAPwAAPMAAP0AAPkAAP4AAP0AAP4AAPYAAPsAAP0AAP4AAP4AAP4AAP4AAP4AAOoAAP8A
+AAD///8HoisBAAAAiHRSTlMAMXu12vH89ufHl1UKAVnS9JAYIsPwYj/t5kEhCBUvZ8D+lQI79fuH
+Bz2cHur4RcJzu1AOz/osVJkuvtPsEpGLIKXZ229CD6h4OXYNpFdY7sFrSd/VdNDeOtYMEDx56G5E
+kyu/jNSKH6frEY/9Tc33CT6E2J/v5Y5AE2UkxlzUGjN+ttzz6ckLJ2eWUAAAAAFiS0dEioVod3YA
+AAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChIANiMMg3ebAAABw0lEQVRIx+2UV1fCQBCF
+V0Wxd8UuCCLYu4CoWLCLXbAX7L0X7B3+tTNwRMjOwvHNB+cpufd+k2wyu4z91x+siMgoWXSMPDYu
+PiExfDopOcX9U6lp6WHyGZnu4MrKDplX5GAoNy0vv6CwqFipwrsStTivKYWAtkz3fa+XIVEuzFdU
+gl1VHaAk1iBRKwLqwFTVB0kNjaA1NdP5FuxmkIjGGBBNNNAKlrlNqrZjGz25YnQ6ONmCn6qTAryt
+iLdVglyqI4AuMLoJvQcbWXm9Fx/dRwB6BPp5fQD1QQIYwk7DvD6CgI1a3CgYY7w8jsAEBUyCMcXL
+0whoKGAGDLsAcFAATsfkb17JDsYsL9uEi8Y9UsPLDtFnnRPMxrxb8OMW0FhkbMnjL58hE4zGMgIr
+BLCKxhoPOHH4CnzX6x7Pht/wzswml9/CJWwzAmBT4OzsSoE97KMgAe80xUvyzVoQlYwEmAm8/YOg
+/NAhHgJGAWAxg3sUuFeOncF/RwKwEzkeZKf+/ag5w/w5EwLMeoGJy6tri+7G6DJ5j0qDOgTAbu8k
+h3G0K9DmAZZ0/xB43K8+sjAA1NPzy+vbftX7h8H2KbFo4L/I+gL/EtWjsTTTOQAAACV0RVh0ZGF0
+ZTpjcmVhdGUAMjAxOC0xMC0xOFQwOTowMDoxMCswMjowMLPe1HgAAAAldEVYdGRhdGU6bW9kaWZ5
+ADIwMTgtMTAtMThUMDA6NTQ6MzUrMDI6MDAtt0LOAAAAAElFTkSuQmCC</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relator-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">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</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator-type">
+        <ufo:has-icon rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/relator-type-icon-48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator-type-icon-48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator-type-icon-48">
+        <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsBase64"/>
+        <ufo:has-height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-height>
+        <ufo:has-width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ufo:has-width>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA/FBMVEUAAAAAphQAqBIAqBIA
+qRMAqBMAqBIAqBIAqBIAoxUAqRIApRAAqBMApRQApQ8AkgAApBIAphMAqBIAqBIAqBEApxIAqRMA
+qRMApxIAqBUAmQAAqBMAphQAqBIAqBMAgAAAphIAphEAqBAAqBMAqRIAqRMApxMAqBIAqBMAgAAA
+qRIAlRUAqBIApRQAqBMApxMAgAAAVQAAoQ0ApxIAqBMAqBIAAAAAphMAqBIAqBIAqBIAoRIAAAAA
+AAAAqRMApRUAqRMApBIAqBMAqRIApxQAqBQAqBMApBIApQ8AqBMAqBQAqBMAohEAqRIApxMApRIA
+qRIAqRMAAAD///9IIaXiAAAAUXRSTlMAJIz4+uzbr3ojsx7wMhAGG0+y6WOHnuI2IgT+PvVOBUQ4
+H6DZaRmxugOnC8E9/IQBAhKZ+5foQfZf8hqM1Lkv/SmrpDAlnzchuz/5HcKTRvdjyXL3AAAAAWJL
+R0RTemcdBgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+IKEgA0CnwHjXUAAAD6SURBVEjH
+7dJXU8JAFAXgq6ACCkhHKaE3K8VCUzqCFDf//8d47+g4jMC454UXOU85N/lms5sQ7bPzHCilDtem
+FvUd69Hxic0OgK84TkGgzpwawCUX7nOPV4TPpQkkfhEBAFCQWwgBYVniAgCXEa5RAFCMaxwAhqyQ
+AEBS9pACQJpbBv0OWU1g5OJ5eb5Q/BuspnRFCLi+WbmlA27v7nWA7KFciVZrfP2wDh7Nn/w6padn
+Ln4AUJ1Lo7nplVqm2d704V64pRHwyv9SpwsA6nHtI2AgZzsEADm4jxAw5l57AwBNeFBFwJQH7zMA
+0JwnCwQsefKR2wr2+Rf5BGmdh+0lbQRzAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEwLTE4VDA5
+OjAwOjEwKzAyOjAws97UeAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMC0xOFQwMDo1MjoxMCsw
+MjowMDC0GlMAAAAASUVORK5CYII=</content:bytes>
+        <content:bytes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA/FBMVEUAAAAAphQAqBIAqBIA
+qRMAqBMAqBIAqBIAqBIAoxUAqRIApRAAqBMApRQApQ8AkgAApBIAphMAqBIAqBIAqBEApxIAqRMA
+qRMApxIAqBUAmQAAqBMAphQAqBIAqBMAgAAAphIAphEAqBAAqBMAqRIAqRMApxMAqBIAqBMAgAAA
+qRIAlRUAqBIApRQAqBMApxMAgAAAVQAAoQ0ApxIAqBMAqBIAAAAAphMAqBIAqBIAqBIAoRIAAAAA
+AAAAqRMApRUAqRMApBIAqBMAqRIApxQAqBQAqBMApBIApQ8AqBMAqBQAqBMAohEAqRIApxMApRIA
+qRIAqRMAAAD///9IIaXiAAAAUXRSTlMAJIz4+uzbr3ojsx7wMhAGG0+y6WOHnuI2IgT+PvVOBUQ4
+H6DZaRmxugOnC8E9/IQBAhKZ+5foQfZf8hqM1Lkv/SmrpDAlnzchuz/5HcKTRvdjyXL3AAAAAWJL
+R0RTemcdBgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+IKEgA0CnwHjXUAAAD6SURBVEjH
+7dJXU8JAFAXgq6ACCkhHKaE3K8VCUzqCFDf//8d47+g4jMC454UXOU85N/lms5sQ7bPzHCilDtem
+FvUd69Hxic0OgK84TkGgzpwawCUX7nOPV4TPpQkkfhEBAFCQWwgBYVniAgCXEa5RAFCMaxwAhqyQ
+AEBS9pACQJpbBv0OWU1g5OJ5eb5Q/BuspnRFCLi+WbmlA27v7nWA7KFciVZrfP2wDh7Nn/w6padn
+Ln4AUJ1Lo7nplVqm2d704V64pRHwyv9SpwsA6nHtI2AgZzsEADm4jxAw5l57AwBNeFBFwJQH7zMA
+0JwnCwQsefKR2wr2+Rf5BGmdh+0lbQRzAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEwLTE4VDAw
+OjUyOjEwKzAyOjAwQemi7wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMC0xOFQwMDo1MjoxMCsw
+MjowMDC0GlMAAAAASUVORK5CYII=</content:bytes>
+        <content:characterEncoding rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utf-8</content:characterEncoding>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/trope-type">
+        <skos:altLabel xml:lang="en">Trope Type</skos:altLabel>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

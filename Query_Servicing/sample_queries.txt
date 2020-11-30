@@ -1,0 +1,24 @@
+Which accidents have substantial damage ?
+Which accidents have skid landing ?
+list all aircrafts
+list all accidents having honeywell engine
+Which Aircraft have Helicopter Aircraft Category ?
+list all aircraft models
+what are different aircraft models
+list all aircraft categories
+list all pilots
+list all pilots who are student
+list all accidents having student pilot
+list all aircraft damages
+what are different damages of aircraft
+what are different airports
+what are different airspaces
+list all airworthiness certificate
+Accidents having honeywell engine
+Which Accident have Aircraft having Honeywell Engine Manufacturer ?
+Aircraft damages
+Aircraft models
+aircrafts
+accidents
+accident at city Alton
+accident at Dallas

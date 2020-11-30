@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         div {   
+         width: 50%;
+         margin-left : 25%
+         } 
+         * {
+         box-sizing: border-box;
+         }
+         #bg{
+         /*font: 16px Arial; */
+         /*background: white url("bg.jpg") no-repeat;*/
+         background-image : url("{{STATIC_URL}}Circles-3.gif");
+         /*background-repeat:no-repeat;*/
+         /*background-size:100%;*/
+         }
+         input {
+         border: 1px solid transparent;
+         background-color: #f1f1f1;
+         padding: 10px;
+         font-size: 16px;
+         }
+         select {
+         border: 1px solid transparent;
+         background-color: #f1f1f1;
+         padding: 10px;
+         font-size: 16px;
+         }
+         input[type=text] {
+         background-color: #f1f1f1;
+         width: 40%;
+         }
+         input[type=submit] {
+         background-color: DodgerBlue;
+         color: #fff;
+         cursor: pointer;
+         }
+      </style>
+      <!-- </style> -->
+   </head>
+   <body id = "bg">
+
+      <div>
+         <h2>KNOWLEDGE GRAPH</h2>
+         <h3><a href="http://localhost:3030/dataset.html?tab=query&ds=/Accident_2" target="_blank">Click here</a> to directly go to the fuseki page</h3>
+         <form method="get" autocomplete="on">
+            <br>
+            <table>
+               <tr>
+                  <!-- <div class="autocomplete" style="width:300px;"> -->
+                  <td>City: </td>
+                  <!-- <td> <input type="text" id="City_ID" name="City" placeholder="City"> </td></div> -->
+                  <td><select name="City" id="City_ID"></select></td>
+               </tr>
+               <tr>
+                  <td>Aircraft Manufacturer: </td>
+                  <td><select id="aircraft_manufacturer_ID" name="aircraft_manufacturer"></select></td>
+               </tr>
+               <tr>
+                  <td>Engine Manufacturer: </td>
+                  <td><select id="engine_manufacturer_ID" name="engine_manufacturer"></select></td>
+               </tr>
+               <tr>
+                  <td>Pilot Certificate: </td>
+                  <td><select id="pilot_certificate_ID" name="pilot_certificate"></select></td>
+               </tr>
+               <tr>
+                  <td>Runway Surface Type: </td>
+                  <td><select id="RunSur_ID" name="Runway_Surface"></select></td>
+               </tr>
+               <tr>
+                  <td>Pilot Age: </td>
+                  <td> <input type="text" id="Pilot_age_min_ID" name="Pilot_age_min" placeholder="min">
+                     <input type="text" id="Pilot_age_max_ID" name="Pilot_age_max" placeholder="max"> 
+                  </td>
+                </tr>
+             </table>
+
+      
+      <input type="submit" value="SEARCH" name="my_btn">
+      </form>
+      <p id="query" visibility= "hidden">{{stringg_abc}}</p>
+      <p id="resultTable">{{results}}</p>
+      </div>
+      
+   </body>
+</html>
+
+<script>
+         var select_city = document.getElementById("City_ID"); 
+         var options_city = ["", "___Unknown___City", "Abilene", "Addison", "Adrian", "Advance", "Agua Dulce", "Aguila", "Aguilares", "Aieia", "Ainsworth", "Akhiok", "Alabaster", "Alamo", "Alamogordo", "Albany", "Albert Lea", "Albuquerque", "Alegnagik", "Alex", "Alexander City", "Alexandria", "Algona", "Algonac", "Allentown", "Alliance", "Alma", "Alpine", "Alton", "Alturas", "Alva", "Amagansett", "Amarillo", "Anacortes", "Anaktuvuk Pass", "Anchorage", "Andersonville", "Andrews", "Angel Fire", "Angie", "Anguilla", "Anoka", "Antelope Island", "Anthony", "ANVIK", "Apalachicola", "Apison", "Apple River", "Appleton", "Arapahoe", "Arcadia", "Arcata", "Arcola", "Arctic Village", "Ardmore", "Argyle", "Arkansas City", "Armstrong", "Arock", "Asheville", "Ashland", "Asotin", "Atkinson", "Atlanta", "Atlantic City", "Atlantic Ocean", "Atomic City", "Atwater", "Auburn", "Augusta", "Aurora", "Austin", "Auxvasse", "Avalon", "AVONDALE", "Bainbridge", "Baker", "Baldwin City", "Baltimore", "Banning", "Bar Harbor", "Baraga", "Barranquitas", "Barton City", "Basile", "Batesville", "Battle Creek", "Battle Ground", "Bayport", "Beach", "Beatty", "Beaumont", "Beaver", "Belen", "Belgrade", "Belle Fourche", "Belle Glade", "Bellevue", "Belliigham", "Beluga", "Bend", "Benson", "Benton", "Benton Harbor", "Berrien Springs", "Bessemer", "Bethel", "Bettles", "Big Bear City", "Big Creek", "Birmingham", "Bisbee", "Bismarck", "Bismark", "Blaine", "Blairstown", "Block Island", "Blountstown", "Blue Earth", "Blue Springs", "Bluffton", "Blythe", "Boca Raton", "Bogalusa", "Boise", "Bon Aqua", "Bonifay", "Boone", "Borger", "Boston", "Boulder", "Boulder City", "Bountiful", "Bourne", "Bowling Green", "Boynton Beach", "Bozeman", "Bradley", "Braggadocio", "Brainerd", "Brawley", "Brentwood", "Brevard", "Bridgeport", "Brighton", "BRINKLEY", "Brinnon", "BRISTOW", "Bronx", "Brookfield", "Brookneal", "Brooks", "Brooksville", "Broomfield", "Brownsville", "Brunswick", "Brush", "Bryce", "Buckeye", "Buena", "Bullard", "Burley", "Burlington", "Burnet", "Burnett", "Burns", "Burnsville", "Butte", "Cabazon", "Cahokia", "Caldwell", "Caledonia", "Calexico", "Calhoun", "California City", "Callaway", "Camarillo", "Camas", "Cambridge", "Cameron", "Cameron Park", "Camerson", "Canadian", "Canton", "Cape Girardeau", "Carlisle", "Carlsbad", "Carmi", "Caroleen", "Carrollton", "Carson City", "Cartersville", "Carthage", "Casa Grande", "Casper", "Catawba", "Cave Junction", "Cedar City", "Centennial", "Centerville", "Centralia", "Centre Hall", "Chadron", "Chandler", "Chapman", "Charles City", "Charleston", "Chatsworth", "Chefornak", "Chelan", "Chena Hot Springs", "Chenega Bay", "CHERRY POINT", "Chesapeake", "Chester", "Chesterfield", "Chicago", "CHICKALOON", "Chignik Lake", "Childress", "Chiloquin", "China Lake", "Chitina", "Chugiak", "Churchville", "Ciales", "Clarksburg", "Clarksdale", "Clayton", "Clear", "Clear Lake", "Clearwater", "Clermont", "Cliffdell", "Cloudcroft", "Clovis", "Coachella", "Coalinga", "Coatesville", "Coeur d'Alene", "Coldwater", "Colfax", "College Place", "College Station", "Colo. Springs", "Colorado Springs", "Colton", "Columbia", "Columbus", "Comstock", "Connersville", "Conroe", "Coolidge", "Cordova", "Corona", "Corpus Christi", "Cottage Grove", "Covington", "Crescent City", "Creston", "Crete", "Crivitz", "Crookston", "Cross Keys", "Crowley Ranch", "Crozet", "Culebras Island", "Cullman", "Culpeper", "Cumberland", "Custer", "Dallas", "Dania Beach", "Danville", "Darby", "Davenport", "Davis", "Dawson", "Dawsonville", "Dayton", "Daytona Beach", "De Leon Springs", "De Ridder", "Decatur", "Decherd", "Deer Isle", "Deer Park", "Deer Valley", "DeKalb", "Del Norte", "Deland", "Delano", "Delaware", "Delray", "Denton", "Denver", "Desert Center", "Destin", "Devils Lake", "Diamond Point", "Dickinson", "Dighton", "Dodge City", "Dorrance", "DOUGLAS BISBEE", "Doylestown", "Dubois", "Duluth", "Dumas", "Dunnellon", "Dunsmuir", "Durango", "Durhamville", "Dwight", "E Cameron 190", "Eagle Bay", "Eagleville", "Earlham", "Eastman", "Easton", "Eastsound", "Eden", "Eden Prairie", "Edgartown", "Edgewater", "Edinburg", "Edmond", "Egg Harbor Township", "El Cajon", "El Dorado", "El Paso", "Elberon", "Elbert", "Elberta", "Elbow Lake", "Elephant Butte", "Elizabethton", "Elk City", "Elk River", "Elkhart", "Ellendale", "Elverta", "Englewood", "Enumclaw", "Erhard", "Erwinna", "Escanaba", "Estes Park", "Eufaula", "Eureka", "Eveleth", "Everglades City", "Ewell", "Fairbanks", "Fairmont", "Fairview", "Fall City", "Fallbrook", "Falmouth", "Faribault", "Farmingdale", "Fayetteville", "Fenton", "Ferguson", "Fernandina Beach", "Ferriday", "Ferris", "Flagstaff", "Floresville", "Forest City", "Forsyth", "Fort Bridger", "Fort Davis", "Fort Lauderdale", "Fort Myers", "Fort Pierce", "Fort Smith", "Fort Worth", "Fort Yukon", "Fossil", "Franksville", "Frederick", "Fredericksburg", "Freehold", "Fresno", "Fruitport", "Fryeburg", "Ft. Lauderdale", "Ft. Pierce", "Fulton", "Fuquay Varina", "Gainesville", "Gaithersburg", "Galax Hillsville", "Galena", "Galliano", "Gambell", "Ganado", "Garden City", "Garden Ridge", "Gary", "Gatlinburg", "Geneva", "Georgetown", "Gerlach", "Gig Harbor", "Gilbert", "Gillett", "Glennallen", "Glenwood Springs", "Goldendale", "Goleta", "Gonvick", "Gonzales", "Goodyear", "Goshen", "Grand Forks", "Grand Ridge", "Grandfield", "Greeley", "Green Valley", "Greene", "Greeneville", "Greenfield", "GREENSBORO", "Greensburg", "Greenville", "Greenwater", "Greenwood", "Gregory", "Griffith", "Grinnell", "Grove Hill", "Gulf of Mexico", "Gunnison", "Gurdon", "Gustavus", "Guthrie", "Guyon", "Gypsum", "Hackettstown", "Haines", "Halifax", "Hamburg", "Hamilton", "Hamlin", "Hammonton", "Hampshire", "Hampton", "Hanover", "Hardwick", "Harrietstown", "Harrison", "Harrisonville", "Harrisville", "Hatch", "Havasu City", "Healy", "Helena", "Hendersonville", "Hernando", "Hickory", "Hillsboro", "Hilo", "Holbrook", "Holland", "Hollister", "Holly Lake Ranch", "Hollywood", "Homestead", "Honolulu", "Hope", "Hot Springs", "Hudson", "Huntingdon", "Huntsville", "Hurley", "Hysham", "Idaho Falls", "Iliamna", "Illiamna", "Immokalee", "Indianola", "Iola", "Jackson", "Jacksonville", "Jal", "Janesville", "Jasper", "Jeffersonville", "Jenison", "Jennings", "Jerome", "Joplin", "Joshua Tree", "Justin", "Kahului", "Kailua-Kona", "Kalamazoo", "Kalispell", "Kansas City", "Karluk", "Kemmerer", "Kenai", "Kensington", "Ketchikan", "Key Largo", "Key West", "Kinder", "KING SALMON", "Kingman", "Kingston", "Kissimmee", "Klamath Falls", "Knox", "Knoxville", "Kodiak", "KOLIGANEK", "KOTLIK", "KOTZEBUE", "Kuttawa", "La Belle", "La Grande", "La Salle", "Lafayette", "Lago Vista", "Lake City", "Lake Dallas", "Lake Leelanau", "Lake Wales", "Lakeland", "Lakewood", "Lamar", "Lancaster", "Langley", "Lansing", "Lantana", "Laramie", "Las Cruces", "Las Vegas", "Latangai Island", "Laurel", "Lawrence", "Lawrenceburg", "Lawrenceville", "Laytonsville", "Lee's Summit", "Leesburg", "Lenora", "Leominster", "Lexington", "Libby", "Lihue", "Lincoln", "Lincoln Park", "Linden", "Lindsay", "Live Oak", "Livermore", "Locust Grove", "Logan", "Lohn", "Long Beach", "LONGVIEW", "Lorain", "Los Alamos", "Los Angeles", "Los Banos", "Los Fresnos", "Louisville", "Loveland", "Lowell", "Lubbock", "Lufkin", "Lumberport", "Lumberton", "Lyndonville", "Mack", "Mackay", "Mackinac Island", "Madison", "Madras", "Magnolia", "Malden", "Malibu", "Manchester", "Manhattan", "Mansfield", "Manteo", "Manvel", "Marana", "Marathon", "Marco Island", "Maricopa", "Marietta", "Marion", "Marlboro", "Marshall", "Marshalltown", "Martinsville", "Maryville", "Maysvile", "Mazama", "McAllen", "McCall", "McCoy", "McGrath", "McGregor", "McHenry", "McKinley Park", "McKinney", "McMinnville", "Medford", "Melbourne", "Memphis", "Mena", "Menard", "Mesa", "Mexia", "Miami", "Miami Gardens", "Middleberry", "Middleton", "Middletown", "Midland", "Millbrook", "Milton", "Milwaukee", "Minden", "Mineral Canyon", "Mineral Wells", "Minneapolis", "Missoula", "Mitchell", "Mitchellville", "Mobile", "Modesto", "Molino", "Moneta", "Monongahela", "Montague", "Montezuma", "Montgomery", "Monticello", "Montrose", "Moran", "Moriarty", "Moultonboro", "Mount Airy", "Mount Pleasant", "Mountain Home", "Mt Vernon", "Mt. Comfort", "Mukilteo", "Mullen", "Murfreesboro", "Murrieta", "Murtaugh", "Myrtle Grove", "N Myrtle Beach", "N. Las Vegas", "N. Myrtle Beach", "Nacogdoches", "Nampa", "Nanwalek", "Naples", "Navajo Dam", "Necedah", "New Albany", "New Braunfels", "New Columbia", "New Hudson", "New Orleans", "New Smyrna Beac", "New Stuyahok", "New Tazewell", "New York", "Newark", "Newberg", "Newfane", "Newton", "Nightmute", "Nome", "Norman", "North Las Vegas", "North Pole", "Norwood", "Nulato", "Oakland", "Oakley", "Ocala", "OGDEN", "Ojai", "Oklahoma City", "Okmulgee", "Omro", "Ontario", "Opelousas", "Orange", "Orangeburg", "Orem", "Osage Beach", "Oshkosh", "Oso", "Owatonna", "Owensville", "Ozawkie", "Pahokee", "Palm Bay", "Palm Coast", "Palmdale", "Palmer Lake", "Pampano Beach", "Panama City", "Panama City Beach", "Park Rapids", "Park Valley", "Parkland", "Patuxent River", "Pawhuska", "Payson", "Peachtree City", "Pearland", "Pearsall", "Pell City", "Penwell", "Perry", "Petersburg", "Peyton", "Phenix City", "Philadelphia", "PHOENIX", "Pine Bluffs", "Pittsburgh", "Pixley", "Placerville", "Plano", "Plant City", "Plato Center", "Plymouth", "Point Roberts", "Pollock Pines", "Pompano Beach", "Ponca City", "Pontiac", "Port Huron", "Port Matilda", "Port Orange", "Port Townsend", "Portage County Airport", "Portland", "Portsmouth", "Poughkeepsie", "Praire Du Sac", "Prescott", "Prosser", "Pueblo", "Puntilla", "Quartzsite", "Quinlan", "Ramona", "Ravenna", "Rawlings", "Rawlins", "Raymond", "Rayville", "Reading", "Redding", "Refugio", "Revere", "Rexburg", "Rhinelander", "Richland", "Ridgefield", "Rio Blanco", "Rio Linda", "Rio Rancho", "Rio Vista", "River Ranch", "Riverside", "Roanoke", "Robbinsville", "Rochester", "Rockland", "Rockport", "Rockwood", "Rome", "Rosamond", "Rosedale", "Rosemount", "Roundup", "Roxbury", "RUTLAND", "Saint Louis", "Saint Marys", "Salem", "Salinas", "Salome", "Salt Lake City", "San Angelo", "San Antonio", "San Diego", "San Jose", "San Juan", "San Luis Obispo", "San Marcos", "San Pedro", "San Simeon", "Sanford", "Santa Ana", "Santa Barbara", "Santa Clarita", "Santa Fe", "Santa Paula", "Santa Rita", "Santa Rosa", "Santa Teresa", "Sarasota", "Scappoose", "Schaumburg", "Schenectady", "Scotts", "Scribner", "Seagoville", "Seattle", "SEBASTIAN", "Sebring", "Sedalia", "Sedona", "Seldovia", "Seligman", "Selma", "Seminole", "Seward", "Shallotte", "Sharon", "Shaw Island", "Sheldon", "Shelter Cove", "Sheridan", "Sherman", "Shreveport", "Sierra Vista", "Siler City", "Silver City", "Sisters", "Skwentna", "Slaton", "Snohomish", "Soldotna", "Somerville", "Sommerville", "Sonoma", "South Harrison Township", "Spanish Fork", "Sparta", "Springdale", "Springhill", "St Charles", "St Mary's", "St Petersburg", "St. Augustine", "St. Elmo", "St. Johns", "St. Paul", "St. Petersburg", "Star City", "Statesville", "Stephenville", "Sterling", "Stevens Point", "Stevensville", "Stockton", "Stony River", "Stow", "Strafford", "Sturgeon Bay", "Sugar Land", "Sullivan", "Summerville", "Surrey", "Sylvan Grove", "Syracuse", "Tahoma", "TALKEETNA", "Talladega", "Tallahassee", "Tampa", "Taylorsville", "Telluride", "Temple", "Terrell", "Teterboro", "The Dalles", "Thomson", "Three Lakes", "Three Rivers", "Tipton", "Titusville", "Toccoa", "Togiak", "Toledo", "Tomahawk", "Toms River", "Tonopah", "Tooele", "Torrance", "Toughkenamon", "Tracy", "Traverse City", "Trenton", "Troutdale", "Troy", "Truckee", "Truth or Consequences", "Tuckerman", "TUCSON", "Tujunga", "Tulelake", "Tulsa", "Ugashik", "Unalaska", "Union City", "Union Mills", "Uniondale", "Unknown", "Upland", "Uvalde", "Valdosta", "Valparaiso", "Van Nuys", "Vega Baja", "Venice", "Venus", "Virden", "Virginia Beach", "Visalia", "Wabash", "Walcott", "Walhalla", "Walkerville", "Walnut Grove", "Walthourville", "Walton", "Washington", "Wasilla", "Waterloo", "Watertown", "Waterville", "Watkins", "Wautoma", "Wayne", "Waynesburg", "Weirsdale", "Wells", "Wellton", "Wenatchee", "West Carrollton", "West Chicago", "West Dover", "West Gardiner", "West Palm Beach", "West Point", "Westerly", "Whitmore Lake", "Wht Sulphur Spg", "Wichita Falls", "Willard", "Williamson", "Willimantic", "Willits", "Willow", "Willow Springs", "Willows", "Wilmot", "Winamac", "Winkelman", "Winnemucca", "Winston", "Winston Salem", "Winter Haven", "Wonewoc", "Worland", "Worthington", "Wyoming", "Yabucoa", "Yakima", "Yakutat", "Yancey", "Yuma", "Zephyrhills"]; 
+         
+         for(var i = 0; i < options_city.length; i++) {
+             var opt = options_city[i];
+             var el = document.createElement("option");
+             el.textContent = opt;
+             el.value = opt;
+             select_city.appendChild(el);
+         }
+         
+         var select_acmanu = document.getElementById("aircraft_manufacturer_ID");
+         var options_acmanu = ["", "___Unknown___AircraftManufacturer", "2001 MCGIRL", "AB SPORTINE AVIACIJA", "Abruzzo", "ADAMS DONALD L", "ADAMS JOHN R JR", "Adolphson", "Aero Commander", "AERO SMART SOLUTIONS INC", "AERO TEK INC.", "AERO VODOCHODY", "Aeronca", "Aeros", "Aerospatiale", "Aerostar", "AEROSTAR ACFT CORP OF TEXAS", "AEROSTAR INTERNATIONAL INC", "Aerotek", "AGUSTA AEROSPACE CORP", "Air Command", "AIR CREATION", "Air Creations", "Air Tractor", "AIR TRACTOR INC", "AIRBORNE", "AIRBORNE (AUSTRALIA)", "AIRBORNE WINDSPORTS PTY LTD", "AIRBUS", "Aircraft Mfg & Dev. Co. (AMD)", "AIRCRAFT MFG & DEVELOPMENT CO", "ALEXANDER DUANE A", "Allied Ag Cat Productions", "AMERICAN", "AMERICAN AIR RACING LTD", "American Champion (ACAC)", "AMERICAN CHAMPION AIRCRAFT", "American General Aircraft", "AMERICAN LEGEND AIRCRAFT CO", "American Legend Aircraft Co.", "ANDERSON ANDREAS", "Anthony J. Bencivenga", "ANTONOV", "ANTONOVICH ANTON B", "Arima", "Arion Aircraft LLC", "ARROW FALCON EXPORTERS INC", "Arthur", "ARVOLD JORDON R", "AUTOGYRO GMBH", "AVES DOUGLAS JAMES", "Aviat", "AVIAT AIRCRAFT INC", "Ayres", "Ayres Corporation", "Balkema", "Ballhagen/Shyrock", "Balloon Works", "BALONY KUBICEK SPOL", "Barnard/Stancil", "BARNES STEVEN D", "Barr", "Bass", "Beagle Aircraft", "BEDECORP LLC", "Beech", "Beechcraft", "Bell", "BELL HELICOPTER", "BELL HELICOPTER TEXTRON", "BELL HELICOPTER TEXTRON CANADA", "Bellanca", "BERRY DEAN", "Bezinque", "Blanik", "Boeing", "Bombardier", "Bombardier Canadair", "BOMBARDIER INC", "BORING ROBERT BURTON", "BRANTLY", "Brantly Helicopter", "Bratton Experimental Homebuilt", "British Aerospace", "Britten-Norman", "BUCHANAN DAN", "Buckeye", "BUCKEYE AVIATION", "Burkhart Grob", "Burkhart Grob Flugzeugbau", "BUTLER AIRCRAFT COMPANY", "BUTLER JOHN R", "BUTTERHOF ANTHONY J", "Byrd", "Cameron Balloons", "CAMPBELL DAVID", "CAMPBELL JOHN", "Canadair", "Carpenter", "Carris", "Cassutt", "Ceridono", "Cessna", "CESSNA AIRCRAFT CO", "CGS", "Champion", "CHARLES A BRAZIL", "Christen Industries", "Cirrus", "CIRRUS DESIGN CORP", "Cirrus Design Corp.", "Cirrus Design Corporation", "Clarence F. Callahan", "Clark", "Classic Aircraft Corp", "Classic Aircraft Corp.", "COLUMBIA AIRCRAFT MFG", "COLYAER SL", "COMBS EARL W", "COMMANDER AIRCRAFT CO", "Consolidated Aeronautics Inc.", "CONSTRUCCIONES AERONAUTICAS SA", "CONTINENTAL COPTERS INC.", "CONVAIR", "COOPER MICHAEL C", "COSMOS", "Costruzioni Aeronautiche", "COSTRUZIONI AERONAUTICHE TECNA", "Couvillion", "CUB CRAFTERS", "CUB CRAFTERS INC", "Cubcrafter", "CUBCRAFTERS INC", "Culver", "CURTISS WRIGHT", "Czech Aircraft Works", "CZECH AIRCRAFT WORKS SPOL SRO", "Dassault/Sud", "Davenport (Van's)", "David S Robbins", "DAYTON A BABCOCK", "de Havilland", "Degair", "Degelia", "DEHAVILLAND", "Demmer", "DIAMOND", "DIAMOND AIRCRAFT IND GMBH", "DIAMOND AIRCRAFT IND INC", "Diamond Aircraft Industries", "DOGGETT JACK", "DORMAN", "Douglas", "DOWNER", "DRAKE", "Dralle (Van's Aircraft)", "DRZYMALA", "DUSENBERRY MARK J", "Dutton", "EAGLE", "Eagle Balloons Corp.", "ECKENRODE CARL J", "ECLIPSE AVIATION CORP", "EDWARDS DOUGLAS L", "Eggleston Daniel", "EIPPER", "Elliott", "EMBRAER", "Enstrom", "Erickson", "Eurocopter", "Eurocopter Deutschland", "EUROCOPTER DEUTSCHLAND GMBH", "Eurocopter France", "EVEKTOR-AEROTECHNIK AS", "EXTRA FLUGZEUGBAU GMBH", "EXTRA FLUGZEUGPRODUKTIONS- UND", "Fairchild", "FAIRCHILD HELI-PORTER", "Fairchild Merlin", "Fairchild Swearingen", "Fetherolf", "FIREFLY", "FLEET", "Flight Design", "FLIGHT DESIGN GMBH", "Fox", "FOX JACK G", "FREDERICK HAYS-ROTH", "FREEMAN HERITAGE COLLECTION", "GARZA", "GATES LEAR JET", "GATES LEARJET CORP.", "Gerald Dan Coppock", "Gerlach", "Gilbertson", "GILL CRAIG", "GINGERICH ALTON & SLAGEL DEAN", "GIORGIO ANTHONY J", "Giroux", "Glaser-Dirks", "Glasflugel", "Globe", "Gordon", "Gray", "Gray Jack", "Great Lakes", "GREEN GARY E", "Grumman", "GRUMMAN ACFT ENG COR", "Grumman American", "GRUMMAN AMERICAN AVN. CORP.", "Grumman-Schweizer", "Gulfstream Aerospace", "GULFSTREAM AM CORP COMM DIV", "Gulfstream American", "Hahn", "Hallburg", "HANDY JAMES L", "HANEY JOHN F B", "HANSEN DAVID DANIEL", "HARING CLAY", "Harleman", "HARTLINE J BON", "HARTTER LENNY J", "HAWKER BEECHCRAFT CORP", "HAWKINS AUGUST E", "HEAD BALLOONS INC", "Helio", "Helio Aircraft LTD", "HELPLING HELEN C", "HEMP TIMOTHY", "HENDERSON W A/JOHNSON W L", "Henes", "HILLER", "Hirsch", "HOLLEY CAROL L", "Holloway", "HOLMGREEN JOHN B", "Homebuilt", "Houston", "Hughes", "HUGHES HELICOPTERS INC", "HUGHES WILLIAM J", "ICON AIRCRAFT INC", "INIZIATIVE INDUSTRIALI ITALIAN", "Interplane", "Interstate", "J.D. Calhoun, Inc.", "JACOBS", "JACQUES J. MISTROT", "JetProp DLX Piper", "JOE SALOMONE", "JOHNSON", "JOHNSON GLENN L", "Johnson Walter A", "JOHNSTON DOUGLAS S", "JONES", "Just Aircraft LLC", "Kai Engstad", "Karl & Dot, Inc.", "Kennedy", "KERR GERALD", "Kevin Leue", "KEVIN METZLER", "KIDD CHRIS", "KitFox", "Kittleson", "Knoepflein", "Koleno", "Krotje", "Lake", "LAMB-ROBIN", "Lambert John G", "LAMINAR", "Lancair", "LANCAIR COMPANY", "LANCE M HOOLEY", "Landoll", "LANTZAIR FLYERS INC", "LATHROP STEVEN A", "Learjet", "LEONARDO", "LESTER ROBERT E", "LET", "LIVPT INC", "Lockheed", "LOEHLE AIRCRAFT CORP", "LONG", "Lonnie Johnson", "LORENZ STEPHEN", "LUCAS D E/ LUCAS K A", "Luscombe", "MAGNAGHI AERONAUTICA SPA", "Malechek", "MALINOWSKI WALTER S", "Marino", "MARRERO ANDRES", "MASON HAL J", "MASON ROBERT", "Master Donald C", "Mathews", "Maule", "MAURER ELMO A", "MAXAIR DRIFTER", "MCADAM W E", "McDonnell Douglas", "MCDONNELL DOUGLAS HELICOPTER", "McDonnell Douglas Helicopters", "MCFARLAND BILL", "McLaughlin", "McWhorter", "MD HELICOPTER", "MD Helicopter Inc.", "Meshko Zenair", "MESSERSCHMITT-BOLKOW- BLOHM", "Meyers", "Micco Aircraft Company", "Mielec", "MIKOYAN GUREVICH", "MILLER RAYMOND A", "Mitsubishi", "MOFFITT OSCAR/ KIT PROSTAR A/C", "MONNETT JOHN T JR", "Monocoupe", "MONROIG PEDRO J", "Mooney", "MOONEY AIRCRAFT CORP.", "MOONEY AIRPLANE CO INC", "Moran", "MOSQUITO", "MUFFETT", "MUSTANG", "NANCHANG", "NANCHANG CHINA", "National Ballooning", "Noble", "NOKES MATTHEW", "Norris", "North American", "North American Rockwell Corp.", "NORTH WING UUM INC", "NORTHWING DESIGN", "NUSE GEORGE", "Ogden Aubrey D", "OHLGREN", "OHLGREN BRENT E", "Olson", "Oneil", "PACIFIC AEROSPACE CORP LTD", "Parkwood Enterprises, Inc", "Paulick", "PIAGGIO", "Piel Emeraude", "Pilatus", "Piper", "PIPER/CUB CRAFTERS", "Pipistrel", "PITTMAN EDDIE G", "Pitts", "POLLACK", "PORTER GLEN", "POTEZ-AIR FOUGA", "POWRACHUTE LLC", "Prendergast", "PRICHARD KEVIN", "PZL", "QUICKSILVER", "Quist", "RANS", "RARDIN WILLIAM I", "RATCLIFFE JOHN A", "RAUDENBUSH ERNIE", "Rawdon Bros. Aircraft", "RAYMOND Z BROWN", "Raytheon Aircraft Company", "Remos", "REPUBLIC", "Rich", "Rick Campbell", "RIGGS KENNETH W", "Riley", "ROBERT A MILLER", "Robert D. Wood", "ROBERT J REIMBOLD", "Robinette", "Robinson", "ROBINSON HELICOPTER", "ROBINSON HELICOPTER CO", "ROBINSON HELICOPTER COMPANY", "ROBINSON MICHAEL E", "ROCHLIN PAUL JR", "Rockwell", "Rockwell International", "RONALD J BENDER", "Rose", "Rotorway", "RUDOLPH RALPH MONROE", "Russell", "S C AEROSTAR S A", "S.N.I.A.S.", "Saab-Scania AB (Saab)", "SABRE", "SADLER TERRY", "SAFARI", "Samual G. DaSilva", "SANDERS BEN G III", "Sanderson", "SAPP LARRY E", "Sawyer", "SCHAFFER", "Schempp-Hirth", "SCHEMPP-HIRTH FLUGZEUGBAU", "Schilleci", "Schleicher", "SCHMIDT DONALD L", "SCHOSANSKI JOHN H", "Schreder", "Schulke", "Schweizer", "SCHWEIZER AIRCRAFT CORP", "SCOTTISH AVIATION", "SEA & SKY INC DBA KRUCKER ACFT", "SHAFFER WILLIAM C", "Shear", "Short Bros.", "SHORT BROS. & HARLAND", "SIKORSKY", "SILVAIRE", "SIX CHUTTER", "Smith", "SMITH Capella", "Smith Douglas J.", "Smith, Ted Aerostar", "SNYDER TODD W", "SOCATA", "SOFTEX INVEST LLC", "SOUTHERLAND", "Spackman", "Sparke", "SPECTRUM", "SPERLING RICHARD G", "STAFFORD WAYNE H", "STAMPER", "STAUDACHER AIRCRAFT INC", "STEARMAN", "STEPHENSON", "Stevenson", "Stinson", "STIRLING", "Stits Flut-R-Bug", "Sukhoi", "SWANSON", "Swearingen", "Tanner", "Taylor", "Taylorcraft", "TEAL HARRY H", "Temco", "TEXAS HELICOPTER CORP", "Texas Helicopter Corporation", "Thornley", "THUNDER & COLT", "TITAN AEROSPACE HOLDINGS INC", "TL ULTRALIGHT SRO", "TODD FOLEY", "Ulrich Christen", "UNKNOWN", "Van Heeswyk", "Vans Aircraft", "VANS AIRCRAFT INC", "Vans Aircraft, Inc.", "VARGA AIRCRAFT CORP.", "VENABLES ZENITH", "Waco", "WACO CLASSIC AIRCRAFT", "Walker", "Walker Phil", "Wallace", "Wampach", "Weatherly", "WEAVER DAVID A", "WEBER", "WELCH THOMAS", "Wessel", "WESTCOTT", "WILKINSON LORIN L", "William E. Hess", "William Wright", "WILSON WILLIAM M", "Wing", "Wing John R", "WINGS AN THINGS INC", "WINGTIP TO WINGTIP, LLC", "Wood", "WRB Associates, LLC.", "WSK PZL Mielec", "WSK-PZL WARZAWAOKECIE", "XTREMEAIR GMBH", "YAKOVLEV", "Yeager Inc.", "YOST EDWIN S", "YUNEEC"]
+         
+         for(var i = 0; i < options_acmanu.length; i++) {
+             var opt = options_acmanu[i];
+             var el = document.createElement("option");
+             el.textContent = opt;
+             el.value = opt;
+             select_acmanu.appendChild(el);
+         }
+         
+         var select_enmanu = document.getElementById("engine_manufacturer_ID");
+         var options_enmanu = ["", "___Unknown___EngineManufacturer", "Adolphson", "Aero Engines", "Aero Sport Power", "Aero Sport Power (Lycoming)", "Aero Sport Power Ltd", "Aeronca", "Aerosport", "AeroVee", "Airesearch", "Allied Signal", "Allison", "Allison Rolls Royce", "Allison/Rolls Royce", "AMA/EXPR", "Austro", "Avco Lycoming", "Bombardier", "Bombardier Rotax", "Bombardier-Rotax", "Burner Balloon Works", "CFM", "CFM International", "CFM INTL", "Chevy", "Chevy Geo Metro", "CONT MOTOR", "Continental", "Continental (Exp)", "CONTINENTAL MOTOR COMPANY", "Continental Motors", "Continental Motors Group", "Continental Motors Inc", "Continental Motors Inc.", "Continental Motors, Inc.", "Contintental", "Corvair", "Cub Crafters", "Curtis Wright", "Diemech Turbine", "ECi", "Experimental", "Fairchild", "Ford", "Franklin", "Garrett", "Garrett-AiResearch", "Garrett/Airesearch", "GE", "General Electric", "General Motors", "Hirth", "Honda", "Honeywell", "Honeywell Garrett", "IAE", "Inntec", "Ivchenko", "Jabaru", "Jabiru", "Jacobs", "JPX Aircraft Engines", "Kinner", "LOM", "LOM Praha", "LOTAREV", "Lycoming", "Lycoming Engines", "Mazda", "Midwest", "Mosler", "MOTORSTAR", "MZ", "NONE", "NSI", "P & W", "P/W CANADA", "P&W", "P&W CANADA", "Pratt & Whitney", "Pratt & Whitney Aircraft of Ca", "Pratt & Whitney Canada", "Pratt & Whitney-Canada", "Pratt and Whitney", "PWC", "PZL", "PZL WSK", "Ramazani & Assoc.", "Rolls Royce", "Rolls Royce/Allison", "ROLLS-ROYC", "Rolls-Royce", "Rolls-Royce Allison", "Rotax", "Rotex", "Rotorway", "SNECAMA/GE", "Solo", "Subaru", "Superior", "Suzuki", "Teledine Continental Motors", "Teledyne Continental", "Teledyne Continental Motors", "Teledyne-Continental", "Textron Lyc.", "Textron Lycoming", "Tomanski", "Turbomeca", "Tyledyne Continental Motors", "U/A CANADA", "unknown", "Vedeneyev", "Vendeneyev", "Vendenyev", "Volkswagen", "Volkswagon", "Walter", "Warner", "Westinghouse", "WILLIAMS", "Wright", "WSK PZL Kalis", "Yuneec"]
+         
+         
+         for(var i = 0; i < options_enmanu.length; i++) {
+             var opt = options_enmanu[i];
+             var el = document.createElement("option");
+             el.textContent = opt;
+             el.value = opt;
+             select_enmanu.appendChild(el);
+         }
+         
+         
+         var select_pilotcerti = document.getElementById("pilot_certificate_ID");
+         var options_pilotcerti = ["", "___Unknown___PilotCertificate", "Airline Transport", "Airline Transport; Commercial", "Airline Transport; Commercial; Flight Engineer", "Airline Transport; Commercial; Flight Engineer; Private", "Airline Transport; Commercial; Military", "Airline Transport; Commercial; Private", "Airline Transport; Commercial; Sport Pilot", "Airline Transport; Flight Engineer", "Airline Transport; Flight Engineer; Private", "Airline Transport; Flight Instructor", "Airline Transport; Flight Instructor; Commercial", "Airline Transport; Flight Instructor; Commercial; Flight Engineer", "Airline Transport; Flight Instructor; Commercial; Flight Engineer; Private", "Airline Transport; Flight Instructor; Flight Engineer", "Airline Transport; Flight Instructor; Flight Engineer; Military", "Airline Transport; Flight Instructor; Foreign", "Airline Transport; Flight Instructor; Military", "Commercial", "Commercial; Flight Engineer", "Commercial; Foreign", "Commercial; Foreign; Private", "Commercial; Military", "Commercial; Military; Private", "Commercial; Military; Private; Student", "Commercial; Private", "Commercial; Private; Recreational", "Commercial; Student", "Flight Instructor", "Flight Instructor; Commercial", "Flight Instructor; Commercial; Military", "Flight Instructor; Commercial; Private", "Flight Instructor; Private", "Flight Instructor; Sport Pilot", "Foreign; Private", "Foreign; Private; Recreational", "Military; Private", "None", "Private", "Private; Sport Pilot", "Private; Student", "Recreational; Sport Pilot", "Sport Pilot", "Student"]
+         
+         
+         for(var i = 0; i < options_pilotcerti.length; i++) {
+             var opt = options_pilotcerti[i];
+             var el = document.createElement("option");
+             el.textContent = opt;
+             el.value = opt;
+             select_pilotcerti.appendChild(el);
+         }
+         
+         
+         
+         var select_runsur = document.getElementById("RunSur_ID");
+         var options_runsur = ["", "___Unknown___RunwaySurfaceType", "Asphalt", "Asphalt; Concrete", "Asphalt; Dirt; Gravel", "Asphalt; Grass/turf", "Asphalt; Grass/turf; Gravel", "Asphalt; Gravel", "Asphalt; Snow", "Concrete", "Concrete; Grass/turf; Gravel", "Concrete; Gravel", "Concrete; Metal/Wood", "Dirt", "Dirt; Grass/turf", "Dirt; Grass/turf; Gravel", "Dirt; Gravel", "Dirt; Snow", "Grass/turf", "Grass/turf; Gravel", "Grass/turf; Snow", "Gravel", "Gravel; Ice; Snow", "Gravel; Snow", "Ice; Snow", "Metal/Wood", "N/A", "Snow", "Unknown", "Water"]
+         
+         
+         
+         for(var i = 0; i < options_runsur.length; i++) {
+             var opt = options_runsur[i];
+             var el = document.createElement("option");
+             el.textContent = opt;
+             el.value = opt;
+             select_runsur.appendChild(el);
+         }
+         
+         
+         
+      </script>

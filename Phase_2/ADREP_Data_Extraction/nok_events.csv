@@ -1,0 +1,124 @@
+Collision of towed aircraft with object/obstacles (Collision of towed aircraft with  object/obstacles)@#@99010060
+Vehicle traffic violation (Vehicle traffic violation)@#@99010049
+Animal control (Animal control)@#@99010052
+Aircraft marshalling (Aircraft marshalling)@#@99010050
+Aircraft parking (Aircraft parking)@#@99010051
+Interference by LASER/Beamer  (Interference by LASER/Beamer)@#@99010095
+Clearance - not suitable for aircraft (Clearance - not suitable for aircraft)@#@99010092
+Coordination (Coordination)@#@99010048
+Person fell/ejected from basket (Person fell/ejected from basket)@#@99010094
+Cabin crew substained in turbulence (Cabin crew substained in turbulence)@#@99010059
+Electrical static discharge (Electrical static discharge)@#@99010054
+Flight Plan (Flight Plan)@#@99010037
+Flight plan discrepancy (Flight plan discrepancy)@#@99010036
+Incorrect flight plan (Incorrect flight plan)@#@99010031
+Helicopter external load/cargo (Helicopter external load/cargo )@#@99010038
+External load - caught/trapped (External load - caught/trapped)@#@99010044
+External load - contact with aircraft structure or component (External load - contact with aircraft  structure or component )@#@99010042
+External load - contact with main rotor (External load - contact with main rotor)@#@99010064
+External load - contact with tail rotor (External load - contact with tail rotor)@#@99010065
+External load - contact with terrain/object (External load - contact with terrain/object)@#@99010043
+External load - dropped/released/jettisoned (External load - dropped/released/jettisoned )@#@99010039
+External load - Dropped/Released/Jettisoned – intentional (Intentional drop of external load)@#@99010040
+External load - Dropped/Released/Jettisoned - unintentional (Unintentional drop of external  load)@#@99010041
+External load - fell out of sling (External load - fell out of sling)@#@99010063
+External load - oscillations/rotations (External load - oscillations/rotations)@#@99010045
+External load - other (External load - other )@#@99010046
+Rope/Line contact with fuselage (Rope/Line contact with fuselage)@#@99010068
+Rope/Line contact with main rotor (Rope/Line contact with main rotor)@#@99010066
+Rope/Line contact with tail rotor (Rope/Line contact with tail rotor)@#@99010067
+Helicopter - mast bumping (Helicopter - mast bumping)@#@99010047
+Loss of tail rotor effectiveness (LTE) (Loss of tail rotor effectiveness (LTE))@#@99010061
+(definition FAA Advisory Circular 90-95, CAA UK CAP 768, and FAA Rotorcraft Flying Handbook) other (other)@#@99010062
+Injuries sustained by persons while being part of a sling load or being hoisted. (Injuries hoist/sling  operations)@#@99010070
+Winch launching - Rope failure (Rope failure)@#@99010001
+Aggressive passenger  (Aggressive passenger )@#@99010096
+Cockpit intrusion (Cockpit intrusion)@#@99010084
+Drunken passenger  (Drunken passenger)@#@99010097
+Smoking in cabin/ toilet (Smoking in cabin/ toilet)@#@99010091
+Use of mobile and PEDs (Use of mobile and PEDs)@#@99010086
+Fuel imbalance warning triggered (Fuel imbalance warning triggered)@#@99010057
+Low fuel level warning triggered (Low fuel warning triggered)@#@99010072
+St Elmo's Fire (St Elmo's Fire)@#@99010093
+(ATA Code:0101) An event in which the aircraft fails to achieve its published performance. 0500 TIME LIMITS/MAINTENANCE CHECKS (0500 TIME LIMITS/MAINTENANCE CHECKS)@#@99010073
+scheduled and unscheduled). 0600 DIMENSIONS AND AREAS (0600 DIMENSIONS AND AREAS)@#@99010074
+measurement used. 0700 Lifting and shoring related event (0700 Lifting and shoring related event)@#@99010002
+shoring procedures that may be employed during aircraft maintenance and repair. 0800 Leveling and weighting related event (0800 Leveling and weighting related event)@#@99010003
+(ATA Code:1200) An event involving the servicing of the aircraft. 1400 Miscellaneous hardware related event (1400 Miscellaneous hardware)@#@99010004
+1820 Helicopter noise analysis system related event 2000 STANDARD PRACTICES-AIRFRAME  (2000 STANDARD PRACTICES-AIRFRAME )@#@99010075
+cooling, moisture controlling, filtering, and treating the air used to ventilate areas of the fuselage within the pressure vessel. 2150 Cabin cooling system (2150 Cabin cooling system)@#@99010055
+Equipment cooling system (Equipment cooling system)@#@99010056
+containers and dispensers. 2550 Additional Compartments related event (2550 Additional Compartments )@#@99010006
+rest compartments, sleeping compartments etc. 2560 Emergency equipment related event (2560 Emergency equipment)@#@99010005
+lamp, PC board, diode and throttle micro switch. 3110 Instrument and control panels related event (3110 Instrument and control panels)@#@99010013
+breakers, fuses, etc.   Also includes general coverage of instrument panel vibrators and other panel accessories. 3120 Independent Instruments related event (3120 Independent Instruments)@#@99010014
+forces. Typical parts are hour meter, pressure switch, line, etc. 3140 Central Computers related events (3140 Central Computers)@#@99010015
+as engine, airplane power and central warning indicators when combined into a central display. 3160 Central Display systems related event (3160 Central Display systems)@#@99010016
+Events related to systems and components which give visual display of conditions in unrelated systems. 3170 Automatic Data Reporting Systems related events (3170 Automatic Data Reporting Systems)@#@99010017
+(ATA Code:3400) An event involving the units and components which provide aircraft navigational information. 3410 Flight Environment Data systems realeted event (3410 Flight Environment Data)@#@99010018
+Flight management system related event (ATA Code:3418) (3418 Flight management  system)@#@99010069
+3450 Dependent Position Determining System related event (3450 Dependent Position Determining  System)@#@99010019
+fixed components which store and furnish a means of removal of water and waste. 4100 Water ballast system (4100 Water ballast system)@#@99010020
+ballast. 4200 Integrated modular avionics related event (4200 Integrated modular avionics)@#@99010021
+implemented in dedicated hardware. The actual system functions are covered in their respective ATA chapters. 4400 Cabin systems related event (4400 Cabin systems)@#@99010022
+Chapter 23 or Chapter 46. 4500 Central Maintenance Computer (4500 Central Maintenance Computer)@#@99010023
+system or component malfunction. 4600 Information systems (4600 Information systems)@#@99010024
+shared with other systems, such as flight deck printer or general use display. 4700 Inert gas system related event (4700 Inert gas system)@#@99010025
+load/unload cargo and other cargo related systems.   Does not include aircraft structure which is in Capter 53 5040 not used (5040 not used)@#@99010010
+99010010 5010 Cargo Compartments  related events (5010 Cargo Compartments)@#@99010007
+dropping of the sling load is covered under 'consequential events' 5020 Cargo Loading Systems related event (5020 Cargo Loading Systems)@#@99010008
+restrain, guide or service cargo.   Includes drive systems, rollers, latches, restraint nets etc. 5030 Cargo Related Systems related events (5030 Cargo Related Systems)@#@99010009
+systems etc. Does not include Cargo Loading Systems. 5050 Accessory Compartments related event (5050 Accessory Compartments )@#@99010011
+hydraulic-electrical/electronic equipment racks, main battery structure etc. 5060 Insulation (5060 Insulation)@#@99010012
+5510 Horizontal Stabilizer/Canard Structure related event (5510 Horizontal Stabilizer/Canard  Structure)@#@99010026
+structure. 5530 Vertical Stabilizer related event (5530 Vertical Stabilizer)@#@99010027
+5740 Wing Leading Edge and Leading Edge Devices (5740 Wing Leading Edge and Leading Edge  Devices)@#@99010028
+5750 Wing Trailing Edge  / Trailing Edge Devices (5750 Wing Trailing Edge  / Trailing Edge  Devices)@#@99010029
+6000 STANDARD PRACTICES - PROPELLER/ROTOR (6000 STANDARD PRACTICES -  PROPELLER/ROTOR)@#@99010076
+(ATA Code:6530) An event involving the helicopter's tail rotor 45 degree gearbox. 6600 Folding blades/pylon (6600 Folding blades/pylon)@#@99010030
+(ATA Code:6700) An event involving the rotorcraft control systems. 7000 STANDARD PRACTICES - ENGINES (7000 STANDARD PRACTICES - ENGINES)@#@99010077
+drive shaft but does not include those accessory drives which are bolted to and are immediately adjacent to the engine. 8400 PROPULSION AUGMENTATION (8400 PROPULSION AUGMENTATION)@#@99010078
+Reciprocating engine - Vibration 9100 CHARTS (9100 CHARTS)@#@99010079
+Decompression (Decompression)@#@99010080
+Fire - crew rest compartment (Fire - crew rest compartment)@#@99010083
+Fire - Oven (Fire - Oven)@#@99010082
+Fire - Tailpipe Fire (Fire - Tailpipe Fire)@#@99010081
+Fumes - Crew rest compartment (Fumes - Crew rest compartment)@#@99010088
+Fumes - Oven (Fumes - Oven)@#@99010089
+Smoke - Crew rest compartment (Smoke - Crew rest compartment)@#@99010087
+Smoke - Oven (Smoke - Oven)@#@99010090
+Abrupt stop (Abrupt stop)@#@99010034
+Active flow control (Active flow control)@#@99010100
+Active flow control initiated (Active flow control initiated)@#@99010101
+Active flow control performed (Active flow control performed)@#@99010102
+Bounced landing (Bounced landing)@#@99010053
+Clearance cancelled (Clearance cancelled)@#@99010032
+Evasive manoeuvre (Evasive manoeuvre)@#@99010071
+Gravity Gear Extension (Gravity Gear Extension)@#@99010085
+Rotation - delayed (Rotation - delayed)@#@99010033
+Rotation - early (Rotation - early)@#@99010035
+Near tail tipping (Near tail tipping)@#@99010099
+Tail tipping (Tail tipping)@#@99010098
+Events related to maintenance and repair of the aircraft (Aircraft maintenance and Repair)@#@99010103
+Defect/malfunction found resulting from mandatory action (Defect/malfunction found resulting from  mandatory action)@#@99010113
+Defect/malfunction found resulting from mandatory action– first  (Defect/malfunction found  resulting from mandatory action– first )@#@99010114
+Defect/malfunction found resulting from mandatory action- subsequent (Defect/malfunction found  resulting from mandatory action- subsequent)@#@99010115
+Early defect in a life-controlled part (Early defect in a life-controlled part)@#@99010106
+Failure of emergency system or equipment (Failure of emergency system or equipment)@#@99010116
+Hot bleed air leak (Hot bleed air leak)@#@99010105
+Incorrect assembly of parts or components   (Incorrect assembly )@#@99010104
+Misleading, incorrect or insufficient maintenance data (Maintenance data or procedures )@#@99010120
+Non-compliance - maintenance procedures (Non-compliance - maintenance procedures)@#@99010117
+Failure, malfunction or defect of ground equipment used for testing (Malfunction test or check  equipment)@#@99010121
+Structural damage or deterioration (Structural damage or deterioration)@#@99010107
+Structural damage or deterioration to primary structure (Structural damage or deterioration to  primary structure)@#@99010108
+Structural damage or deterioration to secondary structure (Structural damage or deterioration to  secondary structure)@#@99010109
+Structural damage or deterioration - engine (Structural damage or deterioration - engine)@#@99010110
+Structural damage or deterioration - propeller (Structural damage or deterioration - propeller)@#@99010111
+Structural damage or deterioration - rotorcraft rotor system (Structural damage or deterioration -  rotorcraft rotor system)@#@99010112
+Suspect parts (Suspect parts)@#@99010118
+Bogus parts (Bogus parts)@#@99010119
+Landing with a fuel reserve less than required by regulation (Landing with a fuel reserve less than  required by regulation)@#@99010058
+An event other than those listed above (Any other event)@#@98000000
+Unknown (Unknown)@#@99000000
+Missing aircraft (Missing aircraft)@#@99010000

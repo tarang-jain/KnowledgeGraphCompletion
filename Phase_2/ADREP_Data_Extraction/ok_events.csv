@@ -1,0 +1,727 @@
+Aerodrome and ground aids related event (Aerodrome & ground aids)@#@5000000
+Aerodrome security (Aerodrome security )@#@5070000
+Sabotage (Sabotage)@#@5070200
+Unlawful entry (Unlawful entry)@#@5070100
+Other aerodrome security related event (Other aerodrome security related event)@#@5079800
+Aerodrome services/operations related event (Aerodrome services / operations)@#@5030000
+Aerodrome apron management service related event (Apron management)@#@5030100
+Foreign object control/removal (FOD) (Foreign object control)@#@5030400
+Aerodrome maintenance related event (Maintenance)@#@5030300
+Aerodrome snow/ice removal related event (Snow/ice removal)@#@5030200
+Vehicle/equipment operations (Vehicle/equipment operations)@#@5030700
+A standing or parked aircraft was struck/damaged by a vehicle/equipment (Aircraft  struck/damaged by vehicle)@#@5030704
+Collision of a vehicle or moveable equipment with another object / obstacle (Vehicle - object  collision)@#@5030703
+Collision of a vehicle/moveable equipment with a person (Vehicle - person collision)@#@5030702
+Collision of a vehicle with an another vehicle or moveable equipment (Vehicle - vehicle  collision)@#@5030701
+Wildlife control (Wildlife control)@#@5030600
+Bird control (Bird control)@#@5030500
+Aerodrome systems related event (Aerodrome systems)@#@5020000
+Aerodrome back-up power system related event (Back-up power )@#@5020200
+Aerodrome lighting systems related event (Lighting)@#@5020100
+Aerodrome approach lighting related event (Aerodrome approach lighting)@#@5020101
+Aerodrome apron lighting related event (Apron lighting)@#@5020104
+Aerodrome runway lighting related event (Runway lighting)@#@5020102
+Aerodrome taxiway lighting related event (Taxiway lighting)@#@5020103
+Aerodrome main power system related event (Main power)@#@5020800
+Aerodrome markings related event (Markings)@#@5020400
+Aerodrome apron marking related event (Apron marking)@#@5020403
+Aerodrome obstacle marking related event (Obstacle marking)@#@5020404
+Aerodrome runway marking related event (Runway marking)@#@5020401
+Aerodrome taxiway marking related event (Taxiway marking)@#@5020402
+Aerodrome overrun catch equipment related event (Overrun catch equipment)@#@5020500
+Aerodrome signs related event (Signs)@#@5020300
+Winch-launch equipment (Winch-launch equipment)@#@5020700
+Winch failed (Winch failed)@#@5020701
+Winch-launch cable broke (Winch-launch cable broke)@#@5020702
+Other winch-launch equipment related event (Other winch-launch equipment related event)@#@5020798
+Event related to other aerodrome equipment (Other equipment)@#@5020600
+Cargo related (Cargo related)@#@5060000
+Cargo acceptance (Cargo acceptance)@#@5060200
+Cargo handling (Cargo handling)@#@5060100
+Cargo labelling (Cargo labelling)@#@5060400
+Cargo loading/unloading (Cargo loading/unloading)@#@5060700
+Cargo moving (Cargo moving)@#@5060600
+Cargo packaging (Cargo packaging)@#@5060500
+Cargo security check (Cargo security check)@#@5060800
+Cargo stowage (Cargo stowage)@#@5060900
+Cargo weighting (Cargo weighting)@#@5060300
+Aerodrome functioning or layout related event (Functioning/layout generally)@#@5040000
+Aerodrome function related event (Aerodrome functioning)@#@5040200
+Aerodrome layout related event (Aerodrome layout)@#@5040100
+Ground aids related event (Ground aids generally)@#@5010000
+Aerodrome approach systems related event (Aerodrome approach systems)@#@5010100
+Global positioning system related event (Global positioning system (GPS))@#@5010102
+Distance measuring equipment related event (Distance measuring equipment (DME))@#@5010105
+Instrument landing system related event (Instrument landing system (ILS))@#@5010101
+Marker beacon related event (Marker beacon)@#@5010103
+Microwave landing systems related event (Microwave landing systems (MLS))@#@5010108
+Non-directional beacon related event (Non-directional beacon (NDB))@#@5010104
+Precision approach path indicator related event (Precision approach path indicator (PAPI))@#@5010107
+Precision approach radar related event (Precision approach radar (PAR))@#@5010109
+VHF Omni-directional radio Range related event (VHF Omni-directional radio Range (VOR))@#@5010106
+Visual approach slope indicator related event (Visual approach slope indicator (VASI))@#@5010110
+Ground handling services (Ground handling services)@#@5050000
+De-icing (De-icing )@#@5050200
+Line maintenance (Line maintenance)@#@5050100
+Loading (Loading)@#@5050300
+Loading of baggage (Loading of baggage)@#@5050301
+Loading of cargo (Loading of cargo)@#@5050302
+Loading - other (Loading - other)@#@5050303
+Servicing (Servicing)@#@5050400
+Catering (Catering)@#@5050402
+Fuelling (Fuelling)@#@5050401
+Fluid servicing (Fluid servicing)@#@5050403
+Servicing - other (Servicing - other)@#@5050404
+Air Navigation Services related event (Air Navigation Services)@#@4000000
+Aeronautical Information Service related event (Aeronautical Info Service)@#@4020000
+Aeronautical Information Service out of date information provided (Out of date information)@#@4020100
+Aeronautical Information Service up to date but users have different data (Data difference)@#@4020200
+Aeronautical Information Service erroneous data (Erroneous data)@#@4020300
+Flight crew and Air Traffic Management using different data (Flight crew & ATM data)@#@4020400
+Air Traffic Flow Management related event (ATFM)@#@4030000
+Airspace management related event (Airspace management)@#@4040000
+Air Traffic Management/Communication, Navigation and Surveillance serviceability related event  (ATM/CNS serviceability)@#@4050000
+Inability to provide air traffic management (Failure of ATM)@#@4050100
+Inability to provide Air Traffic Services (Failure Air Traffic Services)@#@4050101
+Inability to provide AirSpace Management services (Failure ASM)@#@4050102
+Inability to provide Air Traffic Flow Management services (Failure ATFM)@#@4050103
+Air Traffic Management/Communication, Navigation and Surveillance failure of communication  (Failure of communication)@#@4050200
+Failure of data processing (Failure of data processing)@#@4050400
+Failure to provide navigation (Failure to provide navigation)@#@4050600
+Failure of support information (Failure of support information)@#@4050500
+Failure of surveillance (Failure of surveillance)@#@4050300
+Failure of the power supply (Failure of the power supply)@#@4050700
+Air Traffic Management emergency/security situation (ATM emergency/security situation)@#@4060000
+Bomb threat to an Air Traffic Management facility (Bomb threat)@#@4060300
+Fire in an Air Traffic Management facility (Fire-ATM facility)@#@4060100
+Sabotage of an Air Traffic Management facility (Sabotage-ATM facility)@#@4060500
+Smoke in an Air Traffic Management facility (Smoke-ATM facility)@#@4060400
+Unlawful interference with an Air Traffic Management facility (Unlawful interference)@#@4060200
+Other emergency or security event (Other event)@#@4060600
+Events affecting Air Traffic Management operations (Events affecting ATM)@#@4070000
+Closure of a flight information region (Closure of FIR)@#@4070100
+Closure of an aerodrome (Closure of aerodrome)@#@4070200
+Closure of runway (Closure of runway)@#@4070300
+Air space capacity reduction (Reduced capacity)@#@4070400
+Air Navigation Services operational issues (Operational issues)@#@4010000
+An event related to an ATC clearance itself (Clearance related )@#@4010700
+Clearance - wrong altitude (Clearance - wrong altitude)@#@4010701
+Clearance - wrong heading (Clearance - wrong heading)@#@4010702
+Clearance - wrong speed (Clearance - wrong speed)@#@4010703
+Clearance - wrong aircraft (Clearance - wrong aircraft)@#@4010704
+Air Navigation Services operational communications related event (Communications)@#@4010100
+Air Navigation Services conflict detection and resolution related event (Conflict  detection/resolution)@#@4010400
+Air Navigation Services handing over/taking over procedure related event (Handing over  procedure)@#@4010600
+Air Navigation Services handling of accidents/incidents/emergencies related event (Handling- occurrences)@#@4010500
+Air Navigation Services operational information provision related event (Information provision)@#@4010200
+Provision of ANS flight information (Provision of ANS flight information)@#@4010201
+Provision of ANS geographical information (Provision of ANS geographical information)@#@4010202
+Provision of ANS traffic information (Provision of ANS traffic information)@#@4010204
+Provision of ANS weather information (Provision of ANS weather information)@#@4010203
+Air Navigation Services separation provision related event (Separation provision)@#@4010300
+Operation of the aircraft related event (Aircraft operation general)@#@2000000
+Deviation from intended flight path/attitude by a fixed wing aircraft (Aeroplane flight path deviation)@#@2080000
+Aeroplane - deviation from intended flight path - altitude (Aeroplane - deviation from altitude)@#@2080100
+Aeroplane - deviation from intended flight path - heading (Aeroplane - deviation from heading)@#@2080200
+Aeroplane - deviation from intended pitch attitude (Aeroplane - deviation from pitch attitude)@#@2080600
+Aeroplane - deviation from intended roll attitude (Aeroplane - deviation from roll attitude)@#@2080700
+Aeroplane - mush/stall (Aeroplane - mush/stall)@#@2080300
+Aeroplane - porpoising: loss of pitch attitude control (Aeroplane - porpoising)@#@2080800
+Aeroplane - spin (Aeroplane - spin)@#@2080400
+Aeroplane - spiral dive (Aeroplane - spiral dive)@#@2080500
+Deviation from intended flight path/attitude - other (Aeroplane - other deviation from flight path)@#@2080900
+Near collisions with objects/ground or loss of separation between aircraft (Aircraft - near collisions/loss  of separation)@#@2180000
+Near collisions - loss of separation between aircraft. (Loss of separation between aircraft)@#@2180100
+Loss of separation with aircraft - both airborne (Loss of separation - aircraft both airborne)@#@2180101
+Loss of separation with aircraft - both on ground (Loss of separation - aircraft both on  ground)@#@2180103
+Loss of separation with aircraft - one airborne (Loss of separation - one aircraft airborne)@#@2180102
+Loss of separation with no risk of collision (Loss of separation: no risk of collision)@#@2180105
+Loss of separation with potential for collision (Loss of separation: potential collision)@#@2180104
+Loss of separation - risk of collision not determined (Loss of separation: risk undetermined)@#@2180106
+Separation minima infringement (Separation minima infringement)@#@2180107
+Near collision with airborne object (Near collision with airborne object)@#@2180300
+Near collision with a bird (Near collision with bird)@#@2180301
+Near collision with parachutist (Near collision with parachutist)@#@2180304
+Near collision with an other airborne object (Near collision with other airborne object)@#@2180302
+Near collision with an unknown airborne object (Near collision with unknown airborne  object)@#@2180303
+Near collision with an object on the ground (Near collision with object on ground)@#@2180400
+Near collision with a parked aircraft (Near collision with parked aircraft)@#@2180401
+Near collision with person (Near collision with person)@#@2180403
+Near collision with tall structure/object (Near collision with tall object)@#@2180402
+Near collision with parachutist on the ground (Near collision - parachutist)@#@2180404
+Near collision with vehicle (Near collision with vehicle)@#@2180405
+Near collision with object on the ground (Near collision with other ground object)@#@2180406
+Near collision with terrain generally (Near collision with terrain)@#@2180200
+Near collision with high terrain/hill/mountain (Near collision with high terrain/mountain)@#@2180202
+Near collision with level terrain (Near collision with level terrain)@#@2180201
+Collision of an aircraft with an obstacle, terrain or another aircraft (Aircraft - collisions with  obstacle/terrain/aircraft)@#@2050000
+Aircraft collision - moving aircraft (Aircraft collision - moving aircraft)@#@2050100
+Aircraft collision with another aircraft, both airborne (Aircraft collision - both aircraft aloft)@#@2050101
+Aircraft collision with another aircraft, one airborne the other moving on the ground  (Aircraft collision - one aircraft aloft)@#@2050102
+Collision between two aircraft both moving on the ground (Aircraft collision - both aircraft  on ground)@#@2050103
+Aircraft collision with balloon (Aircraft collision - balloon)@#@2050104
+Collision between aircraft one of which was a microlight (Aircraft collision - microlight)@#@2050105
+Collision between an aircraft and a dirigible (Aircraft collision - dirigible)@#@2050106
+Aircraft collision with airborne object other than another aircraft, balloon or dirigible (Aircraft  collision - object aloft)@#@2050300
+Aircraft collision with bird/bird strike (Aircraft bird strike)@#@2050301
+Aircraft collision with model aircraft (Aircraft collision - model aircraft)@#@2050302
+Aircraft collision with parachutist in the air (Aircraft collision - parachutist)@#@2050304
+Aircraft collision an airborne object other than those listed above (Aircraft collision - other  object)@#@2050303
+Aircraft collision with object/obstacle on ground (Collision aircraft - object ground)@#@2050400
+Aircraft collision with an animal (Collision aircraft-animal)@#@2050402
+Aircraft collision with building (Collision aircraft-building)@#@2050404
+Aircraft collision with power line conductor, cable or wire (Collision aircraft- cable/wire/power line)@#@2050411
+Aircraft collision with approach/runway/taxiway lights (Collision aircraft-lights)@#@2050403
+Aircraft collision with parked aircraft (Collision aircraft-parked aircraft)@#@2050408
+Aircraft collision with a person (Collision aircraft-person)@#@2050410
+Aircraft collision with a snow bank (Collision aircraft-snow bank)@#@2050412
+Aircraft collision with aerodrome structure including navigation and approach aids  (Collision aircraft-structure)@#@2050401
+Aircraft collision with deadhead/semi-submerged log (Collision aircraft-submerged log)@#@2050405
+Aircraft collision with tall structure, e.g. chimney, mast,  post or pole  (Collision aircraft-tall structure)@#@2050413
+Aircraft collision with an embankment or shore (Collision aircraft-the shore)@#@2050406
+Aircraft collision with tree/tall vegetation  (Collision aircraft-tree / tall vegetation)@#@2050414
+Aircraft collision with a vehicle (Collision aircraft-vehicle)@#@2050415
+Aircraft collision with a wave (Collision aircraft-wave)@#@2050416
+Aircraft collision with other object on ground (Collision aircraft-other object)@#@2050407
+An aircraft collision with the terrain (Collision aircraft - terrain)@#@2050200
+Aircraft collision with high terrain, a hill or a mountain (Aircraft collision - high terrain)@#@2050202
+Aircraft collision with level terrain/water (Aircraft collision - level terrain)@#@2050201
+Diversion of an aircraft from the intended destination (Aircraft diversion)@#@2100000
+Diversion due to weather conditions (Weather conditions)@#@2100100
+Diversion due to operational decision (Operational decision)@#@2100200
+Diversion due to technical reasons (Technical reasons)@#@2100300
+Moved to consequential events diversion - due to other reasons (Other reasons)@#@2100400
+Aircraft fire/explosion (Aircraft fire/explosion)@#@2110000
+Aircraft fire (Aircraft fire)@#@2110100
+Explosion in the aircraft (Explosion in the aircraft)@#@2110200
+Smoke or fumes in the aircraft (Smoke or fumes in aircraft)@#@2110300
+Aircraft handling related event (Aircraft handling)@#@2010000
+Aircraft altitude related event (Altitude related)@#@2010100
+Altitude bust (Altitude bust)@#@2010101
+Flying too close to ground (Too close to ground)@#@2010102
+Other altitude related event (Other altitude event)@#@2010103
+Abrupt manoeuvre (Abrupt manoeuvre)@#@2010200
+Crew induced abrupt manoeuvre (Crew-manoeuvre)@#@2010202
+Environment induced abrupt manoeuvre (Environment-manoeuvre)@#@2010201
+Other abrupt manoeuvre (Other abrupt manoeuvre)@#@2010203
+Aircraft landed fast (Aircraft landed fast)@#@2011500
+Aircraft landed long (Aircraft landed long)@#@2011400
+Landing beside the intended landing surface (Beside landing surface)@#@2010700
+Dragged wing/rotor/pod/float (Dragged wing/pod/float)@#@2010300
+Hard landing (Hard landing)@#@2010600
+Over-rotation - tail scrape/strike (Over-rotation - tail scrape/strike)@#@2010900
+Ground loop/swerve on take-off or landing (Swerve-take-off/landing)@#@2010500
+Intentional ground loop/swerve (Intentional swerve)@#@2010501
+Unintentional swerve (Unintentional swerve)@#@2010502
+Flight systems/flight crew mismatch (Systems/crew mismatch)@#@2010400
+Undershoot (Undershoot)@#@2010800
+Unsafe descent (Unsafe descent)@#@2011600
+Unstabilized approach (Unstabilized approach)@#@2011000
+Warning system triggered - genuine warning (Warning system triggered)@#@2011100
+Genuine airborne collision avoidance system/traffic alert and collision avoidance system  warning triggered (ACAS/TCAS triggered)@#@2011101
+Genuine configuration warning triggered (Configuration warning)@#@2011102
+Genuine ground proximity warning system warning (Ground proximity warning)@#@2011103
+Health monitoring system warning triggered (Health monitoring system warning)@#@2011105
+Stall warning triggered (Stall warning triggered)@#@2011106
+Other warning system triggered (Other warning system triggered)@#@2011104
+Wheels down landing on water (Wheels down landing on water)@#@2011300
+Wheels-up landing, (Wheels-up landings)@#@2011200
+Wheels-up landing - intentional (Wheels-up landing - intentional)@#@2011201
+Wheels-up landing - unintentional (Wheels-up unintentional)@#@2011202
+Wheels-up landing cause unknown (Wheels-up landing -cause unknown)@#@2011203
+Aircraft navigation related event (Aircraft navigation)@#@2170000
+Navigation track error (Navigation track error)@#@2170400
+Wrong aerodrome selected (Wrong aerodrome selected)@#@2170100
+Wrong runway selected (Wrong runway selected)@#@2170200
+Wrong taxiway selected (Wrong taxiway selected)@#@2170300
+Navigation error - other (Navigation error - other)@#@2170500
+The aircraft departed from the intended movement area (Aircraft off movement area)@#@2070000
+The aircraft ran off the end of the runway (Aircraft overrun)@#@2070400
+Apron excursion (Apron excursion)@#@2070300
+Runway excursion to the side (Runway side excursion)@#@2070100
+Taxiway excursion (Taxiway excursion)@#@2070200
+Balloon specific events (Balloon specific events)@#@2250000
+Basket caught in obstacles (Basket caught in obstacles)@#@2250400
+Basket sliding (Basket sliding)@#@2250500
+Basket tipped over (Basket tipped over)@#@2250300
+Envelope burned (Envelope burned)@#@2250100
+Skirt burned (Skirt burned)@#@2250101
+Panels burned (Panels burned)@#@2250102
+Envelope ripped (Envelope ripped)@#@2250200
+Cabin safety related event (Cabin safety)@#@2030000
+Animals in the cabin related event (Animals in the cabin)@#@2031000
+Blocked cabin exit (Blocked cabin exit)@#@2030100
+Cabin crew unable to perform duties - medical (non-injury) reasons (Cabin crew - medical)@#@2030400
+Cabin crew -  injuries sustained (Cabin crew - injury sustained)@#@2030500
+Cabin crew - unable to perform duties due to other reasons (Cabin crew - other)@#@2030600
+Cabin-cockpit communications related event (Cabin-cockpit communications)@#@2030700
+Door opening or interference with doors by passengers (Door opening/door interference -  passengers)@#@2031100
+Medical emergency - passenger (Medical emergency - passenger)@#@2030800
+Passenger carry-on baggage related event (Passenger carry-on baggage)@#@2030900
+Other non-crew cabin safety related event (Other non-crew cabin safety related event)@#@2039800
+Slide failure or not armed (Slide failure or not armed)@#@2030300
+Unserviceable seatbelt (Unserviceable seatbelt)@#@2030200
+Damage to aircraft (Damage to aircraft)@#@2060000
+Damage caused by aircraft over-stress (Aircraft over-stress damage)@#@2060500
+Damage caused when aircraft sank in water (Aircraft sank)@#@2061300
+Damage caused by object (Damaged by object)@#@2060800
+Aircraft damage caused by foreign object (FOD). (Foreign object damage)@#@2060200
+Helicopter damage caused by ground resonance (Ground resonance damage)@#@2060300
+Aircraft damage caused by lightning strike (Lightning strike damage)@#@2060400
+Damage caused by main rotor strike (Main rotor strike)@#@2061500
+Damage caused by propeller/rotor/jet blast (Propeller/rotor/jet blast)@#@2060600
+Damage caused when aircraft sank through surface (Sank through surface)@#@2060700
+Damage caused by ground equipment, air stairs or a vehicle (Struck/damaged by equipment on  ground)@#@2060900
+Damage caused by turbulence (Turbulence damage)@#@2061000
+Damage caused by unlawful act (Unlawful act damage)@#@2061100
+Damage caused by wind (Wind damage)@#@2061200
+Damage caused by hail (Hail damage)@#@2061400
+Flight crew related event (Flight crew)@#@2040000
+Flight crew incapacitation/illness/medical issue (Flight crew incapacitation/illness/medical issue)@#@2040100
+Flight crew interaction with air navigation service related event (Flight crew/ANS)@#@2020000
+Air navigation service clearance related event (ANS-clearance)@#@2020200
+Air navigation service erroneous clearance (Erroneous clearance)@#@2020201
+Air navigation service clearance to wrong altitude (Clearance-wrong altitude)@#@2020202
+Provision of information by the air navigation service related event (ANS provision-information)@#@2020600
+Provision of flight information by the air navigation service related event (ANS flight  information)@#@2020601
+Provision of geographical, terrain or height information by the air navigation service related  event (ANS geographical info)@#@2020602
+Provision of meteorological information by the air navigation service related event (ANS  weather information)@#@2020603
+Provision of traffic information by the air navigation service related event (ANS traffic  information)@#@2020604
+Communications between flight crew and air navigation service  related event (Communications  flight crew with ANS)@#@2020300
+Deviation from an air traffic control clearance (Deviation/ATC clearance)@#@2020500
+Clearance deviation - approach (Deviation-approach)@#@2020508
+Deviation from clearance - assigned route/track/heading (Deviation-assigned details)@#@2020518
+Clearance deviation - clearance limit (Deviation-clearance limit)@#@2020512
+Deviation from clearance - rate of climb/descent restrictions (Deviation-climb/descent)@#@2020521
+Deviation from clearance - climb/descent conditional clearance (Deviation-climb/descent- conditional clearance)@#@2020522
+Clearance deviation - en-route (Deviation-en-route)@#@2020506
+Deviation from clearance - assigned flight level/altitude, also known as altitude bust or level  bust (Deviation-flight level/altitude )@#@2020517
+Clearance deviation - holding (Deviation-holding)@#@2020509
+Deviation-hold short (Deviation-hold short)@#@2020523
+Clearance deviation - landing (Deviation-landing)@#@2020510
+Clearance deviation - line-up (Deviation-line-up)@#@2020504
+Deviation from clearance - low approach (Deviation-low approach)@#@2020515
+Clearance deviation - missed approach (Deviation-missed approach)@#@2020514
+Deviation-noise abatement procedure (Deviation-noise abatement procedure)@#@2020524
+Clearance deviation - oceanic (Deviation-oceanic)@#@2020507
+Clearance deviation - push-back (Deviation-push-back)@#@2020502
+Clearance deviation - runway crossing (Deviation-runway crossing)@#@2020511
+Clearance deviation - special procedure (Deviation-special procedure)@#@2020513
+Deviation from clearance - assigned or specified speed (Deviation-specified speed)@#@2020519
+Clearance deviation - start-up (Deviation-start-up)@#@2020501
+Clearance deviation - take-off (Deviation-take-off)@#@2020505
+Clearance deviation - taxi (Deviation-taxi)@#@2020503
+Deviation from clearance - time restriction or constraint (Deviation-time restriction)@#@2020520
+Deviation from clearance - touch and go (Deviation-touch and go)@#@2020516
+Deviation from ATM Regulation (Deviation-ATM Regulation)@#@2020700
+Unauthorised penetration of airspace (Airspace entry)@#@2020701
+Deviations from ATM mandatory carriage of aircraft equipment (Deviations/ATM equipment)@#@2020702
+operating non-RVSM equipped aircraft in RVSM airspace. other (Other deviation ATM)@#@2020703
+Flight crew deviation from applicable ATM procedures (Flight crew deviation)@#@2020800
+Controlled/restricted airspace infringement (Airspace infringement)@#@2020400
+Deviation from landing minima (ATM landing minima)@#@2020802
+Deviation from standard instrument departure (ATM SID)@#@2020803
+Deviation from Standard Terminal Arrival Route (ATM STAR)@#@2020804
+Deviation from approach procedure (ATM approach procedure)@#@2020805
+Deviation from speed restriction (ATM speed restriction)@#@2020806
+Deviation from minimum safe altitude en-route (En-route MSA)@#@2020801
+Traffic conflict related event (Traffic conflict)@#@2020100
+Other Air Traffic Management procedure related event (Other ATM procedure)@#@2020900
+Flight preparation related event (Flight preparation)@#@2120000
+Incorrect fuel balance (Incorrect fuel balance)@#@2120200
+Incorrect loading (Incorrect loading)@#@2120100
+Take-off in violation of the minimum equipment requirements (Minimum equipment violation)@#@2120300
+Take-off overweight/ incorrect center of gravity (Take-off overweight/incorrect centre of gravity  (COG))@#@2120400
+Take-off with previous damage (Take-off-previous damage)@#@2120500
+Ground handling related event (Ground handling)@#@2130000
+Deviation from intended flight path/attitude by a helicopter (Helicopter flight path deviation)@#@2090000
+Helicopter deviation from intended altitude (Helicopter - deviation from altitude)@#@2090100
+Helicopter deviation from intended heading (Helicopter - deviation from heading)@#@2090200
+Helicopter deviation from intended pitch attitude (Helicopter - deviation from pitch attitude)@#@2090300
+Helicopter deviation from intended roll attitude (Helicopter - deviation from roll attitude)@#@2090400
+Helicopter dynamic roll-over (Helicopter - dynamic roll-over)@#@2090500
+Helicopter inadequate rotor rpm (Helicopter - inadequate rotor rpm)@#@2090600
+Helicopter settling with power/vortex ring (Helicopter - settling with power)@#@2090700
+Helicopter uncontrolled rotation or uncommanded yaw (Helicopter - uncontrolled yaw)@#@2090800
+Helicopter deviation from intended flight path/attitude - other (Helicopter - other deviation from  flight path)@#@2090900
+Incursions generally (Incursions generally)@#@2200000
+Apron/ramp incursion (Apron/ramp incursion)@#@2200300
+Apron incursion by an animal (By an animal)@#@2200304
+Apron incursion by an aircraft (By an aircraft)@#@2200301
+Apron incursion by a person (By a person)@#@2200303
+Apron incursion by a vehicle/equipment (By a vehicle/equipment)@#@2200302
+Runway incursions (Runway incursions)@#@2200100
+Runway incursion by an aircraft (By an aircraft)@#@2200101
+Runway incursion by an animal (By an animal)@#@2200104
+Runway incursion by a person (By a person)@#@2200103
+Runway incursion by a vehicle/equipment (By a vehicle/equipment)@#@2200102
+Taxiway incursion (Taxiway incursion)@#@2200200
+Taxiway incursion by an aircraft (By an aircraft)@#@2200201
+Taxiway incursion by an animal (By an animal)@#@2200204
+Taxiway incursion by a person (By a person)@#@2200203
+Taxiway incursion by a vehicle/equipment (By a vehicle/equipment)@#@2200202
+Injuries to persons (Injuries to persons)@#@2150000
+Injuries from abrupt manoeuvre (Injuries-abrupt manoeuvre)@#@2150200
+Injuries received from coming into contact with an aircraft or aircraft component (Injuries-aircraft  component)@#@2150400
+Injuries from turbulence (Injuries from turbulence)@#@2150100
+Injuries received from contact with a propeller blast, helicopter rotor downwash or jet blast  (Injuries-propeller/jet blast)@#@2150300
+Injuries received from sources other than those listed above (Injuries from other sources)@#@2150500
+Interference with aircraft from the ground (Interference with aircraft from the ground)@#@2270000
+Interference by balloons (Interference by balloons)@#@2270600
+Interference by fire works (Interference by fire works)@#@2270200
+Interference by flying kites (Interference by flying kites)@#@2270400
+Interference by LASER/Beamer (Interference by LASER/Beamer)@#@2270100
+Interference by model aircraft activity (Interference by model aircraft activity)@#@2270500
+Interference by search lights (Interference by search lights)@#@2270300
+Interference by other ground based activity (Interference by other ground based activity)@#@2270700
+Material falling off the aircraft (Material off aircraft)@#@2160000
+Ice falling from aircraft (Ice)@#@2160100
+External icing, resulting from galley drainage, falling off the aircraft (Ice - galley drains)@#@2160102
+Ice (potable water) falling off aircraft (Ice - potable water)@#@2160104
+Ice (toilet water) falling off aircraft (Ice - toilet water)@#@2160103
+External ice, resulting from ambient weather, falling off the aircraft (Ice - weather)@#@2160101
+Ice (undetermined) falling off aircraft (Ice - undetermined)@#@2160105
+Objects falling off aircraft other than ice (Objects [not ice])@#@2160200
+An identified component falling off the aircraft (Identified component)@#@2160202
+A panel falling off the aircraft (Panels)@#@2160201
+Unidentified component falling off the aircraft (Unidentified component)@#@2160203
+Sighting of an object falling off aircraft (Sighting-object from aircraft)@#@2160300
+Nosed down/overturned (Nosed down/overturned)@#@2190000
+Ingestion of objects by aircraft engines (Object ingestion by engine)@#@2140000
+Ingestion - ice (Ice)@#@2140300
+Turbine engine ingestion - bird (Turbine - bird)@#@2140100
+Aircraft engine ingestion - water (Water)@#@2140200
+Aircraft engine ingestion - other items (Other items)@#@2140400
+Person (not flight crew) (Person (not flight crew))@#@2210000
+Difficult passenger (Difficult Passenger)@#@2210100
+Medical emergency (not cabin crew) (Medical emergency (Passenger))@#@2210200
+Other, non-flight crew person (Other non-flight crew person)@#@2210300
+Sailplane/glider specific events (Sailplane/glider specific events)@#@2240000
+An event related to the towing of a sailplane/glider by another aircraft (Aircraft towing)@#@2240200
+Aero  tow - other (Aero tow - other)@#@2240205
+Climb above the towing aircraft (Climb above the towing aircraft)@#@2240202
+The rope used in an aerial tow failed (Rope failure)@#@2240203
+The tow rope used in an aerial tow disconnected (Rope disconnect)@#@2240204
+Towing aircraft failure (Towing aircraft failure)@#@2240201
+Missing lift (Missing lift)@#@2240300
+Missing lift - thermal (Missing lift - thermal)@#@2240301
+Missing lift - slope (Missing lift - slope)@#@2240303
+Missing lift - wave (Missing lift - wave)@#@2240302
+Winch launching related event (Winch launching related event)@#@2240100
+The rope disconnected from the aircraft during the winch launch (Rope disconnect)@#@2240104
+Take-off interrupted (Take-off interrupted)@#@2240101
+Other failure during winch launch (Other)@#@2240198
+Security generally related event (Security generally)@#@2230000
+Aircraft damaged by unlawful act (Aircraft damaged by unlawful act)@#@2230800
+Bomb warning/scare (Bomb warning/scare)@#@2230100
+Difficult / unruly passenger (Difficult / unruly passenger)@#@2230500
+Hijacking (Hijacking)@#@2230200
+Military intervention (Military intervention)@#@2230400
+Sabotage (Sabotage)@#@2230300
+Stowaway (Stowaway)@#@2230600
+Threats (Threats)@#@2230700
+Warning system triggered - genuine warning (Warning system triggered)@#@2260000
+Genuine airborne collision avoidance system/traffic alert and collision avoidance system warning  triggered (ACAS/TCAS warning triggered)@#@2260100
+Genuine configuration warning triggered (Configuration warning triggered)@#@2260200
+Genuine ground proximity warning system warning (Ground proximity warning triggered)@#@2260300
+Genuine health monitoring system warning triggered (Health monitoring system warning  triggered)@#@2260400
+Stall warning triggered (Stall warning triggered)@#@2260500
+Other warning system triggered (Other warning system triggered)@#@2260600
+Weather encounters related event (Weather encounters)@#@2220000
+An event involving the weather. the aircraft encountered adverse cloud conditions (Adverse cloud condition)@#@2221400
+Aircraft encountered crosswind (Crosswind)@#@2220800
+Headwind encounter (Headwind encounter)@#@2221100
+Aircraft encountered high winds (High wind)@#@2221200
+Hail encounter (Hail encounter)@#@2221300
+Aircraft encountered icing conditions (Icing conditions)@#@2220100
+Aircraft encounter with instrument meteorological conditions (IMC)@#@2220500
+Lightning strike (Lightning strike)@#@2222000
+Loss of visual reference (Loss of visual reference)@#@2221000
+Aircraft encountered tailwind (Tailwind)@#@2220900
+Aircraft encounter with turbulence (Turbulence)@#@2220600
+Aircraft encountered other unexpected weather conditions (Unexpected weather)@#@2220700
+Aircraft encountered volcanic ash (Volcanic ash)@#@2220300
+Aircraft encountered vortex/wake turbulence (Wake turbulence)@#@2220400
+Aircraft encountered windshear (Windshear)@#@2220200
+Aircraft/system/component related event (Aircraft/system/component)@#@1000000
+Aircraft performance related event (ATA Code:0100) (0100 Aircraft performance)@#@1010000
+Degraded performance (ATA Code:0101) (0101 Degraded performance)@#@1010100
+Towing and taxiing equipment related event (ATA Code:0900) (0900 Towing & taxiing equipment related)@#@1090000
+Towing related event (ATA Code:0910) (0910 Towing)@#@1091000
+Tow bar/tow cable break (Tow bar/cable break)@#@1091001
+Parking and mooring related event (ATA Code:1000) (1000 Parking & mooring)@#@1100000
+Placards and Markings related event (ATA Code:1100) (1100 Placards and Markings)@#@1110000
+Servicing related event (ATA Code:1200) (1200 Servicing)@#@1120000
+1800 Helicopter vibration / noise analysis systems related event (1800 Helicopter vibration / noise  analysis)@#@1180000
+1180000 1810 Helicopter vibration analysis system related event (1810 Helicopter vibration analysis)@#@1180100
+1180100 1820 Helicopter noise analysis system related event (1820 Helicopter noise analysis )@#@1182000
+Air conditioning and pressurization system related event (ATA Code:2100) (2100 Air conditioning &  pressurization)@#@1210000
+Autoflight system related event (ATA Code:2200) (2200 Autoflight system)@#@1220000
+Communication systems related event (ATA Code:2300) (2300 Communication system)@#@1230000
+Electrical power system related event (ATA Code:2400) (2400 Electrical power system)@#@1240000
+Aircraft equipment/furnishing related event (ATA Code:2500) (2500 Aircraft equipment/furnishing)@#@1250000
+Flight compartment related event (ATA Code:2510) (2510 Flight compartment)@#@1251000
+Passenger compartment related event (ATA Code:2520) (2520 Passenger compartment)@#@1252000
+Buffet/galleys related event (ATA Code:2530) (2530 Buffet/galleys)@#@1253000
+Lavatories related event (ATA Code:2540) (2540 Lavatories)@#@1254000
+An event related to escape chute/slides (ATA Code:2565) (2565 Escape slide )@#@1256500
+Fire protection system related event (ATA Code:2600) (2600 Fire protection system)@#@1260000
+Aircraft flight control related event (ATA Code:2700) (2700 Aircraft flight control)@#@1270000
+controls and mounting brackets. 2750  Trailing edge flap control system (ATA code 2750) (2750  Trailing edge flap control system)@#@1270100
+Leading Edge Slat Control System (ATA 2780) (2780 Leading Edge Slat Control System)@#@1270200
+Fuel system related event (ATA Code:2800) (2800 Fuel system)@#@1280000
+Fuel leak (ATA Code:2801) (2801 Fuel leak)@#@1280100
+Hydraulic system related event (ATA Code:2900) (2900 Hydraulic system)@#@1290000
+Ice/rain protection system related event (ATA Code:3000) (3000 Ice/rain protection system)@#@1300000
+Indicating/recording systems related event (ATA Code:3100) (3100 Indicating/recording systems)@#@1310000
+Data recording related event (ATA Code:3130) (3130 Data recording)@#@1313000
+Central warning related event (ATA Code:3150) (3150 Central warning)@#@1315000
+Landing gear related event (ATA Code:3200) (3200 Landing gear)@#@1320000
+Main landing gear related event (ATA Code:3210) (3210 Main landing gear)@#@1321000
+Main gear partial collapse or retraction (Main landing gear - partial collapse/retraction)@#@1321001
+Main gear complete collapse or retraction (Main landing gear - collapse or retraction)@#@1321002
+Nose/tail landing gear related event (ATA Code:3220) (3220 Nose/tail landing gear)@#@1322000
+Nose gear collapsed/retracted (Nose/tail landing gear - collapsed/retracted)@#@1322001
+Wheels and brakes related event (ATA Code:3240) (3240 Wheels & brakes)@#@1324000
+Tyres related event (ATA Code:3244) (3244 Tyres)@#@1324100
+Brakes related event (ATA Code:3242) (3242 Brakes)@#@1324200
+Parking brake related event (Parking brake)@#@1324207
+Emergency brake related event (Emergency brake)@#@1324214
+Anti-skid system related event (ATA Code:3241) (3241 Anti-skid system)@#@1324400
+Landing gear steering related event (ATA Code:3250) (3250 Landing gear steering)@#@1325000
+Landing gear position and warning system  related event (ATA Code:3260) (3260 Gear position &  warning)@#@1326000
+Auxiliary landing gear related event (ATA Code:3270) (3270 Auxiliary landing gear)@#@1327000
+Other gear collapsed/retracted (Other gear collapse)@#@1327001
+Aircraft lighting related event (ATA Code:3300) (3300 Aircraft lighting)@#@1330000
+Navigation systems related event (ATA Code:3400) (3400 Navigation systems)@#@1340000
+Airspeed/Mach indicating system related event (ATA Code:3414) (3414 Airspeed/Mach  indicating system)@#@1341400
+Altitude system related event (ATA Code:3416) (3416 Altitude system)@#@1341600
+3420 Attitude and direction data system related event (ATA Code:3420) (3420 Attitude and  direction data system)@#@1342000
+Landing and taxi aids related event (ATA Code:3430) (3430 Landing and taxi aids)@#@1343000
+Independent position determining system related event (ATA Code:3440) (3440 Independent  position system)@#@1344000
+Ground proximity warning system related event (ATA Code:3444) (3444 Ground proximity  warning)@#@1344400
+Ground proximity warning system nuisance alarm (GPWS nuisance alarm)@#@1344401
+Other ground proximity warning system related event (Other GPWS event)@#@1344402
+Airborne collision avoidance system/traffic alert and collision avoidance system related  event (ATA Code:3445) (3445 ACAS/TCAS)@#@1344500
+ACAS/TCAS nuisance alarm (TCAS nuisance alarm)@#@1344501
+Flight management system related event (ATA Code:3460) (3460 Flight management system)@#@1341800
+Oxygen system related event (ATA Code:3500) (3500 Oxygen system)@#@1350000
+Pneumatic system related event (ATA Code:3600) (3600 Pneumatic system)@#@1360000
+Vacuum system related event (ATA Code:3700) (3700 Vacuum system)@#@1370000
+Drinkable/waste water system related event (ATA Code:3800) (3800 Drinkable/waste water system)@#@1380000
+Auxiliary power unit related event (ATA Code:4900) (4900 Auxiliary power unit)@#@1490000
+VL for AttrID: 390 - Events 5000 Cargo and accessory compartments related events (5000 Cargo and accessory compartments)@#@1255000
+Cargo related event (5019 Cargo related)@#@1255900
+Cargo leak (Cargo leak)@#@1255901
+Cargo shifted (Cargo shifted)@#@1255902
+Cargo smoke/fumes/fire (Cargo smoke/fumes/fire)@#@1255903
+Cargo radiation leak (Cargo radiation leak)@#@1255904
+Cargo/sling load dropped (Cargo/sling load dropped)@#@1255905
+Standard practices and structures (ATA Code:5100) (5100 Standard practices and structures)@#@1510000
+Airframe structure - general related event (ATA Code:5101) (5101 Airframe structure - general)@#@1510100
+Aircraft's doors related event (ATA Code:5200) (5200 Aircraft's doors)@#@1520000
+Doors - general related event (ATA Code:5201) (5201 Doors - general)@#@1520100
+Door opening (Door opening)@#@1520101
+Door separation (Door separation)@#@1520102
+Door warning system related event (Door warning system)@#@1520170
+Aircraft's fuselage structure related event (ATA Code:5300) (5300 Aircraft's fuselage structure)@#@1530000
+Airframe failure - other than general breakup (ATA Code:5301) (5301 Airframe failure - other)@#@1530100
+Airframe general disintegration or break-up (ATA Code:5302) (5302 Airframe break-up)@#@1530200
+Aircraft engine nacelle or pylon structure related event (ATA Code:5400) (5400 Aircraft engine  nacelle/pylon structure)@#@1540000
+Aircraft empennage stucture related event (ATA Code:5500) (5500 Aircraft empennage structure)@#@1550000
+Aircraft elevator related event (ATA Code:5520) (5520 Aircraft elevator)@#@1552000
+Aircraft rudder related event (ATA Code:5540) (5540 Aircraft rudder)@#@1554000
+Aircraft windows/windshields related event (ATA Code:5600) (5600 Aircraft windows/windshields)@#@1560000
+Aircraft's windows in general related event (ATA Code:5601) (5601 Aircraft's windows in general)@#@1560100
+Window separation in flight (Window separation in flight)@#@1560101
+An event involving the separation in flight of an aircraft window. 5610 Flight compartment window (5610 Flight compartment window)@#@1561000
+Aircraft wing structure related event (ATA Code:5700) (5700 Aircraft wing structure)@#@1570000
+Control surfaces (on the wing) related event (ATA Code:5750) (5750 Control surfaces)@#@1575000
+Propellers related event (ATA Code:6100) (6100 Propellers generally)@#@1610000
+Aircraft's propellers related event (ATA Code:6101) (6101 Aircraft propellers - general)@#@1610100
+Propeller over-speed (Propeller over-speed)@#@1610101
+Propeller separation (Propeller separation)@#@1610102
+Propeller control (Propeller control)@#@1610120
+Rotorcraft main rotor systems related event (ATA Code:6200) (6200 Rotorcraft main rotor system)@#@1620000
+Helicopter's main rotor in general related event (ATA Code:6201) (6201 Main rotor - general)@#@1620100
+Main rotor blade flapping (Main rotor blade flapping)@#@1620101
+Main rotor drive system related event (ATA Code:6300) (6300 Main rotor drive system)@#@1630000
+Main rotor drive shaft (ATA Code:6301) (6301 Main rotor drive shaft)@#@1630100
+Main rotor transmission/gearbox (ATA Code:6320) (6320 Main rotor transmission)@#@1632000
+Gearbox chip warning (Gearbox chip warning)@#@1632001
+Rotorcraft tail rotor system related event (ATA Code:6400) (6400 Rotorcraft tail rotor system)@#@1640000
+Tail rotor drive system related event (ATA Code:6500) (6500 Tail rotor drive system)@#@1650000
+Tail rotor drive shaft related event (ATA Code:6510) (6510 Tail rotor drive shaft)@#@1651000
+Tail rotor gearbox (90 deg) related event (ATA Code:6520) (6520 Tail rotor gearbox (90 deg))@#@1652000
+Tail rotor gearbox (45 deg) related event (ATA Code:6530) (6530 Tail rotor gearbox (45 deg))@#@1653000
+Rotorcraft flight control systems related event (ATA Code:6700) (6700 Rotorcraft flight control system)@#@1670000
+Powerplant package related event (ATA Code:7100) (7100 Powerplant package)@#@1710000
+Turbine engine related event (ATA Code:7200) (7200 Turbine engine)@#@1720000
+Turbine engine generally (ATA Code:7201) (7201 Turbine engine - generally)@#@1720100
+Turbine engine - tearaway (Turbine engine - tearaway)@#@1720101
+Turbine engine - uncontained failure (Turbine engine - uncontained failure)@#@1720102
+Turbine engine - mechanical failure (Turbine engine - mechanical failure)@#@1720103
+Turbine engine - non mechanical failure (Turbine engine - non mechanical failure)@#@1720104
+Simulated failure of a turbine engine (Turbine engine - simulated failure)@#@1720105
+Turbine Engine fuel starvation (Turbine engine - fuel starvation)@#@1720106
+Turbine Engine asymmetric thrust (Turbine engine - asymmetric thrust)@#@1720107
+Turbine engine multiple failures (Turbine engine - multiple failures)@#@1720108
+Turbine engine gearbox related event (Turbine engine - engine gearbox)@#@1720110
+Turbine engine - vibration (Turbine engine - vibration)@#@1720109
+Turbine engine chip warning (Turbine engine - chip warning)@#@1720113
+Engine fuel system and control related event (ATA Code:7300) (7300 Engine fuel and control system)@#@1730000
+Engine ignition system related event (ATA Code:7400) (7400 Engine ignition system)@#@1740000
+Engine air system related event (ATA Code:7500) (7500 Engine air system)@#@1750000
+Engine controls related event (ATA Code:7600) (7600 Engine controls)@#@1760000
+Engine indicating system related event (ATA Code:7700) (7700 Engine indicating system)@#@1770000
+Engine exhaust system related event (ATA Code:7800) (7800 Engine exhaust system)@#@1780000
+Thrust reverser system related event (ATA Code:7830) (7830 Thrust reverser system)@#@1783000
+Engine oil system related event (ATA Code:7900) (7900 Engine oil system)@#@1790000
+Engine starting system related event (ATA Code:8000) (8000 Engine starting system)@#@1800000
+Exhaust turbine system (reciprocating engine only) related event (ATA Code:8100) (8100 Exhaust turbine  system)@#@1810000
+Engine water injection system related event (ATA Code:8200) (8200 Engine water injection system)@#@1820000
+Powerplant accessory gearbox related event (ATA Code:8300) (8300 Accessory gearbox)@#@1830000
+Reciprocating engine related event (ATA Code:8500) (8500 Reciprocating engine)@#@1850000
+Reciprocating engine in general (ATA Code:8501) (8501 Reciprocating engine general)@#@1850100
+Reciprocating engine  tearaway (Reciprocating engine - tearaway)@#@1850101
+Reciprocating engine - uncontained failure (Reciprocating engine - uncontained failure)@#@1850102
+Reciprocating engine - mechanical failure (Reciprocating engine - mechanical failure)@#@1850103
+Power loss in a reciprocating engine due to non-mechanical failure (Reciprocating engine -  non-mechanical failure)@#@1850104
+Reciprocating engine - simulated failure (Reciprocating engine - simulated failure)@#@1850105
+Reciprocating engine - fuel starvation (Reciprocating engine - fuel starvation)@#@1850106
+Reciprocating engine - carburetor icing (Reciprocating engine - carburetor icing)@#@1850107
+Failure of more than one reciprocating engine (Reciprocating engine - multiple failures)@#@1850108
+Reciprocating engine - gearbox failure (Reciprocating engine - gearbox failure)@#@1850109
+Reciprocating engine - vibration (Reciprocating engine - vibration)@#@1850110
+Non-component specific events (Non-component specific events)@#@1990000
+Explosions / fire/ fumes / smoke (Explosions / fire/ fumes / smoke )@#@1990100
+Explosion (Explosion )@#@1990101
+Explosion - Cockpit (Explosion - Cockpit)@#@1990102
+Explosion - Passenger cabin (Explosion - Passenger cabin)@#@1990103
+Explosion - Cargo hold / cargo pod (Explosion - Cargo hold / cargo pod)@#@1990104
+Explosion - Galley (Explosion - Galley)@#@1990105
+Explosion - Lavatory (Explosion - Lavatory)@#@1990106
+Explosion - Avionics bay (Explosion - Avionics bay)@#@1990107
+Explosion - Powerplant (Explosion - Powerplant)@#@1990108
+Explosion - APU (Explosion - APU)@#@1990109
+Explosion - Other location (Explosion - Other location)@#@1990110
+Fire (Fire)@#@1990111
+Fire - APU (Fire - APU)@#@1990119
+Fire - Avionics bay (Fire - Avionics bay)@#@1990117
+Fire - Cargo hold / pod (Fire - Cargo hold / pod)@#@1990114
+Fire - Cockpit (Fire - Cockpit)@#@1990112
+Fire - Galley (Fire - Galley)@#@1990115
+Fire - Landing gear (Fire - Landing gear)@#@1990161
+Fire - Lavatory (Fire - Lavatory)@#@1990116
+Fire - Passenger cabin (Fire - Passenger cabin )@#@1990113
+Fire - Powerplant (Fire - Powerplant)@#@1990118
+Fire - Other location (Fire - Other location)@#@1990120
+Fumes (Fumes)@#@1990121
+Fumes - APU (Fumes - APU)@#@1990129
+Fumes - Avionics bay (Fumes - Avionics bay)@#@1990127
+Fumes - Cargo hold / pod (Fumes - Cargo hold / pod)@#@1990124
+Fumes - Cockpit (Fumes - Cockpit)@#@1990122
+Fumes - Galley (Fumes - Galley)@#@1990125
+Fumes - Lavatory (Fumes - Lavatory)@#@1990126
+Fumes - Passenger cabin (Fumes - Passenger cabin)@#@1990123
+Fumes - Powerplant (Fumes - Powerplant)@#@1990128
+Fumes - Other location (Fumes - Other location)@#@1990130
+Smoke (Smoke)@#@1990131
+Smoke - APU (Smoke - APU)@#@1990139
+Smoke - Avionics bay (Smoke - Avionics bay)@#@1990137
+Smoke - Cargo hold / pod (Smoke - Cargo hold / pod)@#@1990134
+Smoke - Cockpit (Smoke - Cockpit)@#@1990132
+Smoke - Galley (Smoke - Galley)@#@1990135
+Smoke - Landing gear (Smoke - Landing gear)@#@1990162
+Smoke - Lavatory (Smoke - Lavatory)@#@1990136
+Smoke - Passenger cabin (Smoke - Passenger cabin)@#@1990133
+Smoke - Powerplant (Smoke - Powerplant)@#@1990138
+Smoke - Other location (Smoke - Other location)@#@1990140
+Smell - excluding electrical smell (Smell)@#@1990141
+Smell - Cockpit - the presence of an unusual (not electrical) smell in the cockpit  (Smell - Cockpit)@#@1990142
+Passenger cabin (Smell - Passenger cabin)@#@1990143
+Cargo hold / pod (Smell - Cargo hold / pod)@#@1990144
+Smell - Galley - the presence of an unusual (not electrical) smell in the galley (Smell -  Galley)@#@1990145
+Smell - Lavatory - the presence of an unusual (not electrical) smell in the lavatory  (Smell - Lavatory)@#@1990146
+Smell - Avionics bay - the presence of an unusual (not electrical) smell in the  avionics bay (Smell - Avionics bay)@#@1990147
+Smell - Powerplant - the presence of an unusual (not electrical) smell in the  powerplant (Smell - Powerplant)@#@1990148
+Smell - APU - the presence of an unusual (not electrical) smell in the APU (Smell -  APU)@#@1990149
+Smell - Other location:  the presence of an unusual (not electrical) smell in a location  other from those listed (Smell - Other location)@#@1990150
+Electrical smell: to be used when the location of the electrical smell was not provided or  could not be established. (Electrical smell)@#@1990151
+Electrical smell - Cockpit (Electrical smell - Cockpit)@#@1990152
+Electrical smell - Passenger cabin (Electrical smell - Passenger cabin)@#@1990153
+Electrical smell - Cargo hold / pod (Electrical smell - Cargo hold / pod)@#@1990154
+Electrical smell - Galley (Electrical smell - Galley)@#@1990155
+Electrical smell - Lavatory (Electrical smell - Lavatory)@#@1990156
+Electrical smell - Avionics bay (Electrical smell - Avionics bay)@#@1990157
+Electrical smell - Powerplant (Electrical smell - Powerplant)@#@1990158
+Electrical smell - APU (Electrical smell - APU)@#@1990159
+Electrical smell - Other location (Electrical smell - Other location)@#@1990160
+Aircraft damage caused by explosive decompression (Explosive decompression)@#@2060100
+Vibration / rattle / noise (Vibration / rattle / noise)@#@1990200
+Noise / rattle (Noise / rattle)@#@1990201
+Vibration/buffet (Vibration/buffet)@#@1990202
+Loose object (Loose object)@#@1990203
+Civil Aviation Authority/administration related event (Civil Aviation Authority related event)@#@6000000
+Consequential events (Consequential events)@#@3000000
+Aircraft abandoned / crew ejected or bailed out (Aircraft abandoned / crew ejected)@#@3160000
+Aircraft return (Aircraft return)@#@3140000
+An approach below minima (Approach below minima)@#@3090000
+Cargo dumped (Cargo dumped)@#@3170000
+Change aircraft (Change aircraft)@#@3260000
+Declared emergency (Declared emergency)@#@3020000
+Declared emergency - Distress (Mayday) (Declared emergency - Distress)@#@3020100
+Declared emergency - Urgency (PAN call) (Declared emergency - Urgency)@#@3020200
+Ditching - forced landing on water (Ditching)@#@3070000
+Diversion of an aircraft from the intended destination (Diversion)@#@3250000
+Diversion due to operational decision (Diversion - operational decision)@#@3250300
+Diversion due to technical reasons (Diversion - technical reasons)@#@3250200
+Diversion due to weather conditions (Diversion - weather)@#@3250100
+An event involving a diversion by an aircraft due to weather conditions. diversion - due to other reasons (Diversion - other)@#@3250400
+Emergency autorotation (helicopter) (Emergency autorotation (helicopter))@#@3270000
+Emergency cancelled (Emergency cancelled)@#@3180000
+Emergency descent (Emergency descent)@#@3060000
+Engine shutdown/flameout (Engine shutdown/flameout)@#@3280000
+Engine shutdown - precautionary (soft) (Engine shutdown - precautionary (soft))@#@3280100
+Engine shutdown (hard) (Engine shutdown (hard))@#@3280200
+Evacuation (Evacuation)@#@3110000
+External  load dropped/jettisoned (intentional) (External load dropped/jettisoned)@#@3240000
+The landing was executed without flaps/slats (Flapless landing)@#@3120000
+Flight cancellation (Flight cancellation)@#@3190000
+Flight delay (Flight delay)@#@3200000
+Fly-past inspection (Fly-past inspection)@#@3210000
+Forced landing (Forced landing)@#@3080000
+Fuel burn off (Fuel burn off)@#@3130000
+Fuel dumping (Fuel dumping)@#@3100000
+Handling check (Handling check)@#@3220000
+Missed approach (Missed approach)@#@3050000
+Aircraft nosed down/overturned (Nosed down/overturned)@#@3290000
+Overweight landing (Overweight landing)@#@3150000
+Precautionary descent (Precautionary descent)@#@3230000
+Precautionary landing (Precautionary landing)@#@3010000
+Rejected landing (Rejected landing)@#@3040000
+Rejected take-off (Rejected take-off)@#@3030000
+High speed rejected take-off (at and above V1) (High speed rejected take-off)@#@3030100
+Low speed rejected take-off (below V1) (Low speed rejected take-off)@#@3030200
+Uncommanded movement of the aircraft resulting from some previous action, e.g. an event related to an  engine start etc. (Uncommanded movement of the aircraft)@#@3300000
+Events related to the non-compliance with regulations (Regulatory issues / events)@#@7000000
+Aircraft related regulatory event/issue (Aircraft related regulatory event/issue)@#@7050000
+Aircraft not airworthy (Aircraft not airworthy)@#@7050600
+Aircraft not airworthy - airworthiness directive not implemented (Airworthiness directive  (AD) not implemented)@#@7050601
+The aircraft was not equipped or certified for the type of approach flown (Aircraft not equipped /  certified for approach)@#@7050400
+Aircraft was not equipped for the type of operation undertaken. (Aircraft not equipped for  operation)@#@7050200
+RVSM airspace (Aircraft not RVSM equipped)@#@7050300
+Aircraft operating time / maintenance interval exceeded (Aircraft operating time / maintenance  interval exceeded)@#@7050500
+Invalid / no permit to fly: a permit to fly was required for the flight undertaken  but it was not  obtained or not valid (Invalid / no permit to fly)@#@7050700
+Operation of the aircraft in violation of the MEL (Operation in violation of the MEL)@#@7050100
+Duty time related (Duty time related)@#@7010000
+Duty time exceeded (Duty time exceeded)@#@7010100
+Operation in violation of  an aerodrome curfew (Operation in violation of aerodrome curfew)@#@7060000
+Operation in violation of license (Operation in violation of license)@#@7040000
+Air operator certificate  (AOC) invalid (Air operator certificate (AOC) invalid)@#@7040100
+ATS license invalid (ATS license invalid)@#@7040200
+Rest time related (Rest time related)@#@7020000
+Rest time less than required by regulation (Rest time less than required)@#@7020100
+Staffing related event (Staffing related event)@#@7030000
+Crew/staff not licensed for activity (Crew/staff not licensed for activity)@#@7030200
+Staffing/crewing less than required (Staffing/crewing less than required)@#@7030100

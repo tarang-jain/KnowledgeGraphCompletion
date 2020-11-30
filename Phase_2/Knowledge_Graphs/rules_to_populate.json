@@ -1,0 +1,6 @@
+{"Collections": [{"sheetName":"sheet1","startColumn":"B","endColumn":"H","startRow":"2","endRow":"2882","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasFirstEvent @C*","active":false},
+{"sheetName":"sheet1","startColumn":"B","endColumn":"H", "startRow":"2883","endRow":"5142","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasSecondEvent @D*","active":false},
+{"sheetName":"sheet1","startColumn":"B","endColumn":"H","startRow":"5143","endRow":"6336","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasThirdEvent @E*","active":false},
+{"sheetName":"sheet1","startColumn":"B","endColumn":"H","startRow":"6337","endRow":"6563","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasFourthEvent @F*","active":false},
+{"sheetName":"sheet1","startColumn":"B","endColumn":"H","startRow":"6564","endRow":"6583","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasFifthEvent @G*","active":false},
+{"sheetName":"sheet1","startColumn":"B","endColumn":"H","startRow":"6584","endRow":"6584","comment":"","rule":"Individual: @B*\n    Types: Accident\n Facts: hasSixthEvent @H*","active":false}]}

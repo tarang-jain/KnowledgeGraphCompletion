@@ -1,0 +1,67 @@
+National Transportation Safety Board
+Aviation Incident Final Report
+Location: Atlanta, GA
+Incident Number: MIA07IA088
+Date & Time: 05/02/2007, 1106 EDT
+Registration: N270AX
+Aircraft: MCDONNELL DOUGLAS DC-10-30
+Aircraft Damage: None
+Defining Event:
+Injuries: 306 None
+Flight Conducted Under: Part 121: Air Carrier - Non-scheduled
+ Analysis While flying at 13,000 feet mean sea level (msl), and decelerating to 250 knots in a DC-10-30 airplane, the horizontal stabilizer could not be moved by either commands from the autopilot or using the primary and alternate control switches from the cockpit.
+The horizontal stabilizer remained at approximately 1 degree airplane nose-up which resulted in excessive cockpit control forces.
+An emergency was declared with air traffic control and the flight landed uneventfully on runway 27R at ATL.
+The omission of the parts resulted in fatigue failure of another pin (P/N AJH7378-1) and shear failure of the single installed pin (P/N 3D0009-5-4).
+This prevented output of the horizontal stabilizer drive assembly being transmitted to acme screws of the horizontal stabilizer.
+There was no flight crew write-ups for the previous 93 days related to pitch trim.
+The horizontal stabilizer drive assembly was overhauled on April 30, 1999, and installed in the incident airplane on April 23, 2006.
+The airplane had accumulated 2,421 hours and 473 cycles since the overhauled assembly was installed.
+Probable Cause and Findings The National Transportation Safety Board determines the probable cause(s) of this incident to be: The improper overhaul of the horizontal stabilizer chain drive unit drive assembly.
+Findings Occurrence #1: AIRFRAME/COMPONENT/SYSTEM FAILURE/MALFUNCTION Phase of Operation: DESCENT - NORMAL Findings 1.
+FLT CONTROL SYST,STABILATOR TRIM - FATIGUE 2.
+(C) MAINTENANCE,OVERHAUL - IMPROPER - OTHER MAINTENANCE PERSONNEL 3.
+FLT CONTROL SYST,STABILATOR TRIM - FAILURE,TOTAL 4.
+Visual meteorological conditions prevailed at the time and an instrument flight rules flight plan was filed for the 14 Code of Federal Regulations (CFR) Part 121 non- scheduled, international, passenger flight from Shannon International Airport (EINN), Limerick City, Ireland, to ATL.
+The airplane was not damaged and there were no injuries to the airline transport pilot-certificated captain and first officer, flight engineer, 8 cabin attendants, 3 additional flightcrew members, or 292 passengers.
+The flight originated about 0330 local, from EINN.
+After takeoff the flight proceeded towards the destination airport and the captain later stated that while flying at 13,000 feet mean sea level (msl), and decelerating to 250 knots, the autopilot out of trim light illuminated and remained on for 5 to 6 seconds.
+The autopilot was then disengaged while the flight controls were guarded in anticipation of a change in pitch.
+The airplane pitched "aggressively" nose down, and attempts in resetting/moving the stabilizer setting using the pilot's and co-pilot's control wheel trim switches, alternate trim switches, and longitudinal trim handles were unsuccessful in repositioning the stabilizer which remained set at 1 degree airplane nose up.
+Readout of the airplane™s flight data recorder (FDR) indicated the stabilizer remained at 333 counts through the autopilot disconnect and landing.
+The approach was discontinued, and an emergency was declared with air traffic control.
+A "demanding amount of elevator back pressure was required to maintain level flight...", and the airplane was vectored for an uneventful landing on runway 27R with the flaps extended to 35 degrees and the No.
+2 engine at the flight idle.
+The airplane taxied to the gate and the passengers were deplaned.
+The FDR further recorded that the stabilizer values transitioned from 337 to 357 from the descent to just before touchdown of the previous landing.
+Examination of the airplane after landing revealed the cockpit indicator for the stabilizer trim indicated slighter greater than 1 degree airplane nose-up trim.
+Postincident testing of the horizontal stabilizer trim system revealed no movement of the horizontal stabilizer using the cockpit control switches, though electrical continuity was noted at both primary trim control valves.
+Additionally, both hydraulic motors tested satisfactory.
+Further examination of the horizontal stabilizer chain drive unit drive assembly (horizontal stabilizer drive assembly) P/N AJH 7337-507, S/N DCA-418, revealed the chain tension and chain wear were within limits.
+Misalignment of a detent ring installed on the horizontal stabilizer drive assembly was noted.
+The horizontal stabilizer drive assembly was removed and retained for further examination.
+The horizontal stabilizer is movable to provide longitudinal trim, and the horizontal stabilizer system consists of five subsystems which are: electrical control, mechanical control, hydraulic actuation, mechanical drive, and position indicating and warning systems.
+Adjustment of the horizontal stabilizer trim is also performed while the autopilot is engaged based on input from command signals of the autopilot system.
+Movement of the horizontal stabilizer using the cockpit control switches controls two electrically controlled hydraulically actuated primary control valves, which direct flow to two hydraulic motors.
+The hydraulic motors convert hydraulic flow into rotary mechanical action of output shafts that connect to a gearbox.
+The gearbox mechanically drives the horizontal stabilizer chain drive unit drive assembly (horizontal stabilizer drive assembly).
+Chains connect sprockets of the horizontal stabilizer drive assembly to sprockets near acme screws attached to the horizontal stabilizer.
+Examination of the horizontal stabilizer drive assembly was performed at the manufacturer™s facility with Federal Aviation Administration oversight.
+Visual examination of the unit revealed a ring (P/N AJH7342-503) was rotated approximately 30 degrees from its normally installed position based on an index mark on the ring and the assembly centerline.
+Further visual inspection revealed only one pin (P/N 3D0009-5-4), one nut (P/N MS21043-08), and one washer (P/N NAS 1252-BL) were received loose.
+The pin was fractured and the head was missing and not located; the remaining portion of the pin was retained for further examination.
+The illustration in the component maintenance manual (CMM) depicts only one pin, washer, and nut; however, the parts list for the same illustration specifies that two pins, washers, and nuts are required to be installed.
+The two pins, nuts, and washers in part secure a gear (P/N AJH7341-5) to the horizontal stabilizer drive assembly.
+The gear (P/N AJH7341-5) drives two driven gears attached to the horizontal stabilizer drive assembly which in turn move the horizontal stabilizer by chains.
+Additionally, a pin (P/N AJH7378-1) which was installed in accordance with Service Bulletin (SB) 27-181 was installed but extended approximately .360 inch beyond the gear.
+The pin was comprised of two pieces which were retained for further examination.
+Examination of the fractured pins (P/N 3D0009-5-4 and P/N AJH7378-1) was performed by the National Transportation Safety Board Materials Laboratory located in Washington, D.C.
+The results of the examination of P/N 3D0009-5-4 revealed the fracture surface exhibited features consistent with shear.
+The results of the examination of P/N AJH7378-1 revealed it was bent approximately 7 degrees and was within specification with respect to diameter.
+The fracture surface exhibited features consistent with reverse bending fatigue.
+Hardness testing or material property confirmation was not performed on either of the fractured pins.
+Review of the airplane™s discrepancies for the previous 93 days revealed no write-up by any flightcrew member pertaining to the stabilizer trim.
+The maintenance records indicate that the horizontal stabilizer drive assembly was overhauled on April 30, 1999, and installed in the incident airplane on April 23, 2006.
+The airplane had accumulated 2,421 hours and 473 cycles since the overhauled assembly was installed.
+Dockets released prior to June 1, 2009 are publicly available from the NTSB™s Record Management Division at pubinq@ntsb.gov , or at 800-877-6799.
+Dockets released after this date are available at http://dms.ntsb.gov/pubdms/ .

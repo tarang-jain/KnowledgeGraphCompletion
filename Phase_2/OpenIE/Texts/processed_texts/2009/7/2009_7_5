@@ -1,0 +1,105 @@
+The airplane experienced a loss of engine power while maneuvering at a low altitude during an 
+aerial application flight. The pilot was unable to regain engine power after he turned the boost 
+pump on and moved the throttle control to the full forward position. He then performed a 
+forced landing on terraced terrain. A postaccident engine examination revealed evidence of 
+continued rotation when the airplane impacted the ground. Examination of the fuel control 
+unit (FCU) revealed that the bellows spring was fractured and the overspeed governor ball 
+head bearing retainer was fragmented. Pieces of the fragmented retainer were found within the 
+flow divider and fuel manifold. An unidentified contaminant was observed on the bearing race 
+shoulder which misaligned the ball head bearing. The FCU was reportedly overhauled in 2003, 
+but there were no component or aircraft records indicating the FCU's maintenance and 
+installation since its manufacture. A search of the Federal Aviation Administration's service 
+difficulty database did not specifically cite failures of the ball head bearing retainer, and the 
+failures that were listed did not indicate the nature of those failures. The FCU manufacturer 
+reported having no record of failures of the ball head bearing retainer; however, the repair 
+facility that overhauled the FCU reported they had seen failures of the ball head bearing 
+retainer.
+A component failure of the fuel control unit, which resulted in a loss of engine power. 
+On July 1, 2009, about 1246 central daylight time, an Ayres Corporation S2R-G6, N60015, 
+operated by Air Advantage Inc, received substantial damage on impact with terrain during a 
+forced landing near Ainsworth, Iowa. The commercial pilot executed a forced landing on a field 
+following a loss of engine power. The 14 CFR Part 137 aerial application flight was not 
+operating on a flight plan. The pilot sustained serious injuries. The local flight originated from 
+Washington, Iowa, about 1200.
+The pilot stated that he was completing his second to last spray pass when the engine power 
+decreased while the airplane was at an altitude of 5-10 feet above ground level in a pitched-up 
+attitude with a right bank of 10-15 degrees. He did not recall what the airplane airspeed was at 
+the time of power loss but said it should have been about 140 mph. The airspeed was "bleeding 
+off" and there was a "definite drag." He was not thrown forward when the airplane decelerated. 
+It was a "subtle" loss of power with no "residual" power present.  He did not hear or see any 
+abnormalities before the loss of engine power. He attempted to regain engine power by turning 
+the boost pump on but he did not turn the igniter on, which had been off during the previous 
+spray passes. He also moved the power lever from the 3/4 position to the full forward position. 
+After he was unable to regain engine power, he performed a forced landing on a field that did 
+not initially appear to him as terraced.
+The pilot reported that both wings were "destroyed" resulting in substantial damage to the 
+airplane.
+The 1993 Ayres Corporation S2R-G6, serial number G6-110, airplane was purchased on April 
+10, 1993, by and subsequently registered to Farm & Ranch Aerial Service, Inc. The airplane was 
+then sold on November 5, 2008, to the current operator, Air Advantage, Inc.
+Engine logbook records state that the airplane was equipped with a Honeywell (Allied Signal, 
+Garrett, AiResearch) TPE331-6-252M, serial number P-20457C, engine. Examination of the 
+engine data plate showed it was marked with part number 896160-2 with a "1" crossed out. 
+Both 896160-1 and 896160-2 part numbers represent a TPE331-6-251M engine model. 
+TPE331-6-251M engines are configured with Bendix fuel control units (FCUs) and TPE331-6-
+252M engines are configured with Woodward FCUs.  The engine nameplate was marked with 
+both "251" and "252" equipment codes, neither being crossed out. The data plate also indicated 
+a series 15 with a modification record of "41" annotated with an upside down "4". The engine 
+was configured with a Woodward FCU, part number 897770-10, serial number 1587010.
+According to an engine logbook book entry dated February 15, 1996, FCU, part number 
+897770-10, serial number 1587010, was installed on aircraft N3104S. The only maintenance 
+record identifying a FCU at the time of the accident was an Airworthiness Approval Tag for 
+repair of a FCU, part number 893561-27, serial number 1712643, dated April 20, 1999.
+An engine logbook entry dated July 6, 2004, states that engine TPE331-6-252M, serial number 
+P-20457C, was removed from N3104S and installed on N60015 at a total time of 7,123.2 hours 
+and a Hobbs time of 6,231.0 hours, and 3,067 cycles. A logbook entry dated February 5, 2009, 
+shows the engine underwent its last hot section and gear box inspections at a total time since 
+new of 9,703.9 hours, Hobbs time of 1,183.0 hours. 
+The Hobbs time at the time of the accident was 1,238.2 hours.
+The engine was equipped with a Negative Torque Sensing System (NTS). Engine logbook 
+entries dated December 5, 2003, August 5, 2004, and August 15, 2005, show that the NTS trip 
+pressures were set. The logbook entries also show engine installations dated February 4, 2004, 
+September 28, 2004, and February 9, 2009.  There was no record that NTS checks were 
+performed as specified by the Honeywell Maintenance Manual. 
+Disassembly and examination of the engine and gearbox revealed evidence of rotation. Metal 
+spray was present on the suction side of the turbine rotor blades and stator vanes. Debris 
+consistent with soil at the accident site was present in the combustor section of the engine.
+The FCU was broken off at its base and the fuel inlet was broken open. The fuel inlet screen 
+was not found. Prior to flow testing of the FCU, the unit was rotated by hand and was noted to 
+bind at varying points of the rotation. The FCU input shaft assembly was partially 
+disassembled to determine the source of binding. During the disassembly, the resistance to 
+rotation abated but was still present. The FCU was reassembled and tested in accordance with 
+Woodward Governor Test Specification, TSP-7970, revision E. The recorded flow test results 
+are available in the docket of this report. According to the Woodward Governor representative, 
+actual engine specific schedule values may be different than those within test specifications 
+because FCU's are adjusted to the specific engine to which they are installed.
+Following flow testing of the FCU, a disassembly examination was performed of the unit which 
+revealed the presence of debris and smearing that was brown/black in color. A majority of the 
+overspeed governor ball head bearing retainer was not present. Also, the p2 bellows spring was 
+fractured.
+Metallurgical examination of the ball head bearing revealed it to be within the manufacturer's 
+dimensional specifications. Material used to locate the bearing was found on its shoulder that 
+resulted in a misalignment of about 0.0035 inches.
+Metallurgical examination of the p2 bellows spring revealed fatigue fracture.
+There was no debris found obstructing the flow divider capillary orifice or viscosity 
+compensated restricter. Debris was found in the flow divider screen and was analyzed using 
+Fourier Transform Infrared Analysis (FTIR). The debris FTIR spectrum was similar to an 
+exemplar sample of the FCU's ball head bearing retainer. A lesser quantity of debris that was 
+silver in color produced an Energy Dispersive X-ray spectrum similar to aluminum alloy. The 
+flow divider was tested in accordance with Allied-Signal Aerospace Company, ATP 394390. 
+The recorded flow test results are available in the docket of this report. 
+Examination and flow testing of the primary and secondary fuel nozzle manifolds revealed the 
+presence of debris. Debris from the primary nozzle manifold was too small to produce an FTIR 
+spectrum. Debris from the secondary nozzle manifold and one fuel nozzle had a spectrum. 
+Debris from the secondary nozzle manifold had a spectrum similar to the ball head bearing 
+retainer.
+A representative of Propulsion Controls Company stated that Gulf Coast Turbines submitted an 
+FCU serial number 1587010, for maintenance in 2003. The unit underwent repair/overhaul 
+and its time since overhaul was then recorded as 0 hours. The representative stated the he has 
+seen several returns of FCUs due to ball head bearing spacer disintegration.
+Two searches of the Federal Aviation Administration Service Difficulty Reporting System were 
+made for the engine make and fuel control. The engine related search yielded 24 records, none 
+of which identified FCUs. The second search under FCU yielded 25 records but none 
+specifically identified a failure resulting from a ball head bearing spacer. Additionally, the 
+Woodward representative stated that Woodward had no record failures of ball head bearing 
+retainer.

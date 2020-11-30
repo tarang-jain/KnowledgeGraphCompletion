@@ -1,0 +1,56 @@
+National Transportation Safety Board
+Aviation Incident Final Report
+Location: Ugolny Airport, Unknown
+Incident Number: ENG13IA033
+Date & Time: 07/02/2013, 1026
+Registration: HL8275
+Aircraft: BOEING 777
+Aircraft Damage: None
+Defining Event: Loss of engine power (total)
+Injuries: N/A
+Flight Conducted Under: Part 129: Foreign
+ Analysis On July 2, 2013, a Korean Air Lines (KAL) Boeing 777-300ER, registration number HL8275, powered by two General Electric (GE) GE90-115B turbofan engines, experienced a No.
+1 engine (left) in-flight shutdown (IFSD) while crossing the Bering Sea.
+The pilots diverted the airplane to Ugolny Airport (DYR), in Siberia, Russia where an uneventful single engine landing was made.
+The Korean ARAIB requested delegation of the investigation and the NTSB accepted responsibility for investigating this incident.
+Post landing examination of the No.
+1 engine revealed that the radial gearshaft within the transfer gearbox housing was fractured.
+Metallurgical examination of the radial gearshaft found an 0.049-inch axial crack with striation features indicative of fatigue propagation and a morphology consistent with initial fatigue initiation occurring under a torsional and/or biaxial stress condition.
+This axial crack was considered the primary crack and the fracture origin area.
+Microhardness tests near the fracture origin revealed a reduction in near surface hardness (lower hardness values than required).
+GE concluded that the near surface low hardness was attributable to decarburization due to marginal (thin or detached) copper plating existing on the gearshaft surface during the hardening process.
+Through computer modeling and testing of the radial gearshaft, GE concluded that the initiation of the axial crack was likely the result of a combination of high residual tensile stresses produced by local decarburization coupled with the operating stresses experienced at the outer diameter surface.
+To address the manufacturing process deficiency, GE issued seven service bulletins to remove, inspect, and repair the suspect radial gearshafts.
+To expedite the removal of the suspect radial gearshafts, the Federal Aviation Administration issued three separate Airworthiness Directives (AD).
+According to GE, all affected radial gearshafts addressed by the various FAA ADs have been removed from service.
+Findings Aircraft Accessory drives - Failure (Cause) Accessory drives - Design (Factor) Factual Information HISTORY OF FLIGHT On July 2, 2013, a Korean Air Lines (KAL) Boeing 777-300ER, registration number HL8275, powered by two General Electric (GE) GE90-115B turbofan engines, experienced a No.
+1 engine (left) in-flight shutdown (IFSD) while crossing the Bering Sea (60°4'16.32"N/178°40'33.60"W) en route to Seoul, South Korea.
+The pilots diverted the airplane to Ugolny Airport (DYR), a mixed-used military and civil airport in Siberia, Russia.
+An uneventful single engine landing was made and no injuries were reported.
+The incident flight was a 14 Code of Federal Regulation Part 129 regularly schedule international flight from O'Hare International Airport (ORD), Chicago, Illinois, to Incheon International Airport (ICN), Seoul, South Korea.
+The Korean Aviation and Railway Accident Investigation Board (ARAIB) initially opened an investigation into this incident and provided the National Transportation Safety Board (NTSB) as the state of manufacturer of the engines and airplane an initial notification in accordance with International Civil Aviation Organization (ICAO) Annex 13.
+The Korean ARAIB subsequently requested delegation of the investigation and the NTSB accepted responsibility for investigating this incident.
+TRANSFER GEARBOX DAMAGE Post landing examination of the No.
+1 engine revealed that the transfer gearbox (TGB) housing was fractured and the internal gears were damaged.
+The No.
+1 engine was removed from the airplane and shipped to the GE-Wales facility in Cardiff Wales for removal of the TGB.
+Removal of the TGB revealed a separated radial bevel gearshaft (subsequently referred to as radial gearshaft) within the TGB.
+TGB hardware, included the separated radial bevel gearshaft were sent to GE-Aviation facility in Evendale, Ohio for metallurgical examination.
+TEST AND RESEARCH Visual examination of the radial gearshaft found three X-shaped cracks in the short shaft side outer diameter at the shaft-to-web transition radius, with one of the X-shaped cracks (associated with fractured and missing material) linked to a 0.049-inch axial crack.
+The axial crack was considered the primary crack and the fracture origin area.
+Published literature for fatigue cracking under torsional and/or biaxial loading conditions was consistent with the X-shaped cracking observed on the fractured radial gearshaft.
+GE subjected several steel test bars made from the required material to various biaxial fatigue loading conditions in an attempt to reproduce fracture features observed within the axial fracture.
+The results of the testing indicated biaxial loading conditions could reproduce features observed in axial fracture.
+Microhardness tests of the short shaft revealed a reduction in near surface hardness (lower hardness values than required) while the core hardness met the part drawing requirement.
+Other than the near surface hardness loss, the material was determined to be consistent with properly processed material in accordance with the part drawing requirement.
+No evidence of any obvious material inclusions or other discrepancies was observed within the initial axial fracture (origin region) or on the outer diameter surface adjacent to the initial axial fracture.
+During the manufacturing of the radial gearshaft, the gear teeth and splines are case hardened using a process called 'carburization' which adds a layer of carbon to the outer surface of low carbon steels via a diffusion process by heating the steel in a carbon-rich environment.
+A carburized surface increases the surface hardness improving wear resistance and fatigue strength.
+Surfaces of the radial gearshaft not requiring carburization are copper plated prior to the carburization cycle.
+The area of cracking in the shaft region is not case hardened and, thus, would have been copper plated.
+After the carburization process, the copper plating is stripped.
+The entire part is then re-copper plated prior to the hardening cycle (austenization heat treat) to prevent decarburization, a depletion of surface carbon, from occurring on all surfaces.
+GE concluded that the near surface low hardness values measured on the radial gearshaft were attributable to decarburization due to marginal (thin or detached) copper plating existing on the gearshaft surface and an hardening atmosphere which was prone to causing decarburization.
+Through computer modeling and various testing of the radial gearshaft, GE concluded that the axial crack was the initial crack and was likely the result of a combination of high residual tensile stresses produced by local decarburization coupled with the operating stresses experienced at the outer diameter surface.
+To expedite the removal of the suspect radial gearshafts, the Federal Aviation Administration issued three Airworthiness Directives (AD), two of which were emergency ADs requiring compliance within 5 days of receipt.
+According to GE, all effected radial gearshafts (186 in total) addressed by the various FAA ADs have been removed from service.

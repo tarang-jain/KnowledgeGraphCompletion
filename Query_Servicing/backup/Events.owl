@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48">
+    <Prefix name="" IRI="http://www.semanticweb.org/tarangjain/ontologies/2020/9/untitled-ontology-48"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ATSPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AerodromePersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_bird_strike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_collision_-_high_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_collision_-_moving_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_collision_-_object_aloft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_off_movement_area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_operation_general"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_propellers_-_general"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-lights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-other_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsequentialEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Damage_to_aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventJustification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlightCrew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helicopter_flight_path_deviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaintenancePersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-component_specific_events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherPersonsOnBoard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propellers_generally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turbine_engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turbine_engine_-_mechanical_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turbine_engine_-_non_mechanical_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turbulence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather_encounters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#___Unknown___EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALTITUDE_DEVIATION,UNCONTROLLED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft/system/component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft_-_near_collisions/loss_of_separation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraft-tree_/_tall_vegetation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maintenance/Repair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nose/tail_landing_gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ON_GROUND/WATER_ENCOUNTER_WITH_TERRAIN/WATER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizations/Persons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ABRUPT_MANEUVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AIRPORT_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COMPANY_MAINTENANCE_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COMPLETE_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DECOMPRESSION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DITCHING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DRIVER_OF_VEHICLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DUAL_STUDENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAA_INSPECTOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FBO_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FORCED_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GEAR_RETRACTION_ON_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GROUND_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HARD_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_GUY_WIRE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_POLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UNKNOWN_OBJECT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UTLITY_POLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KIT_MANUFACTURER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAIN_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MIDAIR_COLLISION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MISSING_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NEAR_COLLISION_BETWEEN_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOSE_DOWN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOSE_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOSE_OVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OTHER_MAINTENANCE_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OTHER_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OVERRUN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PASSENGER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILOTS_OF_BOTH_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILOT_IN_COMMAND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILOT_OF_OTHER_AIRCRAFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILOT_PASSENGER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ROLL_OVER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TAIL_GEAR_COLLAPSED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UNDERSHOOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UNQUALIFIED_PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VORTEX_TURBULENCE_ENCOUNTERED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WHEELS_UP_LANDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#__UNKNOWN__FLIGHTCREW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#__UNKNOWN__MANUFACTURER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#__UNKNOWN__PERSON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATC_PERSONNEL(ARTCC)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATC_PERSONNEL(DEP/APCH)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATC_PERSONNEL(LCL/GND/CLNC)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COLLISION_BETWEEN_AIRCRAFT_(OTHER_THAN_MIDAIR)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COMPANY/OPERATOR_MANAGEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COPILOT/SECOND_PILOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DRAGGED_WING,ROTOR,POD,FLOAT_OR_TAIL/SKID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FLIGHT_INSTRUCTOR(ON_GROUND)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_HANGAR/AIRPORT_BUILDING"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BIRD(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(RESIDENTIAL)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIND_SOCK/INDICATOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,STATIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_GROUND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_HIGH_TERRAIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_OPEN_FIELD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_MOUNTAINOUS/HILLY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,FROZEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,ROUGH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TOWER(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_WIRE,STATIC(MARKED)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(PARTIAL)_-_NONMECHANICAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(PARTIAL)_-_MECH_FAILURE/MALF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(TOTAL)_-_NONMECHANICAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWNER/BUILDER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWNER/PILOT_MECHANIC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILOT_IN_COMMAND(CFI)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PRODUCTION/DESIGN_PERSONNEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROPELLER_BLAST_OR_JET_EXHAUST/SUCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROPELLER_FAILURE/MALFUNCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROPELLER_FAILURE/MALFUNCTION_-_PROPELLER_SEPARATION"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ATSPersonnel"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AerodromePersonnel"/>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_bird_strike"/>
+        <Class IRI="#Aircraft_collision_-_object_aloft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_collision_-_high_terrain"/>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_collision_-_moving_aircraft"/>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_collision_-_object_aloft"/>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_handling"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_off_movement_area"/>
+        <Class IRI="#Aircraft_handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_operation_general"/>
+        <Class IRI="#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_propellers_-_general"/>
+        <Class IRI="#Propellers_generally"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-animal"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-building"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-lights"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-person"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-vehicle"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsequentialEvents"/>
+        <Class IRI="#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Damage_to_aircraft"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventJustification"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventPhase"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventType"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlightCrew"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helicopter_flight_path_deviation"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landing_gear"/>
+        <Class IRI="#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_landing_gear"/>
+        <Class IRI="#Landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaintenancePersonnel"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacturer"/>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-component_specific_events"/>
+        <Class IRI="#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizations"/>
+        <Class IRI="#Organizations/Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherPersonsOnBoard"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persons"/>
+        <Class IRI="#Organizations/Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propellers_generally"/>
+        <Class IRI="#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turbine_engine"/>
+        <Class IRI="#Aircraft/system/component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turbine_engine_-_mechanical_failure"/>
+        <Class IRI="#Turbine_engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turbine_engine_-_non_mechanical_failure"/>
+        <Class IRI="#Turbine_engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turbulence"/>
+        <Class IRI="#Weather_encounters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unknown"/>
+        <Class IRI="#Persons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather_encounters"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#___Unknown___EventType"/>
+        <Class IRI="#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALTITUDE_DEVIATION,UNCONTROLLED"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft/system/component"/>
+        <Class IRI="#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_-_collisions_with_obstacle/terrain/aircraft"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft_-_near_collisions/loss_of_separation"/>
+        <Class IRI="#Aircraft_operation_general"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraft-tree_/_tall_vegetation"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <Class IRI="#Collision_aircraft_-_object_ground"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER"/>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maintenance/Repair"/>
+        <Class IRI="#Organizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nose/tail_landing_gear"/>
+        <Class IRI="#Landing_gear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ON_GROUND/WATER_ENCOUNTER_WITH_TERRAIN/WATER"/>
+        <Class IRI="#Collision_aircraft_-_terrain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizations/Persons"/>
+        <Class IRI="#EventJustification"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_handling"/>
+        <NamedIndividual IRI="#ABRUPT_MANEUVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AerodromePersonnel"/>
+        <NamedIndividual IRI="#AIRPORT_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Maintenance/Repair"/>
+        <NamedIndividual IRI="#COMPANY_MAINTENANCE_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_landing_gear"/>
+        <NamedIndividual IRI="#COMPLETE_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Non-component_specific_events"/>
+        <NamedIndividual IRI="#DECOMPRESSION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConsequentialEvents"/>
+        <NamedIndividual IRI="#DITCHING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#DUAL_STUDENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConsequentialEvents"/>
+        <NamedIndividual IRI="#FORCED_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Landing_gear"/>
+        <NamedIndividual IRI="#GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Landing_gear"/>
+        <NamedIndividual IRI="#GEAR_RETRACTION_ON_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_handling"/>
+        <NamedIndividual IRI="#HARD_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_moving_aircraft"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRCRAFT_MOVING_ON_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_FENCE_POST"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_GUY_WIRE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-person"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_OTHER_PERSON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_POLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-building"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RESIDENCE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-lights"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_RUNWAY_LIGHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SIGN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_SUBMERGED_OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UNKNOWN_OBJECT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_UTLITY_POLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-vehicle"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_VEHICLE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turbine_engine"/>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_landing_gear"/>
+        <NamedIndividual IRI="#MAIN_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_moving_aircraft"/>
+        <NamedIndividual IRI="#MIDAIR_COLLISION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#___Unknown___EventType"/>
+        <NamedIndividual IRI="#MISSING_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_-_near_collisions/loss_of_separation"/>
+        <NamedIndividual IRI="#NEAR_COLLISION_BETWEEN_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConsequentialEvents"/>
+        <NamedIndividual IRI="#NOSE_DOWN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nose/tail_landing_gear"/>
+        <NamedIndividual IRI="#NOSE_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConsequentialEvents"/>
+        <NamedIndividual IRI="#NOSE_OVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MaintenancePersonnel"/>
+        <NamedIndividual IRI="#OTHER_MAINTENANCE_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_off_movement_area"/>
+        <NamedIndividual IRI="#OVERRUN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OtherPersonsOnBoard"/>
+        <NamedIndividual IRI="#PASSENGER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#PILOTS_OF_BOTH_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#PILOT_IN_COMMAND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#PILOT_OF_OTHER_AIRCRAFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Helicopter_flight_path_deviation"/>
+        <NamedIndividual IRI="#ROLL_OVER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATSPersonnel"/>
+        <NamedIndividual IRI="#Supervisor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nose/tail_landing_gear"/>
+        <NamedIndividual IRI="#TAIL_GEAR_COLLAPSED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_handling"/>
+        <NamedIndividual IRI="#UNDERSHOOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turbulence"/>
+        <NamedIndividual IRI="#VORTEX_TURBULENCE_ENCOUNTERED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_handling"/>
+        <NamedIndividual IRI="#WHEELS_UP_LANDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#__UNKNOWN__FLIGHTCREW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#__UNKNOWN__MANUFACTURER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unknown"/>
+        <NamedIndividual IRI="#__UNKNOWN__PERSON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATSPersonnel"/>
+        <NamedIndividual IRI="#ATC_PERSONNEL(ARTCC)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATSPersonnel"/>
+        <NamedIndividual IRI="#ATC_PERSONNEL(DEP/APCH)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATSPersonnel"/>
+        <NamedIndividual IRI="#ATC_PERSONNEL(LCL/GND/CLNC)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_moving_aircraft"/>
+        <NamedIndividual IRI="#COLLISION_BETWEEN_AIRCRAFT_(OTHER_THAN_MIDAIR)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operator"/>
+        <NamedIndividual IRI="#COMPANY/OPERATOR_MANAGEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organizations"/>
+        <NamedIndividual IRI="#COPILOT/SECOND_PILOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_handling"/>
+        <NamedIndividual IRI="#DRAGGED_WING,ROTOR,POD,FLOAT_OR_TAIL/SKID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-building"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_HANGAR/AIRPORT_BUILDING"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_AIRPORT_SIGN/MARKER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-animal"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ANIMAL(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_bird_strike"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BIRD(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-building"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(NONRESIDENTIAL)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-building"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_BUILDING(RESIDENTIAL)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_ELECTRICAL_TOWER(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tree_/_tall_vegetation"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_TREE(S)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WALL/BARRICADE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-other_object"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIND_SOCK/INDICATOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,STATIC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_OBJECT_-_WIRE,TRANSMISSION(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_GROUND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_high_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_HIGH_TERRAIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_OPEN_FIELD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_high_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_MOUNTAINOUS/HILLY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,FROZEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aircraft_collision_-_level_terrain"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TERRAIN/WATER_-_WATER,ROUGH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraft-tall_structure"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_TOWER(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collision_aircraftcable/wire/power_line"/>
+        <NamedIndividual IRI="#IN_FLIGHT_COLLISION_WITH_WIRE,STATIC(MARKED)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turbine_engine_-_non_mechanical_failure"/>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(PARTIAL)_-_NONMECHANICAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turbine_engine_-_mechanical_failure"/>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(PARTIAL)_-_MECH_FAILURE/MALF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turbine_engine_-_non_mechanical_failure"/>
+        <NamedIndividual IRI="#LOSS_OF_ENGINE_POWER(TOTAL)_-_NONMECHANICAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlightCrew"/>
+        <NamedIndividual IRI="#PILOT_IN_COMMAND(CFI)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#PRODUCTION/DESIGN_PERSONNEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Damage_to_aircraft"/>
+        <NamedIndividual IRI="#PROPELLER_BLAST_OR_JET_EXHAUST/SUCTION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Propellers_generally"/>
+        <NamedIndividual IRI="#PROPELLER_FAILURE/MALFUNCTION"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

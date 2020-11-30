@@ -1,0 +1,5 @@
+PREFIX rdf: <http://www.semanticweb.org/tarangjain/ontologies/AircraftAccident_merged.owl#>
+
+SELECT ?Accident
+WHERE {?Accident ?EventType rdf:IN_FLIGHT_COLLISION_WITH_OBJECT_-_BIRD(S)
+}

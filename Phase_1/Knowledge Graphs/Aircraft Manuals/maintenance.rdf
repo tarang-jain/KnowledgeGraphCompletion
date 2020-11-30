@@ -1,0 +1,1477 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY aviation-safety "http://onto.fel.cvut.cz/ontologies/aviation-safety/" >
+    <!ENTITY model "http://onto.fel.cvut.cz/ontologies/aviation-safety//model/" >
+    <!ENTITY documentation "http://onto.fel.cvut.cz/ontologies/aviation/documentation/" >
+]>
+
+
+<rdf:RDF xmlns="http://onto.fel.cvut.cz/ontologies/aviation/maintenance"
+     xml:base="http://onto.fel.cvut.cz/ontologies/aviation/maintenance"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:documentation="http://onto.fel.cvut.cz/ontologies/aviation/documentation/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:model="&aviation-safety;/model/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:aviation-safety="http://onto.fel.cvut.cz/ontologies/aviation-safety/">
+    <owl:Ontology rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/maintenance">
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/author -->
+
+    <owl:AnnotationProperty rdf:about="&aviation-safety;author"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//model/has-child -->
+
+    <owl:AnnotationProperty rdf:about="&aviation-safety;/model/has-child"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/is_violation_of -->
+
+    <owl:ObjectProperty rdf:about="&aviation-safety;is_violation_of">
+        <rdfs:label>is violation of</rdfs:label>
+        <rdfs:range rdf:resource="&aviation-safety;regulation"/>
+        <rdfs:domain rdf:resource="&aviation-safety;regulation_violation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/Software_failure -->
+
+    <owl:Class rdf:about="&aviation-safety;Software_failure">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/administration-process -->
+
+    <owl:Class rdf:about="&aviation-safety;administration-process">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/Event"/>
+        <rdfs:comment xml:lang="en">An organizational process dealing with the administration activities of a given organization.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/safety_event -->
+
+    <owl:Class rdf:about="&aviation-safety;safety_event"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety/unqualified-action -->
+
+    <owl:Class rdf:about="&aviation-safety;unqualified-action">
+        <rdfs:label xml:lang="en">Unqualified Action</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/Action"/>
+        <rdfs:comment xml:lang="en">is a factor of &apos;aviation-safety:unqualified-action&apos; event</rdfs:comment>
+        <rdfs:comment xml:lang="en">performin an action by an Agent which is not qualified to perform it.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1126054789 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1126054789">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_116234172 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_116234172">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1126054789"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1166935003 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1166935003">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1254261008 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1254261008">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1723255651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1279106116 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1279106116">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1279904753 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1279904753">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1302389681 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1302389681">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1327018293 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1327018293">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1344049742 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1344049742">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1366321874 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1366321874">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1457525630 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1457525630">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1486141456 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1486141456">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1571490515 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1571490515">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1595470154 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1595470154">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1723255651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1605936267 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1605936267">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_64753793"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1643173885 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1643173885">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_164452761 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_164452761">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_164697358 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_164697358">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1650033930 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1650033930">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1670615340 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1670615340">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1673946704 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1673946704">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1705958013 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1705958013">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1126054789"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1723255651 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1723255651">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;safety_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1731054821 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1731054821">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1742924740 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1742924740">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_566142942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1781123879 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1781123879">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;Technical_system_related_event"/>
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1723255651"/>
+    </owl:Class>
+    <owl:Axiom>
+        <documentation:TODO xml:lang="en">is this axiom correct?</documentation:TODO>
+        <owl:annotatedTarget rdf:resource="&aviation-safety;Technical_system_related_event"/>
+        <owl:annotatedSource rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1850119442 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1850119442">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_566142942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1856532718 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1856532718">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_188264327 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_188264327">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1126054789"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1891842365 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1891842365">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1947770552 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1947770552">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1954772766 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1954772766">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;safety_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1962702748 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_1962702748">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_220683385 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_220683385">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_276594843 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_276594843">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_295865679 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_295865679">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_276594843"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_447718572 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_447718572">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_468278207 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_468278207">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_480665899 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_480665899">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_511404715 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_511404715">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_519301023 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_519301023">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_566142942 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_566142942">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1723255651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_634740409 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_634740409">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_64753793 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_64753793">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1954772766"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_681607965 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_681607965">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_64753793"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_6999514 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_6999514">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_782345529 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_782345529">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_900044227 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_900044227">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_566142942"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_906443803 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_906443803">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_919804885 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_919804885">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_934458259 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_934458259">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_64753793"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_934998143 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_934998143">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_950083587 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_950083587">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_95148413 -->
+
+    <owl:Class rdf:about="&aviation-safety;/t-ID_95148413">
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//model/term -->
+
+    <owl:Class rdf:about="&aviation-safety;/model/term"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/document_with_formal_deficiencies -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/document_with_formal_deficiencies">
+        <rdfs:label xml:lang="en">Document with formal deficiencies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/documentation/logical_record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1275363224 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1275363224">
+        <rdfs:label xml:lang="en">storage of documents</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1254261008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1402735474 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1402735474">
+        <rdfs:label xml:lang="en">discrepancies in records</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357"/>
+        <rdfs:comment xml:lang="en">discrepancies between two or more documents. For example two or more documents state contradicting facts, e.g. one states that the engine was repaired the other that the the engine was not repaired</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1545090239 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1545090239">
+        <rdfs:label xml:lang="en">wrong records</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/has_participant"/>
+                <owl:someValuesFrom rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/wrong-document"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357">
+        <rdfs:label xml:lang="en">administrative errors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1723255651"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1402735474"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1545090239"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_563350939"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_676559197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1856626944 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1856626944">
+        <rdfs:label xml:lang="en">Documentation is not up to date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1254261008"/>
+        <documentation:TODO xml:lang="en">Is it possible that the document version is up to date (the latest version) but with older equipment, in which case the correct version is an older one?</documentation:TODO>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1871320084 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1871320084">
+        <rdfs:label xml:lang="en">formal deficiencies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&aviation-safety;/t-ID_1254261008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/has_participant"/>
+                <owl:someValuesFrom rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/document_with_formal_deficiencies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <documentation:TODO xml:lang="en">not sure what it means</documentation:TODO>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_676559197 -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_676559197">
+        <rdfs:label xml:lang="en">assignment of (un)skilled workers to work shifts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/aviation/core/t-ID_1641726357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&aviation-safety;contributes_to"/>
+                <owl:someValuesFrom rdf:resource="&aviation-safety;unqualified-action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation/core/wrong-document -->
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/aviation/core/wrong-document">
+        <rdfs:label xml:lang="en">Wrong document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/documentation/logical_record"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1126054789 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1126054789">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1161717392 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1161717392">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_116234172 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_116234172">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1166935003 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1166935003">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1216356760 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1216356760">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1254261008 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1254261008">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1275363224 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1275363224">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1279106116 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1279106116">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1279904753 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1279904753">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1302389681 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1302389681">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1327018293 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1327018293">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1344049742 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1344049742">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1366321874 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1366321874">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1398213985 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1398213985">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1402735474 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1402735474">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1457525630 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1457525630">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1486141456 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1486141456">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1545090239 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1545090239">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1571490515 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1571490515">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1595470154 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1595470154">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1605936267 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1605936267">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1641726357 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1641726357">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1643173885 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1643173885">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_164452761 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_164452761">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_164697358 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_164697358">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1650033930 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1650033930">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1670615340 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1670615340">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1673946704 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1673946704">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1705958013 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1705958013">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1723255651 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1723255651">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1731054821 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1731054821">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1742924740 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1742924740">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1781123879 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1781123879">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1784923198 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1784923198">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1849418462 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1849418462">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1850119442 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1850119442">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1856532718 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1856532718">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1856626944 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1856626944">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1871320084 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1871320084">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_188264327 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_188264327">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1891842365 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1891842365">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1935921793 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1935921793">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1947770552 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1947770552">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1954772766 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1954772766">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_1962702748 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_1962702748">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_220683385 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_220683385">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_276594843 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_276594843">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_295865679 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_295865679">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_447718572 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_447718572">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_468278207 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_468278207">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_480665899 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_480665899">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_511404715 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_511404715">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_511570341 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_511570341">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_519301023 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_519301023">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_563350939 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_563350939">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_566142942 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_566142942">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_634740409 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_634740409">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_64753793 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_64753793">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_676559197 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_676559197">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_681607965 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_681607965">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_6999514 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_6999514">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_782345529 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_782345529">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_900044227 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_900044227">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_906443803 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_906443803">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_919804885 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_919804885">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_934458259 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_934458259">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_934998143 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_934998143">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_950083587 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_950083587">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/aviation-safety//t-ID_95148413 -->
+
+    <owl:NamedIndividual rdf:about="&aviation-safety;/t-ID_95148413">
+        <rdf:type rdf:resource="&aviation-safety;/model/term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1947770552">
+        <rdfs:label xml:lang="en">Did not detect fault</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_6999514">
+        <rdfs:label xml:lang="en">Cross connection</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1595470154">
+        <rdfs:label xml:lang="en">repeated findings of the audit</rdfs:label>
+        <owl:deprecated xml:lang="en">BK: Usage example
+audit finding F1 is of type AFT1
+audit finding F2 is of type AFT1 , i.e. its type is the same as the type of F1 
+In this case we should give another type of F2, &quot;repeated audit finding of the audit&quot;
+
+decision:
+   If this is the only usage of this scenario I propose to delete this term.
+
+decision reason:
+   The same effect can be obtained by comparing the types of F2 and F1.</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1705958013">
+        <rdfs:label xml:lang="en">Tools/Equipment used improperly</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_900044227">
+        <rdfs:label xml:lang="en">material storage outside a designated area</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_519301023">
+        <rdfs:label xml:lang="en">Wrong equipment/part installed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1731054821">
+        <rdfs:label xml:lang="en">Wrong orientation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_782345529">
+        <rdfs:label xml:lang="en">not enough fluid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_276594843">
+        <rdfs:label xml:lang="en">Fault Isolation/test/inspection error</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1279106116"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1366321874"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1457525630"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1486141456"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1947770552"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_295865679"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1673946704">
+        <rdfs:label xml:lang="en">Slip/trip/fall</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1571490515">
+        <rdfs:label xml:lang="en">tools left unattended in the area of worksite</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1856532718">
+        <rdfs:label xml:lang="en">Repair Error</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_681607965">
+        <rdfs:label xml:lang="en">debris on ramp</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1344049742">
+        <rdfs:label xml:lang="en">Servicing Error</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1670615340"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_447718572"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_480665899"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_782345529"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_934998143"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_95148413"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1650033930">
+        <rdfs:label xml:lang="en">Personal Injury Error</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1166935003"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1302389681"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_164452761"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1673946704"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1891842365"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_511404715"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_164697358">
+        <rdfs:label xml:lang="en">Damaged on instalation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_468278207">
+        <rdfs:label xml:lang="en">unmarked tools on the worksite</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1670615340">
+        <rdfs:label xml:lang="en">too much fluid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_511404715">
+        <rdfs:label xml:lang="en">Caught in/on/between</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1643173885">
+        <rdfs:label xml:lang="en">Extra parts installed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_64753793">
+        <rdfs:label xml:lang="en">Foreign Object Damage Error</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1605936267"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_681607965"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_934458259"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_906443803">
+        <rdfs:label xml:lang="en">tool calibration</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_95148413">
+        <rdfs:label xml:lang="en">System/equipment not reactivated/deactivated</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_447718572">
+        <rdfs:label xml:lang="en">wrong fluid type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_634740409">
+        <rdfs:label xml:lang="en">missing tool</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_188264327">
+        <rdfs:label xml:lang="en">Stuck by/ against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_934458259">
+        <rdfs:label xml:lang="en">debris falling into open systems</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1457525630">
+        <rdfs:label xml:lang="en">not found by fault isolation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_950083587">
+        <rdfs:label xml:lang="en">Equipment/part not instaled</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_934998143">
+        <rdfs:label xml:lang="en">required servicing mot performed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1302389681">
+        <rdfs:label xml:lang="en">Hazardous thermal environment exposure (heat, cold or humidity)</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1254261008">
+        <rdfs:label xml:lang="en">poor/unavailable documentation</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1275363224"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1856626944"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1871320084"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1781123879">
+        <rdfs:label xml:lang="en">tools related events</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1571490515"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_220683385"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_468278207"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_634740409"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_906443803"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_566142942">
+        <rdfs:label xml:lang="en">material storage</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1742924740"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1850119442"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_900044227"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1605936267">
+        <rdfs:label xml:lang="en">Material left in Aircraft/engine</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1279904753">
+        <rdfs:label xml:lang="en">Installation Error</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1327018293"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1643173885"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_164697358"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1731054821"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1962702748"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_519301023"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_6999514"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_919804885"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_950083587"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1954772766">
+        <rdfs:label xml:lang="en">Events in maintenance</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1126054789"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1279904753"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1344049742"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1650033930"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1856532718"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_276594843"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_64753793"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1962702748">
+        <rdfs:label xml:lang="en">Incomplete instalation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1742924740">
+        <rdfs:label xml:lang="en">storage in conditions not satisfying the requirements (temperature, humidity, etc.).</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1486141456">
+        <rdfs:label xml:lang="en">not found by inspection</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_480665899">
+        <rdfs:label xml:lang="en">Access not closed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1327018293">
+        <rdfs:label xml:lang="en">Improper location</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1723255651">
+        <rdfs:label xml:lang="en">maintenance-events</rdfs:label>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1254261008"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1595470154"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1641726357"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1781123879"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_566142942"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1279106116">
+        <rdfs:label xml:lang="en">access not closed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_116234172">
+        <rdfs:label xml:lang="en">Defective tools/equipment used</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_919804885">
+        <rdfs:label xml:lang="en">System/equipment not reactivated/deactivated</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1366321874">
+        <rdfs:label xml:lang="en">System/equipment not reactivated/deactivated</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1126054789">
+        <rdfs:label xml:lang="en">Airplane/Equipment Damage Error</rdfs:label>
+        <documentation:TODO xml:lang="en">rename to Damage event</documentation:TODO>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_116234172"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_1705958013"/>
+        <model:has-child rdf:resource="&aviation-safety;/t-ID_188264327"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_220683385">
+        <rdfs:label xml:lang="en">tool storage outside a designated area</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_295865679">
+        <rdfs:label xml:lang="en">not found by operational/functional test</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_164452761">
+        <rdfs:label xml:lang="en">Stuck by/against</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1166935003">
+        <rdfs:label xml:lang="en">hazardous substance exposure (e.g. toxic or noxious substances)</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1850119442">
+        <rdfs:label xml:lang="en">false/no parts designation</rdfs:label>
+        <rdfs:comment xml:lang="en">A part is missing a label or it has a wrong label.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&aviation-safety;/t-ID_1891842365">
+        <rdfs:label xml:lang="en">Hazard contacted (e.g. electricity, hot or cold surfaces and sharp surfaces)</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

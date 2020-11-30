@@ -1,0 +1,324 @@
+Page 1 of 6
+National Transportation Safety Board
+Aviation Incident Final Report
+Location:
+Lyon, France
+Incident Number:
+SEA04IA010
+Date & Time:
+10/02/2003, 0740 UTC 
+Registration:
+N479EV
+Aircraft:
+Boeing 747-100
+Aircraft Damage:
+Minor
+Defining Event:
+Injuries:
+3 None
+Flight Conducted Under:
+Part 121: Air Carrier - Scheduled
+Analysis 
+While the aircraft was in cruise flight at flight level 400, the right wing overheat light 
+illuminated. The crew accomplished the appropriate checklist, and then about five minutes 
+later the engine number three and engine number four B fire loop indicators illuminated. Soon 
+thereafter an acrid odor was detected by the flight crew, and smoke was seen coming from 
+behind the P-6 circuit breaker panel. The crew then became aware of a small fire in the fire 
+detection card file, which they extinguished with a hand-held fire extinguisher. The crew then 
+diverted to a nearby airport and completed an uneventful precautionary landing. The post-
+event investigation revealed that the fire detection card for engine number four B Loop fire 
+detection (card A16), and its associated socket connector, had suffered severe thermal damage 
+to include partial destruction. A series of tests and examinations were not able to detect 
+evidence of any specific anomalies in the A16 card, the card file, the card file protection circuit, 
+or any of the aircraft's systems. There was no evidence of a lightning strike being the initiating 
+event, and  the aircraft has continued in service since the time of this event without generating 
+any other maintenance discrepancies known to be directly related to the fire detection card 
+files. 
+Probable Cause and Findings
+The National Transportation Safety Board determines the probable cause(s) of this incident to be:
+An undetermined malfunction in an aircraft system while in cruise flight leading to a fire in the 
+engine number four B Loop portion (Card A16) of the fire detection controls cardfile.
+Page 2 of 6SEA04IA010
+Findings
+Occurrence #1: AIRFRAME/COMPONENT/SYSTEM FAILURE/MALFUNCTION
+Phase of Operation: CRUISE
+Findings
+1. (C) OVERHEAT WARNING SYSTEM - MALFUNCTION
+----------
+Occurrence #2: FIRE
+Phase of Operation: CRUISE
+Findings
+2. (C) OVERHEAT WARNING SYSTEM - FIRE
+----------
+Occurrence #3: MISCELLANEOUS/OTHER
+Phase of Operation: EMERGENCY DESCENT/LANDING
+Findings
+3. PRECAUTIONARY LANDING - INTENTIONAL - PILOT IN COMMAND
+Page 3 of 6SEA04IA010
+Factual Information
+On October 2, 2003, approximately 0740 Universal Time Coordinated (UTC), a Boeing 747-
+100, N479EV experienced an in-flight fire in the fire detection card file while in cruise flight 
+approximately 35 miles from Lyon, France. None of the three crew members on board were 
+injured, and the damage to the aircraft was limited to the heat/fire damage within the card file 
+container. The aircraft, which is owned and operated by Evergreen International Airlines, was 
+in visual meteorological conditions at the time of the incident. The aircraft was on an IFR flight 
+plan from Kuwait City, Kuwait, to Frankfurt, Germany. The aircraft departed Kuwait City at 
+0148 UTC.
+According to Evergreen Airlines, while the aircraft was in cruise flight at flight level 400, the 
+right wing overheat light illuminated. The crew accomplished the appropriate checklist, and 
+then about five minutes later the engine number three and engine number four B Loop fire 
+indicators illuminated. Soon thereafter an acrid odor was detected by the flight crew, and 
+smoke was seen coming from behind the P-6 circuit breaker panel. The crew then became 
+aware of a small fire in the fire detection card file, which they extinguished with a hand-held 
+fire extinguisher. The crew then diverted to Lyon, France, where an uneventful normal landing 
+was executed. After landing at Lyon, French civil aviation personnel came aboard the aircraft, 
+interviewed the crew, and then departed. Prior to the aircraft's departure from Lyon, the entire 
+card file was removed and an airworthy unit was installed, and circuit breaker C431, which 
+protects the A16 card, was replaced. The fire detection card file was then returned to the United 
+States for analysis. After its arrival in the United States, the card file was eventually shipped to 
+Boeing Equipment Quality Analysis (EQA), where a series of inspection and test  activities were 
+performed under the guidance of the NTSB.
+The initial inspection of the fire detection card file (Boeing P/N 65B47509-33) revealed severe 
+thermal stress/destruction to card A16 (engine number four B Loop fire detection), and minor 
+thermal discoloration to components adjacent to this card. Card A16 was manufactured by 
+Walter Kidde (S/N 4538) and is identified as Boeing P/N 60B00023-96. The thermal distress 
+on card A16 included melted/burned circuit traces, failed IO (transient protection) devices, 
+partial or total destruction of a number of the card-to-file connecting pins, and burning of the 
+phenolic board itself (see photo #1). In addition there was severe dishing under portions of the 
+K2 relay, an orange residue in the area of the destroyed card pins, and two globs of unidentified 
+material near the point where one of the destroyed connecting pins attached to its circuit trace 
+near the edge of the card (see photo #2). The  area of maximum thermal distress on the card 
+was located in an area between the inboard half of the K2 relay and the inboard ends of the 
+third and fourth card-to-file connecting pins at the K2 end of the card. 
+In addition to the damage to card A16 itself, there was also severe thermal damage to the card 
+file electrical harness socket connector that the A16 card was connected to. This damage 
+included melting/burning of the connector structure, loose sockets still connected to their 
+associated wires, missing sockets, and open wires that had been attached to sockets that were 
+now missing (see photo #3). 
+Further investigation determined that the proper fire detection element was installed on 
+engine number four of the subject aircraft, and that the C431 circuit breaker installed in the 
+aircraft at the time of the event was of the correct 2.5 amp rating. In addition it was determined 
+that the two globs found on the card, as well as the orange residue, where consistent with 
+Page 4 of 6SEA04IA010
+material used to manufacture the card, and not consistent with evidence indicating foreign 
+materials. It was also determined that there was no clear evidence of an initiating short in the 
+aircraft's systems, the card file, or the card itself. The investigation was also not able to find any 
+indication that the aircraft had been struck by lightning during this flight, or that a lightning 
+strike had contributed to the initiation of the card fire. Furthermore, regardless of the fact that 
+card A16 displayed indications of extreme heat distress, there was no clear evidence indicating 
+that an anomaly or malfunction in any of the sub-components contained on the card itself 
+initiated the sequence that lead to the overheat event.  
+After a series of follow-up conference calls and additional tests, the investigative team 
+determined that they were not able to identify a specific component or event that initiated the 
+sequence that lead to the card fire. According to Evergreen Airlines, the subject aircraft has 
+continued in service since the time of this event, and has generated no other maintenance 
+discrepancies known to be directly related to the fire detection card files. 
+Pilot Information
+Certificate: 
+Airline Transport
+Age:
+53, Male
+Airplane Rating(s):
+Multi-engine Land; Single-engine 
+Land
+Seat Occupied:
+Left
+Other Aircraft Rating(s): 
+None
+Restraint Used: 
+Seatbelt, Shoulder 
+harness
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+Yes
+Instructor Rating(s): 
+None
+Toxicology Performed: 
+No
+Medical Certification:
+Class 1 Valid Medical--no 
+waivers/lim.
+Last FAA Medical Exam:
+05/14/2003
+Occupational Pilot:
+Last Flight Review or Equivalent:
+10/31/2003
+Flight Time:
+11783 hours (Total, all aircraft), 6253 hours (Total, this make and model), 115 hours (Last 90 
+days, all aircraft), 35 hours (Last 30 days, all aircraft), 7 hours (Last 24 hours, all aircraft)
+Co-Pilot Information
+Certificate: 
+Airline Transport
+Age:
+38, Male
+Airplane Rating(s):
+Multi-engine Land; Single-engine 
+Land
+Seat Occupied:
+Right
+Other Aircraft Rating(s): 
+None
+Restraint Used: 
+Seatbelt, Shoulder 
+harness
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+Yes
+Instructor Rating(s): 
+Airplane Single-engine
+Toxicology Performed: 
+No
+Medical Certification:
+Class 1 Valid Medical--no 
+waivers/lim.
+Last FAA Medical Exam:
+07/17/2003
+Occupational Pilot:
+Last Flight Review or Equivalent:
+03/28/2003
+Flight Time:
+4650 hours (Total, all aircraft), 409 hours (Total, this make and model), 206 hours (Last 90 
+days, all aircraft), 48 hours (Last 30 days, all aircraft), 7 hours (Last 24 hours, all aircraft)
+Page 5 of 6SEA04IA010
+Aircraft and Owner/Operator Information
+Aircraft Make:
+Boeing
+Registration:
+N479EV
+Model/Series:
+747-100 
+Aircraft Category:
+Airplane
+Year of Manufacture:
+Amateur Built:
+No
+Airworthiness Certificate:
+Transport
+Serial Number:
+19898
+Landing Gear Type: 
+Retractable - Tricycle
+Seats: 
+8
+Date/Type of Last Inspection:
+04/01/2002, Continuous 
+Airworthiness
+Certified Max Gross Wt.:
+750000 lbs
+Time Since Last Inspection:
+Engines:
+4 Turbo Fan
+Airframe Total Time:
+98622 Hours at time of 
+accident
+Engine Manufacturer:
+Pratt & Whitney
+ELT:
+Installed, not activated
+Engine Model/Series:
+JT9-7A
+Registered Owner:
+Evergreen International 
+Airlines
+Rated Power:
+46150 lbs
+Operator:
+Evergreen International 
+Airlines
+Operating Certificate(s) 
+Held:
+Flag carrier (121)
+Operator Does Business As:
+Operator Designator Code:
+EIAA
+Meteorological Information and Flight Plan
+Conditions at Accident Site:
+Visual Conditions
+Condition of Light:
+Day
+Observation Facility, Elevation:
+Distance from Accident Site:
+Observation Time:
+ 
+Direction from Accident Site:
+Lowest Cloud Condition:
+Scattered / 25000 ft agl
+Visibility
+20 Miles
+Lowest Ceiling:
+None 
+Visibility (RVR):
+Wind Speed/Gusts: 
+Light and Variable / 
+Turbulence Type 
+Forecast/Actual:
+ / 
+Wind Direction:
+Variable
+Turbulence Severity 
+Forecast/Actual:
+ / 
+Altimeter Setting:
+Temperature/Dew Point:
+ 
+Precipitation and Obscuration:
+Departure Point: 
+Kuwait City (OKBK)
+Type of Flight Plan Filed:
+IFR
+Destination: 
+Frankfurt (FRA)
+Type of Clearance:
+IFR
+Departure Time:
+0148 UTC
+Type of Airspace: 
+Class A
+Page 6 of 6SEA04IA010
+Wreckage and Impact Information
+Crew Injuries:
+3 None
+Aircraft Damage:
+Minor
+Passenger Injuries:
+N/A
+Aircraft Fire:
+In-Flight
+Ground Injuries:
+N/A
+Aircraft Explosion:
+None
+Total Injuries:
+3 None
+Latitude, Longitude:
+ 
+Administrative Information
+Investigator In Charge (IIC):
+Orrin K Anderson
+Adopted Date:
+09/01/2004
+Additional Participating Persons:
+Terry Wilmeth; Portland FSDO; Hillsboro, OR
+Mark Smith; The Boeing Company; Seattle, WA
+Kirk Carrillo; Evergreen Airlines; McMinnville, OH
+Publish Date:
+Investigation Docket:
+NTSB accident and incident dockets serve as permanent archival information for the NTSB™s 
+investigations. Dockets released prior to June 1, 2009 are publicly available from the NTSB™s 
+Record Management Division at 
+pubinq@ntsb.gov
+, or at 800-877-6799. Dockets released after 
+this date are available at 
+http://dms.ntsb.gov/pubdms/
+. 
+The National Transportation Safety Board (NTSB), established in 1967, is an independent federal agency mandated 
+by Congress through the Independent Safety Board Act of 1974 to investigate transportation accidents, determine 
+the probable causes of the accidents, issue safety recommendations, study transportation safety issues, and evaluate 
+the safety effectiveness of government agencies involved in transportation. The NTSB makes public its actions and 
+decisions through accident reports, safety studies, special investigation reports, safety recommendations, and 
+statistical reviews. 
+The Independent Safety Board Act, as codified at 49 U.S.C. Section 1154(b), precludes the admission into evidence 
+or use of any part of an NTSB report related to an incident or accident in a civil action for damages resulting from a 
+matter mentioned in the report.

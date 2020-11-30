@@ -1,0 +1,397 @@
+Page 1 of 8
+National Transportation Safety Board
+Aviation Incident Final Report
+Location:
+Chicago, IL
+Incident Number:
+CEN11IA369
+Date & Time:
+06/03/2011, 0605 CDT 
+Registration:
+N607AE
+Aircraft:
+EMBRAER EMB-145
+Aircraft Damage:
+None
+Defining Event:
+Sys/Comp malf/fail (non-power)
+Injuries:
+52 None
+Flight Conducted Under:
+Part 121: Air Carrier - Scheduled
+Analysis 
+The pilots reported that they felt one brake pedal fully release and then reapply during the 
+landing roll. Air traffic control tower personnel saw a puff of smoke and asked the flight crew if 
+a tire had blown on landing. The pilots taxied the airplane to a hold pad for further 
+examination; however, the emergency brake would not hold the airplane stationary. The pilots 
+also received caution messages for the brakes, and hydraulic fluid was observed on the tires 
+and ground. An examination revealed the brake pressure plate and rotor failed. Separated 
+brake parts were also found on the landing runway. Further examination of the incident brake 
+and four other brakes revealed that they all contained varying levels of oxidation development. 
+The brake manufacturer had previously provided the operator with a maintenance procedure 
+which involved using a fingernail or a specified plastic tool to check brakes for oxidation. The 
+operator developed and provided related training to its maintenance personnel based on the 
+manufacturer's procedures. However, interviews with airline and contract maintenance 
+personnel revealed that they were not familiar with the inspection and were not issued the 
+plastic tool. Subsequently, the brake manufacturer and operator provided additional related 
+training to the operator's maintenance personnel, and the operator stocked their maintenance 
+system with the specified tool.
+Probable Cause and Findings
+The National Transportation Safety Board determines the probable cause(s) of this incident to be:
+The overheat and failure the brake during landing due to oxidation of the brake rotors, which 
+went undetected by maintenance personnel. Contributing to the accident was maintenance 
+personnel™s lack of familiarity with detailed brake oxidation inspection procedures.
+Page 2 of 8CEN11IA369
+Findings
+Aircraft
+Brake - Damaged/degraded (Cause)
+Brake - Failure (Cause)
+Brake - Inadequate inspection (Cause)
+Personnel issues
+Knowledge of procedures - Maintenance personnel (Factor)
+Training with equipment - Maintenance personnel (Factor)
+Organizational issues
+Parts/tools tracking - Operator
+Page 3 of 8CEN11IA369
+Factual Information
+On June 3, 2011, about 0605 central daylight time, an Embraer EMB-145, N607AE, sustained 
+no damage when its No. three brake overheated and parts of the brake separated during 
+landing on runway 22R (7,500 feet by 150 feet, grooved asphalt) at the Chicago O'Hare 
+International Airport (ORD), Chicago, Illinois. The 2 pilots, 1 flight attendant, and 49 
+passengers were uninjured. The airplane was registered to and operated by American Eagle 
+Airlines as flight 4176, which was a scheduled domestic passenger flight conducted under 14 
+Code of Federal Regulations Part 121. Visual meteorological conditions prevailed for the flight, 
+which operated on an activated instrument flight rules flight plan. The flight originated from 
+the Port Columbus International Airport, near Columbus, Ohio, about 0512, and was destined 
+for ORD.
+According to the operator, during landing roll out and while transferring aircraft controls, the 
+flight crew reported the sensation of having one brake pedal fully released then reapplied. The 
+airplane cleared runway 22R and the air traffic control tower controller issued clearance to 
+cross runway 9R and a further left turn on taxiway H. On taxiway H, the tower controller asked 
+if a tire was blown on landing. The tower controller stated that a puff of smoke was seen during 
+rollout. 
+Braking action diminished as the taxi progressed. The airplane was taxied to and stopped on 
+the 32R pad for inspection. When stopped on the pad, it was discovered that emergency brake 
+would not hold the aircraft stationary. The flight crew started getting caution messages 
+pertaining to brake degrade including hydraulic system two failure and system two hydraulic 
+pump fail. The flight attendant advised the flight crew that passengers reported seeing smoke 
+on the right side of the aircraft. The flight crew started the auxiliary power unit and shut down 
+both engines. The captain opened the service door and saw hydraulic fluid on the tires and the 
+ground.
+Airport rescue and fire fighting personnel arrived, inspected the main landing gear, and 
+decided to have aircraft towed to gate. The passengers were deplaned via stairs and were bused 
+to terminal.
+The operator™s maintenance personnel inspected the brakes and found a pressure plate and 
+rotor failure.
+Airport operations supervisors inspected the runway and recovered separated brake parts from 
+runway 22R just south of its taxiway Uniform intersection.
+A Federal Aviation Administration (FAA) inspector examined the airplane and separated brake 
+parts on-scene. Observation and images of the No. three brake, part number 2-1707, revealed 
+that parts of it disintegrated and separated. The operator quarantined and shipped the incident 
+brake, separated parts, and the No. two brake to the brake manufacturer for detailed 
+examinations. The No two brake was installed on the incident airplane about the same time as 
+the incident brake was installed on it., 
+The operator downloaded a data file from the flight data recorder (FDR) and sent it to the 
+National Transportation Safety Board™s Vehicle Recorder Division for decoding. The FDR data 
+showed that during landing, the air-ground switch parameter first recorded a ground 
+indication at 0603:58 at an indicated airspeed of 132 knots. The air-ground switch parameter 
+then showed an additional air indication for 2 seconds before recording a ground indication 
+Page 4 of 8CEN11IA369
+again. At this time, the recorded brake pressure values for the No. one and three brake systems 
+were increasing and they reached peak values of 1,426 and 1,534 psi respectively in less than 10 
+seconds. A maximum longitudinal deceleration value of -.39 g™s was reached at 0604:10. The 
+No. three brake pressure value then decreased to a nominal value and remained there for the 
+remainder of the recording.
+The two brakes from the incident airplane were shipped to the Goodrich Aircraft Wheel and 
+Brake Facility, near Troy, Ohio. Brakes from three additional occurrences were collected and 
+also sent for examination: the brake from the No. three position on N724AE, the brake from 
+the No. three position on N812AE, and the brake from the No. four position on N630AE. A 
+representative from the brake manufacturer examined the brakes using a specified plastic 
+probing tool and published procedures for a detailed visual inspection (DVI), which checks for 
+oxidation. Two Goodrich brake inspection service bulletins (SB 1063 and SB 1064) were 
+released in September 2008, followed by the release of a brake inspection service letter (SL 
+2087) in April 2009. Using the visual inspection procedures and tool, the examination revealed 
+that all brakes contained varying levels of oxidation development.
+According to an operator™s safety representative, Goodrich provided training material to the 
+operator™s training department for brake oxidation course development. The operator 
+developed Brake Oxidation Training courses I0462 and I0462_11 in 2009. These courses were 
+loaded into all airplane mechanics required training folders on 24 June 2009. All mechanics 
+were required to complete the web base training within 30 days. Completion of training is 
+electronically monitored by the employee™s supervisor to ensure training is/was completed. 
+The representative reported that the visual brake inspection alone was never suggested and 
+that these training courses derived from the Goodrich material stated that the use of a sharp 
+plastic pick or a fingernail to check the carbon disk was the indicated method for oxidation 
+detection. 
+A FAA inspector assigned to the operator™s certificate management office was asked to conduct 
+interviews with the mechanics and inspectors that were involved with the five aircraft brake 
+failures to verify what procedures were being used during wheel removal and replacements. On 
+June 21, 2011, the operator submitted a revision for a Main Landing Gear Wheel Assembly-
+Removal and Installation work card, which incorporated details of the DVI requirement into 
+the work card. On June 30, 2011, the operator received the first batch of brake inspection 
+scribes that are specified in the detailed inspection.
+On June 27, 2011, a mechanic who worked at the operator™s Dallas/Ft. Worth maintenance 
+facility was asked if he visually inspected a brake on N630AE in accordance with the DVI and 
+he indicated that he did not. He stated that he had not received any training on the inspection 
+and was not aware of the special tool for the inspection. The facility did not have the plastic 
+probe.
+On June 28, 2011, a mechanic who worked at the operator™s Dallas/Ft. Worth maintenance 
+facility was asked if he visually inspected a brake on N812AE in accordance with the DVI and 
+he indicated that he did not. He stated that he had not received any training on the inspection 
+and was not aware of the special tool for the inspection. The facility did not have the plastic 
+probe.
+On July 28, 2011, a mechanic who worked at the operator™s Raleigh/Durham International 
+Airport maintenance facility was asked if he visually inspected a brake on N724AE in 
+Page 5 of 8CEN11IA369
+accordance with the DVI and he indicated that he did not remember. He stated that he had not 
+received any training on the inspection and was not aware of the special tool for the inspection 
+and used a screwdriver to inspect the brake. The facility did not have the plastic probe.
+On August 1, 2011, a mechanic who worked at a contractor™s maintenance facility near Savoy, 
+Illinois, was asked if he visually inspected a brake on N607AE and he indicated that he thought 
+he did. He stated that he had not received any training on the inspection and was not aware of 
+the special tool for the inspection and used his fingernail to inspect the brake. The facility did 
+not have the plastic probe.
+On August 2, 2011, a mechanic who worked at a contractor™s maintenance facility near 
+Erlanger, Kentucky, was asked if he visually inspected a brake on N607AE and he indicated 
+that he thought he did. He stated that he had not received any training on the inspection and 
+was not aware of the special tool for the inspection. He indicated that he used a hyperlink, 
+which he thought took him to the correct inspection. The hyperlink took him to the general 
+visual inspection. The facility did not have the plastic probe.
+Between July 06, and July 12, 2011, the operator and brake manufacturer conducted formal 
+training of the DVI inspection at four of the operator™s main maintenance base locations. The 
+operator has added a computer based training course that incorporates the DVI into recurrent 
+training for their maintenance technicians.
+On August 12, 2011, the operator issued a revised Main Landing Gear Wheel Assembly-
+Removal and Installation work card that clarifies the DVI requirement.
+According to the operator™s safety representative, as a result of the brake separation incident 
+the training courses I0462 and I0462_11 were re-loaded for all mechanics in August 2011. 
+Within 30 days 3,089 airplane mechanics had completed the web based training. The 
+requirement for the use of a plastic pick or a finger nail during the brake inspection process did 
+not changed from the original courses. Plastic picks were bought for the operator™s entire 
+maintenance system in late June 2011. The representative indicated that during the new hires 
+indoctrination training, time is set aside daily to allow the employee time to do the required 
+web based training and the required documentation of the completed training.
+History of Flight
+Prior to flight
+Aircraft maintenance event
+Landing-landing roll
+Sys/Comp malf/fail (non-power) (Defining event)
+Part(s) separation from AC
+Page 6 of 8CEN11IA369
+Pilot Information
+Certificate: 
+Airline Transport
+Age:
+53, Male
+Airplane Rating(s):
+Multi-engine Land
+Seat Occupied:
+Left
+Other Aircraft Rating(s): 
+Restraint Used: 
+Seatbelt, Shoulder 
+harness
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+Yes
+Instructor Rating(s): 
+Toxicology Performed: 
+No
+Medical Certification:
+Class 1 With Waivers/Limitations
+Last FAA Medical Exam:
+01/11/2011
+Occupational Pilot:
+Yes
+Last Flight Review or Equivalent:
+04/24/2011
+Flight Time:
+20691 hours (Total, all aircraft), 9911 hours (Pilot In Command, all aircraft)
+Co-Pilot Information
+Certificate: 
+Commercial
+Age:
+30
+Airplane Rating(s):
+Multi-engine Land
+Seat Occupied:
+Right
+Other Aircraft Rating(s): 
+Restraint Used: 
+Seatbelt, Shoulder 
+harness
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+Yes
+Instructor Rating(s): 
+Toxicology Performed: 
+No
+Medical Certification:
+Class 1 Without 
+Waivers/Limitations
+Last FAA Medical Exam:
+02/15/2011
+Occupational Pilot:
+Yes
+Last Flight Review or Equivalent:
+02/07/2011
+Flight Time:
+4820 hours (Total, all aircraft)
+Aircraft and Owner/Operator Information
+Aircraft Make:
+EMBRAER
+Registration:
+N607AE
+Model/Series:
+EMB-145 
+Aircraft Category:
+Airplane
+Year of Manufacture:
+Amateur Built:
+No
+Airworthiness Certificate:
+Transport
+Serial Number:
+145064
+Landing Gear Type: 
+Retractable - Tricycle
+Seats: 
+55
+Date/Type of Last Inspection:
+06/02/2011, Continuous 
+Airworthiness
+Certified Max Gross Wt.:
+Time Since Last Inspection:
+Engines:
+2 Turbo Jet
+Airframe Total Time:
+ 
+Engine Manufacturer:
+ALLISON
+ELT:
+Installed, not activated
+Engine Model/Series:
+AE3007C SER
+Registered Owner:
+AMERICAN EAGLE AIRLINES 
+INC
+Rated Power:
+6442 lbs
+Operator:
+AMERICAN EAGLE AIRLINES 
+INC
+Operating Certificate(s) 
+Held:
+Flag carrier (121)
+Operator Does Business As:
+Operator Designator Code:
+SIMA
+Page 7 of 8CEN11IA369
+Meteorological Information and Flight Plan
+Conditions at Accident Site:
+Visual Conditions
+Condition of Light:
+Day
+Observation Facility, Elevation:
+ORD, 672 ft msl
+Distance from Accident Site:
+0 Nautical Miles
+Observation Time:
+1051 CDT
+Direction from Accident Site:
+0°
+Lowest Cloud Condition:
+Few / 4900 ft agl
+Visibility
+10 Miles
+Lowest Ceiling:
+None 
+Visibility (RVR):
+Wind Speed/Gusts: 
+13 knots / 
+Turbulence Type 
+Forecast/Actual:
+ / 
+Wind Direction:
+170°
+Turbulence Severity 
+Forecast/Actual:
+ / 
+Altimeter Setting:
+30.09 inches Hg
+Temperature/Dew Point:
+26°C / 17°C
+Precipitation and Obscuration:
+No Obscuration; No Precipitation
+Departure Point: 
+Columbus, OH (CMH)
+Type of Flight Plan Filed:
+IFR
+Destination: 
+Chicago, IL (ORD)
+Type of Clearance:
+IFR
+Departure Time:
+0512 CDT
+Type of Airspace: 
+Airport Information
+Airport:
+Chicago O'Hare IAP (ORD)
+Runway Surface Type:
+Asphalt
+Airport Elevation:
+672 ft
+Runway Surface Condition:
+Unknown
+Runway Used:
+22R
+IFR Approach:
+Unknown
+Runway Length/Width:
+7500 ft / 150 ft
+VFR Approach/Landing:
+Full Stop
+Wreckage and Impact Information
+Crew Injuries:
+3 None
+Aircraft Damage:
+None
+Passenger Injuries:
+49 None
+Aircraft Fire:
+None
+Ground Injuries:
+N/A
+Aircraft Explosion:
+None
+Total Injuries:
+52 None
+Latitude, Longitude:
+41.981389, -87.906667 (est)
+Administrative Information
+Investigator In Charge (IIC):
+Edward F Malinowski
+Adopted Date:
+11/07/2012
+Additional Participating Persons:
+Mark Richter; Federal Aviation Administration; Rosemont, IL
+Trevor Johnson; American Eagle Airlines; Dallas, TX
+Nathan Hott; Goodrich Corporation; Troy, OH
+Lloyd Lewis; Federal Aviation Administration; Dallas, TX
+Carlos Antonio Motta de Souza; CENIPA; DF, Brasília, Brazil,   
+Paulo M Ribeiro; Embraer Aircraft Holding, Inc; Ft Lauderdale, FL
+Publish Date:
+11/07/2012
+Investigation Docket:
+http://dms.ntsb.gov/pubdms/search/dockList.cfm?mKey=79293
+Page 8 of 8CEN11IA369
+The National Transportation Safety Board (NTSB), established in 1967, is an independent federal agency mandated 
+by Congress through the Independent Safety Board Act of 1974 to investigate transportation accidents, determine 
+the probable causes of the accidents, issue safety recommendations, study transportation safety issues, and evaluate 
+the safety effectiveness of government agencies involved in transportation. The NTSB makes public its actions and 
+decisions through accident reports, safety studies, special investigation reports, safety recommendations, and 
+statistical reviews. 
+The Independent Safety Board Act, as codified at 49 U.S.C. Section 1154(b), precludes the admission into evidence 
+or use of any part of an NTSB report related to an incident or accident in a civil action for damages resulting from a 
+matter mentioned in the report.

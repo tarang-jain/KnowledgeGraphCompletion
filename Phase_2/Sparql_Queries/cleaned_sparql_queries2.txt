@@ -1,0 +1,529 @@
+﻿    1- Which accidents have Honeywell Engine involved?
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Honeywell
+}
+    2- which accidents are having Airplane as type of aircraft?
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftCategory rdf:Airplane
+}
+    3- which accidents have Landing of type Skid?
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasLandingGear rdf:Skid
+} 
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftModel rdf:47G
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Franklin
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?EngineManufacturer
+WHERE {?x rdf:hasEngineManufacturer ?EngineManufacturer.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT DISTINCT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer ?Air.
+MINUS{
+?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Franklin.
+ }
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?EngineModel
+WHERE {?x rdf:hasEngineModel ?EngineModel.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate rdf:Normal
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT DISTINCT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate  ?Air.
+MINUS{
+?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate rdf:Restricted.
+ }
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+}
+LIMIT 15
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+}
+LIMIT 15
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT DISTINCT ?Model
+WHERE {?x rdf:hasAircraftModel ?Model.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?AircraftModel
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftModel ?AircraftModel
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?Causes
+WHERE {?x rdf:hasDefiningEvent ?Causes.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?Causes
+WHERE {?x rdf:hasDefiningEvent ?Causes.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Airport
+WHERE {?Accident rdf:hasAirport ?Airport.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Airport
+WHERE {?Accident rdf:hasAirport ?Airport.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Condition
+WHERE {?Accident rdf:hasRunwaySurfaceType ?Condition.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Condition
+WHERE {?Accident rdf:hasRunwaySurfaceType ?Condition.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ? EngineManufacturer
+WHERE {?m rdf:hasEngineManufacturer ?EngineManufacturer.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?EM
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer ?EM 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?AircraftManufacturer
+WHERE {?m rdf:hasAircraftManufacturer ?AircraftManufacturer.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?AircraftManufacturer
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftManufacturer?AircraftManufacturer
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?DateandTime
+WHERE {?Accident rdf:hasDateTime ?DateandTime.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ? ObservedDateandTime
+WHERE {?Accident rdf:hasObservationTime ?ObservedDateandTime.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?CloudCondition
+WHERE {?Accident rdf:hasLowestCloudCondition ?CloudCondition.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident?UnitofWindDirection
+WHERE {?Accident rdf:unitOfWindDirection ?UnitofWindDirection.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindDirection
+WHERE {?Accident rdf:hasWindDirection ?WindDirection.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?UnitofWindspeed
+WHERE {?Accident rdf:unitOfWindSpeed ?UnitofWindspeed.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindSpeed
+WHERE {?Accident rdf:hasWindSpeed ?WindSpeed.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindSpeed ?WindDirection
+WHERE {?Accident rdf:hasWindSpeed ?WindSpeed;
+rdf:hasWindDirection ?WindDirection.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?UnitofTemperature
+WHERE {?Accident rdf:unitOfTemperature
+?UnitofTemperature.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Temperature
+WHERE {?Accident rdf:hasTemperature ?Temperature.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot
+WHERE {?Accident rdf:hasPilot ?Pilot.}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot ?PilotCertificate
+WHERE {?Accident rdf:hasPilot ?Pilot.
+?Pilot rdf:hasCertificate ?PilotCertificate.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot ?PilotAirplaneRating
+WHERE {?Accident rdf:hasPilot ?Pilot.
+?Pilot rdf:hasAirplaneRating ?PilotAirplaneRating.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?Operator
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasOperator ?Operator.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Damage
+WHERE {?Accident rdf:hasAircraftDamage ?Damage.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Substantial.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Destroyed.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Minor.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:None.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?seats
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasSeats ?seats.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?numberofpassengergotinjured
+WHERE {?Accident rdf:hasPassangerInjury ?numberofpassengergotinjured
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT?serialnumber
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasSerialNumber ?serialnumber.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?GrossWeight
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasCertifiedMaxGrossWeight ?GrossWeight
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?Timesincelastinspection
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasTimeSinceLastInspection ?Timesincelastinspection
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?unitoftime
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:unitOfTimeSinceLastInspection ?unitoftime
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?time ?unitoftime
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:unitOfTimeSinceLastInspection ?unitoftime;
+rdf:hasTimeSinceLastInspection ?time
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Water. 
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Snow. 
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Slush. 
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Asphalt. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Friction_on_Runway. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Unwanted_Braking. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Pilot_Lose_Control. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:hasPersonalError. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:hasAirTrafficControlError. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Engine_Failure. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Engine_Failure. 
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Uncontained_Engine_Failure. 
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingOfBirds.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingOfBirds.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Bombings.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:AircraftCollisions.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?city
+WHERE {?Accident rdf:occurredAtCity ?city.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?country
+WHERE {?Accident rdf:occurredAtCountry ?country.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?clearance
+WHERE {?Accident rdf:hasClearance ?clearance.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?conditionoflight
+WHERE {?Accident rdf:hasConditionOfLight ?conditionoflight.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?year
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasYearOfManufacture ?year
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?category
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftCategory ?category.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?certificate
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate ?certificate.}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?event
+WHERE {?Accident rdf:hasDefiningEvent ?event.
+}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?event
+WHERE {?Accident rdf:hasDefiningEvent ?event.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:badJudgementOfPilot.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent  rdf:badJudgementOfTrafficController.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:FireInAircraft.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?fire
+WHERE {?Accident rdf:hasAircraftFire ?fire.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:InflightFire.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByEnvironmentIssue rdf:FogInAtmosphere.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:__hasFuelExhaustion__.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:EngineFailureDueToFuelExhaustion.}
+PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToFuelStarvation.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:EngineFailureDueToFuelStarvation.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:DueToHijacking.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByPersonnelIssue rdf:WrongJudgementByPilot.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Runway_Incursion.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?numofrunway
+WHERE {?Accident rdf:hasAircraft ?Aircraft;
+rdf:hasRunwayUsed ?numofrunway.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?runwaylength ?unit
+WHERE {
+?Accident rdf:hasRunwayLength ?runwaylength;
+rdf:unitOfRunwayLength ?unit;
+rdf:hasAircraft ?Aircraft.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToOverrun.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?latitude
+WHERE {?Accident rdf:occurredAtLatitude ?latitude.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?latitude
+WHERE {?Accident rdf:occurredAtLongitude ?latitude.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:___Unknown___DefiningEvent.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:_StrinkingWithProjectile.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingWithGround.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?landinggear
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasLandingGear ?landi+nggear.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemInLandingGear.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemWithUndercarriage.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemWithUndercarriage.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToShootdown.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToStructureFailure.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:BrakeMalfunction.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToTyreBurst.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:failureOfReverseTrusters.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:FailureofThrusters.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?pilot ?secondpilotpresent
+WHERE {?Accident rdf:hasPilot ?pilot.
+?pilot rdf:hasSecondPilotPresent ?secondpilotpresent.}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToFOD.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?owner
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasRegisteredOwner ?owner
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Problem_in_COG.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?pilot ?seatoccupied
+WHERE {?Accident rdf:hasPilot ?pilot.
+?pilot rdf:hasSeatOccupied ?seatoccupied
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?aircraft ?transmitter
+WHERE {?Accident rdf:hasAircraft ?aircraft.
+?aircraft rdf:hasEmergencyLocatorTransmitter ?transmitter
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?pilot ?lastflight
+WHERE {?pilot rdf:hadLastFlightReview ?lastflight.
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Aircraft ?seat
+WHERE {?Aircraft rdf:hasSeats ?seat.
+	FILTER(?seat >7).
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Aircraft
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+	FILTER(?category = rdf:Helicopter)	
+}
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?category (count( ?category) as ?count)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?category (count(?category) as  ?maxtypeofaircraft)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+ORDER BY DESC(?maxtypeofaircraft) LIMIT 1
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?category (count(?category) as  ?maxtypeofaircraft)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+ORDER BY(?maxtypeofaircraft) LIMIT 1
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?airport (count(?airport) as  ?maxaccidentatairport)
+WHERE {?Accident rdf:hasAirport ?airport.
+}
+GROUP BY ?airport
+ORDER BY DESC(?maxaccidentatairport) LIMIT 1

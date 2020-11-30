@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://onto.fel.cvut.cz/ontologies/ufo-language#"
+     xml:base="http://onto.fel.cvut.cz/ontologies/ufo-language"
+     xmlns:See="http://www.geneontology.org/formats/oboInOwl#303 See "
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="http://onto.fel.cvut.cz/ontologies/ufo-language">
+        <owl:versionIRI rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-language/1.0.0"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-types/1.1.0"/>
+        <terms:created xml:lang="en">2.10.2018</terms:created>
+        <terms:creator rdf:resource="http://onto.fel.cvut.cz/ontologies/kbss/people/petr-kremen"/>
+        <terms:description xml:lang="en">The ontology aims at formalize the basic construct for expressing languages on top of UFO.</terms:description>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0"/>
+        <terms:title xml:lang="en">Unified Foundational Ontology - Languages</terms:title>
+        <bibo:status xml:lang="en">Ontology Specification</bibo:status>
+        <vann:preferredNamespacePrefix xml:lang="en">ufo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">http://onto.fel.cvut.cz/ontologies/ufo/</vann:preferredNamespaceUri>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/contains-type -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/contains-type">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/has-object-part"/>
+        <rdfs:label xml:lang="en">contains type</rdfs:label>
+        <rdfs:label xml:lang="cs">obsahuje typ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-object-part -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-object-part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/language">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object"/>
+        <rdfs:label xml:lang="cs">Jazyk</rdfs:label>
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+        <skos:definition xml:lang="cs">Jazykem rozumíme předpis, kterým lze vytvářet formální (např. UFO) popisy.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relational-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relational-language">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/typing-language"/>
+        <rdfs:label xml:lang="en">Relational Language</rdfs:label>
+        <rdfs:label xml:lang="cs">Relační jazyk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/typing-language -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/typing-language">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/language"/>
+        <rdfs:label xml:lang="en">Typing Language</rdfs:label>
+        <rdfs:label xml:lang="cs">Typovací jazyk</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

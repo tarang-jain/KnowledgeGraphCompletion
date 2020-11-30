@@ -1,0 +1,526 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://onto.fel.cvut.cz/ontologies/ufo-types#"
+     xml:base="http://onto.fel.cvut.cz/ontologies/ufo-types"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ufo="http://onto.fel.cvut.cz/ontologies/ufo/">
+    <owl:Ontology rdf:about="http://onto.fel.cvut.cz/ontologies/ufo-types">
+        <owl:versionIRI rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-types/1.1.0"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-a/1.1.0"/>
+        <owl:imports rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-b/1.1.0"/>
+        <terms:created xml:lang="en">16.11.2017</terms:created>
+        <terms:creator rdf:resource="http://onto.fel.cvut.cz/ontologies/kbss/people/petr-kremen"/>
+        <terms:description xml:lang="en">The ontology aims at formalize basic notions of multi-level modeling in the Unified Foundational Ontology.</terms:description>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0"/>
+        <terms:title xml:lang="en">Unified Foundational Ontology - Powertypes</terms:title>
+        <bibo:status xml:lang="en">Ontology Specification</bibo:status>
+        <vann:preferredNamespacePrefix xml:lang="en">ufo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">http://onto.fel.cvut.cz/ontologies/ufo/</vann:preferredNamespaceUri>
+        <owl:priorVersion rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo-powertypes/1.0.2"/>
+        <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/is-associated-with -->
+
+
+    <owl:AnnotationProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/is-associated-with">
+        <rdfs:label xml:lang="en">is associated with</rdfs:label>
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/power-type"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/categorizes -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/categorizes">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:range rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:label xml:lang="en">categorizes</rdfs:label>
+        <skos:definition xml:lang="en">categorizes(t,t&apos;)
+
+The instances of t apply to instances of t’ according specific classification criteria. Thus, all proper specializations of t’ that categorizes(t,t’) follow the specified classification criteria are instances of t.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/completely-categorizes -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/completely-categorizes">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/categorizes"/>
+        <rdfs:label xml:lang="en">completely categorizes</rdfs:label>
+        <skos:definition xml:lang="en">&apos;completely categorizes&apos;(t,t’)
+
+A variation of categorization in which the classification criteria defined by t guarantee that each instance of t’ is instance of at least one instance of t.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/disjointly-categorizes -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/disjointly-categorizes">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/categorizes"/>
+        <rdfs:label xml:lang="en">disjointly categorizes</rdfs:label>
+        <skos:definition xml:lang="en">&apos;disjointly categorizes&apos;(t,t&apos;)
+
+A variation of categorization in which the classification criteria defined by t guarantee that each instance of t’ is instance of at most one instance of t.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-property -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-property">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:range rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type-intrinsic-trope"/>
+        <rdfs:label xml:lang="en">has property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-type -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-type">
+        <owl:equivalentProperty rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/is-instance-of"/>
+        <rdfs:comment xml:lang="en">This relation is a relationship between an individual and its type. The type is understood in the sense of UFO instance powertype.</rdfs:comment>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+        <owl:deprecated xml:lang="en">Use is-instance-of instead</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/is-classified-by -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/is-classified-by">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/individual"/>
+        <rdfs:range rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:label xml:lang="en">is classified by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/is-instance-of -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/is-instance-of">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/entity"/>
+        <rdfs:range rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:label xml:lang="en">is instance of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/is-powertype-of -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/is-powertype-of">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:range rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:label xml:lang="en">is powertype of</rdfs:label>
+        <skos:definition xml:lang="en">&apos;is powertype of&apos;(t,t&apos;)
+
+The instances of t apply to instances of t’ but no classification criteria are defined. Thus, all specializations of t’, including t’ itself are instances of t.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/partitions -->
+
+
+    <owl:ObjectProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/partitions">
+        <rdfs:subPropertyOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/categorizes"/>
+        <rdfs:label xml:lang="en">partitions</rdfs:label>
+        <skos:definition xml:lang="en">partitions(t,t&apos;)
+
+A variation of categorization in which the classification criteria defined by t guarantee that each instance of t’ is instance of exactly one instance of t.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/has-type-order -->
+
+
+    <owl:DatatypeProperty rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/has-type-order">
+        <rdfs:domain rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/type"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">has type order</rdfs:label>
+        <rdfs:label xml:lang="cs">má úroveň</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/anti-rigid-mixin -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/anti-rigid-mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/anti-rigid-sortal -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/anti-rigid-sortal"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/category -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/category"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/collective -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/collective"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/endurant-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/endurant-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/entity -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/entity"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/event-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/event-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/first-order-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/first-order-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/individual -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/individual"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/kind -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/kind"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/mixin -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/mixin-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/mixin-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/mode-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/mode-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/monadic-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/monadic-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/non-rigid-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/non-rigid-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/object-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/object-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/phase -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/phase"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/quality-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/quality-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/quantity -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/quantity"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/relator-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/relator-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/rigid-mixin -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/rigid-mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/rigid-sortal -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/rigid-sortal"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/role -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/role"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/role-mixin -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/role-mixin"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/second-order-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/second-order-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/sortal-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/sortal-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/sub-kind -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/sub-kind"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/substance-sortal -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/substance-sortal"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/substantial-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/substantial-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/trope-type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/trope-type"/>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/type -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/type">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://onto.fel.cvut.cz/ontologies/ufo/type-intrinsic-trope -->
+
+
+    <owl:Class rdf:about="http://onto.fel.cvut.cz/ontologies/ufo/type-intrinsic-trope">
+        <rdfs:subClassOf rdf:resource="http://onto.fel.cvut.cz/ontologies/ufo/intrinsic-trope"/>
+        <rdfs:label xml:lang="en">Type Intrinsic Trope</rdfs:label>
+        <rdfs:label xml:lang="cs">Vlastnost typu</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

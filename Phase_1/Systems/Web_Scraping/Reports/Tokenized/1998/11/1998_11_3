@@ -1,0 +1,213 @@
+National Transportation Safety Board
+Aviation Accident Final Report
+Location: ATLANTA, GA
+Accident Number: DCA99MA007
+Date & Time: 11/01/1998, 1848 EST
+Registration: EICJW
+Aircraft: Boeing 737-200
+Aircraft Damage: Substantial
+Defining Event:
+Injuries: 13 Minor, 92 None
+Flight Conducted Under: Part 121: Air Carrier - Scheduled
+ Analysis The first officer of AirTran Airways flight 890, which preceded AirTran flight 867 in the accident airplane, identified and reported a leak from the right engine of the Boeing 737-200 during a postflight inspection at William B. Hartsfield Atlanta International Airport (ATL), Georgia.
+AirTran mechanics at ATL identified the source of the leak as a chafed hydraulic pressure line to the right thrust reverser.
+They found the part in the illustrated parts catalog (IPC), which was not designed as a troubleshooting document and does not contain sufficient detail for such use.
+One of the mechanics telephoned an AirTran maintenance controller in Orlando, Florida, for further instructions.
+The mechanics who initially identified the source of the leak had little experience working on the Boeing 737 because they had worked for ValuJet Airlines, which flew DC-9s only, until ValuJet and AirTran merged in September 1997.
+However, instead of capping the hydraulic pressure line, the mechanics capped the right engine hydraulic pump case drain return line.
+The mechanics performed a leak check by starting the auxiliary power unit and turning on the electric hydraulic pumps to pressurize the airplane's hydraulic systems; no leaks were detected.
+However, because the mechanics did not perform this test, the overpressure and rupture occurred during the airplane's climb out, allowing depletion of system A hydraulic fluid.
+Depletion of system A hydraulic fluid activated the hydraulic low-pressure lights in the cockpit, which alerted the flight crew that the airplane had a hydraulic problem.
+The crew notified air traffic control that the airplane would be returning to ATL and subsequently declared an emergency.
+The flight crew's initial approach to the airport was high and fast because of the workload associated with performing AirTran's procedures for the loss of hydraulic system A and the limited amount of time available to perform the procedures.
+Nevertheless, the crew was able to configure and stabilize the airplane for landing.
+However, depletion of system A hydraulic fluid disabled the nosewheel steering, inboard flight spoilers, ground spoilers, and left and right inboard brakes.
+The flight crew was able to land the airplane using the left thrust reverser (the right thrust reverser was fully functional but intentionally deactivated by the mechanics), outboard brakes (powered by hydraulic system B), and rudder.
+The flight crew used the left thrust reverser and rudder in an attempt to control the direction of the airplane down the runway, but use of the rudder pedals in this manner had depleted the system A accumulator pressure, which would have allowed three emergency brake applications.
+(The left outboard brake was still functional at this point.)
+The lack of brake friction material on the right outboard brake caused one of the right outboard brake pistons to overtravel and unport its o-ring, allowing system B hydraulic fluid to leak out; as a result, the left outboard brake also failed.
+Loss of the left and right inboard and outboard brakes, loss of nosewheel steering, and use of asymmetric thrust reverse caused the flight crew to lose control of the airplane, which departed the left side of the runway and came to rest in a ditch.
+Findings Occurrence #1: AIRFRAME/COMPONENT/SYSTEM FAILURE/MALFUNCTION Phase of Operation: CLIMB Findings 1.
+(C) HYDRAULIC SYSTEM,LINE - FAILURE 2.
+(C) MAINTENANCE,SERVICE OF AIRCRAFT/EQUIPMENT - IMPROPER - COMPANY MAINTENANCE PERSONNEL 3.
+(C) PROCEDURE INADEQUATE - OTHER MAINTENANCE PERSONNEL 4.
+(C) INADEQUATE SURVEILLANCE,INADEQUATE PROCEDURE - COMPANY/OPERATOR MGMT ---------- Occurrence #2: AIRFRAME/COMPONENT/SYSTEM FAILURE/MALFUNCTION Phase of Operation: LANDING - ROLL Findings 5.
+(F) LANDING GEAR,NORMAL BRAKE SYSTEM - FAILURE 6.
+(F) HYDRAULIC SYSTEM - NOT AVAILABLE - FLIGHTCREW ---------- Occurrence #3: LOSS OF CONTROL - ON GROUND/WATER Phase of Operation: LANDING - ROLL Findings 7.
+(F) THRUST REVERSER - ASYMMETRICAL 8.
+(F) DIRECTIONAL CONTROL - DIMINISHED - FLIGHTCREW ---------- Occurrence #4: ON GROUND/WATER COLLISION WITH OBJECT Phase of Operation: LANDING - ROLL Findings 9.
+Of the 2 flight crewmembers, 3 flight attendants, and 100 passengers on board, 2 passengers received serious injuries, and 14 passengers received minor injuries.
+The airplane was substantially damaged.
+Flight 867 was operating under the provisions of 14 Code of Federal Regulations Part 121 as a regularly scheduled passenger flight from ATL to Dallas?Ft.
+Worth International Airport, Texas.
+Flight 867 was the airplane's second flight of the day.
+AirTran flight 890, from William P. Hobby Airport, Houston, Texas, to ATL, arrived at 1320.
+At the conclusion of flight 890, the first officer of that flight performed a postflight check of the airplane and discovered a fluid leak coming from the number two (right) engine.
+They inspected the hydraulic pump and associated areas and did not find any other leaks.
+To specifically identify the leaking line, the mechanics reported that they operated the right thrust reverser on the ground without running the engine.
+(This test was specified in the Boeing 737 Maintenance Manual.)
+The mechanics stated that they followed the leaking line to the hydraulic pump and found that the leak was from a pressure line that appeared to go to the thrust reverser.
+This line did not have an identification number, so the mechanics referred to the illustrated parts catalog (IPC) to identify the line by its part number.
+The first mechanic reported that a replacement line was not available, but caps of the proper size were available for repairing the line.
+The first mechanic also told the maintenance controller the part number for the line that needed to be replaced.
+In a postaccident interview, the maintenance controller stated that he did not reference the IPC during the telephone call because he thought he was familiar with the location of the leak based on the mechanic's description of the problem.
+The maintenance controller stated that he discussed the leaking hydraulic line with the AirTran manager of maintenance at MCO, who agreed with the controller that the line could be repaired rather than replaced if parts were available.
+The maintenance controller then instructed the mechanic to cap the line and deactivate the associated thrust reverser according to AirTran's Minimum Equipment List (MEL) procedures.
+(The MEL procedures allowed one thrust reverser to be inoperative provided it was deactivated and secured closed and a placard was placed in the cockpit indicating that the thrust reverser was inoperative.)
+Further, the maintenance controller told the mechanic that the damage to the hydraulic line would be further assessed at the airplane's next scheduled maintenance visit.
+According to the flight discrepancy sheet issued by maintenance control, the right engine thrust reverser hydraulic leak was to be repaired on or before November 4, 1998.
+After capping the hydraulic pressure line, the first-shift mechanics performed a leak check by starting the auxiliary power unit and turning on the electric hydraulic pumps to pressurize the airplane's hydraulic systems.
+No leaks were reported.
+The mechanics did not start the right engine as part of the leak check, but they were not required by AirTran procedures to do so.
+Two additional AirTran mechanics (referred to in this brief as the third and fourth mechanics), who were working the second shift of the day, were also involved in the repair operation.
+The third mechanic arrived early for his shift and assisted the first mechanic in deactivating the thrust reverser because the first mechanic had not previously performed this task on a 737.
+About 1530, the mechanics told the maintenance controller that they had deactivated the thrust reverser.
+At the end of their shift, the first and second mechanics briefed the third and fourth mechanics on the status of the repair operation and told them the work that remained to complete the repair.
+The second-shift mechanics accomplished the remaining tasks, serviced the hydraulic fluid level, and performed the daily walkaround check (a brief visual check of specific areas of the airplane to detect any obvious discrepancies.)
+About 1600, the third mechanic signed off on the repair and indicated that the airplane was ready for flight.
+Cockpit voice recorder (CVR) information indicated that, about 1710, flight 867 departed ATL.
+The captain was the flying pilot, and the first officer was the nonflying pilot.
+About 1719:57, the captain stated, "hydraulic pumps are [unintelligible word], I hope that's in error."
+About 3 seconds later, the first officer indicated, "I hope that's an error, too."
+Flight data recorder (FDR) data showed that the airplane was at an altitude of approximately 18,000 feet about this time.
+About 1721:50 and 1721:55, the captain stated, "well, there goes the A system" and "looks like we're gonna be going back to Atlanta."
+About 1722:34, the first officer notified air traffic control that the airplane needed to return to ATL.
+The controller asked whether there were any problems, and the first officer responded, about 1722:54, "–not at this time.
+we're having erroneous hydraulic system indication–we'll–keep you advised."
+About 1723:56, the flight crew initiated AirTran's non-normal procedures for the loss of system A hydraulic pressure when the first officer stated, "system A flight control switches [unintelligible word] goes standby rudder?"
+and the captain replied, "you go ahead and do those."
+(AirTran's Aircraft Operations Manual, volume 1, indicates that the first action for the loss of system A hydraulic pressure is to select the standby rudder.)
+About 1724:35, the captain instructed the first officer to tell the air traffic controller that they would need a "long straight in" for landing.
+The first officer then informed the controller, who offered the flight crew the use of runway 9L or 9R; the flight crew chose runway 9L because it was longer.
+(Runway 9L is 11,889 feet long and 150 feet wide.)
+About 1726:54, the first officer stated, "–all right ground spoilers inboard spoilers nosewheel [steering] inoperative, thrust reversers are standby pressure, inboard brakes accumulator only–."
+About 1728:12, the first officer notified the air traffic controller that the field was in sight and that the airplane would be able to clear the runway but a tug would be needed for towing afterward.
+About 1728:29, the first officer called for the approach briefing.
+The flight crew was also responsible for accomplishing the other tasks on AirTran's checklist for the loss of hydraulic system A.
+These tasks included setting the approach airspeed for a flaps 15 landing (the CVR indicated that the captain was planning an approach airspeed of 155 knots), extending the leading edge flaps and slats with the use of the standby hydraulic system, and extending the trailing edge flaps electrically.
+Further, the flight crew had to extend the landing gear manually and plan the landing without the aid of nosewheel steering, inboard flight spoilers, and ground spoilers.
+About 1729:57, the captain radioed the controller and stated, "I guess we–should declare an emergency and–have the equipment come out–just as a precautionary."
+Radar and flight data recorder data indicated that the airplane's initial approach to the airport was high and fast but that the flight crew was able to configure and stabilize the airplane for landing.
+About 1733:38, the first officer stated, "remember one [thrust reverser] doesn't work."
+About 2 seconds later, the CVR recorded a sound consistent with an airplane touching down on a runway.
+The Safety Board's Airplane Performance Study for this accident indicated that the airplane touched down on the runway about 1,400 feet from the runway threshold at a speed of about 163 knots calibrated airspeed.
+Also, when the airplane landed, it had consumed only 4,650 pounds of the 28,500 pounds of fuel that was on board at takeoff.
+FDR data indicated that, during the landing sequence, the flight crew had the left thrust reverser, the rudder, and partial (outboard) brakes available for directional control.
+(The outboard brakes are powered by hydraulic system B.)
+About 1734:03, the first officer stated, "we do have brakes on the accumulator."
+About 1734:15, Continental Airlines flight 6016, which had just landed on runway 9R, informed the tower that "the right main" on AirTran flight 867 was "on fire on the back side."
+About 1734:19, the captain stated, "lost all brakes."
+About 1734:25, the tower controller radioed the flight crew of flight 867 and stated, "–fire trucks on the way–just bring it [the airplane] to a stop."
+The captain responded, about 4 seconds later, "we can't.
+we lost the brakes."
+About 1734:41, the first officer stated, "–take it in the ditch, take it in the ditch."
+The airplane then veered off the left side of the runway about 9,086 feet from the threshold.
+About 1734:48, the CVR recorded the sound of impact.
+About 3 seconds later, the CVR recorded voices of flight attendants stating, "heads down, stay down–."
+(This was recorded by the cockpit area microphone.)
+About 1734:54, the CVR recorded a sound consistent with airplane movement stops.
+The airplane stopped about 9,548 feet from the threshold and about 537 feet to the left of the runway centerline.
+The airplane came to rest upright with its nose against an embankment and its main landing gear in a ditch.
+About 1734:56, the captain gave instructions, over the airplane's public address system, to evacuate the airplane using any exit.
+After the accident, Safety Board investigators examined the airplane and found that the right engine hydraulic pump case drain return line, not the hydraulic pressure line leading to the thrust reverser, had been capped near the hydraulic pump case drain return line filter.
+(The case drain return line is adjacent to the hydraulic pressure line.)
+The hydraulic pump case drain return line was chafed in the aft pylon area near the thrust reverser flex cable coupling.
+When the line was pressurized by hand, the chafed area leaked.
+Investigators also found that both system A and B hydraulic reservoirs were empty, fluid was seeping from the seal area of the right engine hydraulic pump, and the right engine cowling contained a large amount of hydraulic fluid.
+Further, investigators found a trail of hydraulic fluid that started about 6,800 feet from the threshold and led along the right side of the runway to the right outboard brake assembly.
+The airplane's hydraulic systems are described in the section of this brief titled, "Airplane Information."
+Tests conducted on the accident airplane's hydraulic and braking systems are described in the section of this brief titled, "Tests and Research."
+PERSONNEL INFORMATION The Captain The captain, age 55, held an airline transport pilot certificate and was type rated in the Boeing 737.
+He also held a first-class medical certificate, dated October 21, 1998, with the limitation, "must have available glasses for near vision."
+The captain was hired by AirTran in January 1995.
+He flew the Boeing 737 as a first officer for about 5 months and was then upgraded to captain.
+The captain reported a total flight time of about 15,000 hours with 2,000 to 2,500 hours in the Boeing 737.
+He was trained to fly by the U.S. Air Force and had accumulated about 11,000 hours of flight time in the C-130.
+Before working for AirTran, the captain worked for Eastern Airlines, flying the Boeing 727 for about 4 years as a first officer.
+The First Officer The first officer, age 34, held an airline transport pilot certificate and was type rated on the British Aerospace Jetstream.
+He also held a first-class medical certificate, dated September 21, 1998, with the limitation, "must wear corrective lenses."
+The first officer was hired by AirTran in April 1998.
+The first officer reported a total flight time of 4,976 hours with about 167 hours as a first officer in the Boeing 737.
+Before joining AirTran, the first officer worked both in general aviation and as a first officer on corporate and charter flights for regional airlines.
+The Flight Attendants Flight 867 was staffed with three flight attendants.
+Flight attendant no.
+1, who occupied the outboard side of the forward flight attendant jumpseat, was hired by AirTran in May 1996.
+Flight attendant no.
+2, who occupied the inboard side of the forward jumpseat, was hired by AirTran in December 1996.
+Flight attendant no.
+3, who occupied the outboard aft jumpseat, was hired by AirTran in July 1998.
+The Airplane Mechanics The four mechanics at ATL who performed maintenance on the accident airplane on the day of the accident had previously worked for ValuJet Airlines, which flew DC-9s only.
+The first and second mechanics had not worked on 737s until AirTran and ValuJet merged in September 1997.
+The third and fourth mechanics had worked on 737s before joining ValuJet.
+The first mechanic began working for ValuJet in May 1994 and was issued an Airframe and Powerplant (A and P) certificate in August 1994.
+He completed AirTran's 40-hour Boeing 737 Familiarization Class in November 1997.
+The second mechanic was issued an A and P certificate in November 1992 and began working for ValuJet in March 1996.
+At the time of the accident, he had not taken AirTran's Boeing 737 Familiarization Class.
+The third mechanic was issued an A and P certificate in December 1976 and began working for ValuJet in November 1995.
+He completed AirTran's Boeing 737 Familiarization Class in March 1998.
+The fourth mechanic was issued an A and P certificate in November 1968 and worked for ValuJet from May 1995 to June 1996.
+He then went to work for Kiwi Airlines until October 1996, when he returned to ValuJet.
+He completed AirTran's Boeing 737 Familiarization Class in April 1998 and the company's 737 Familiarization Phase II class in June 1998.
+The Maintenance Controller The maintenance controller was issued an A and P certificate in December 1982.
+He worked as a mechanic and maintenance controller with Midway Airlines, Braniff Airlines, and Ryan International Airlines before beginning work at AirTran in December 1994.
+The maintenance controller completed AirTran's Boeing 737 Systems Maintenance Familiarization Class in December 1994.
+AIRPLANE INFORMATION Records indicate that EI-CJW was owned by GE Capital Aviation Services, Ltd., of Shannon, Ireland, and was leased to AirTran.
+(All other airplanes on the AirTran operating certificate at the time of the accident were registered in the United States.)
+The airplane was manufactured in June 1977, and AirTran placed it into service in February 1995.
+At the time of the accident, the airplane had accumulated 45,856 hours and 49,360 cycles.
+The Boeing 737-200 has three independent, 3,000 pound per square inch (psi) hydraulic systems:  system A, system B, and the standby system.
+System A receives pressure from two engine-driven hydraulic pumps, one on each engine, and supplies power to operate the flaps, landing gear, nosewheel steering, inboard brakes, ground spoilers, and some of the flight controls.
+System B receives pressure from two electric motor-driven pumps to operate the outboard brakes and some of the flight controls.
+The standby system is pressurized by one electric motor-driven pump to operate the rudder and thrust reversers and extend the leading edge devices if system A or B were to fail.
+The hydraulic pump case drain return line (the line that was capped by the mechanics) is critical to the lubrication and cooling of the hydraulic pump.
+The case drain return line is also a low?pressure line to the system A reservoir.
+The Boeing 737-200 inboard and outboard brake assemblies each have a hydraulic accumulator for emergency brake operation.
+The brake accumulators allow for three pedal applications.
+The proper use of accumulator-only brakes requires immediate application and constant pressure of the brake pedals so that there will be little bleed off of the accumulator pressure.
+METEOROLOGICAL INFORMATION At 1753, about 18 minutes before the accident, ATL weather was reported as follows:  winds, calm; visibility, 10 statute miles; clouds, scattered at 25,000 feet; temperature, 22 degrees Celsius; dew point, 11 degrees Celsius; and altimeter setting, 29.95 inches of mercury.
+WRECKAGE AND IMPACT INFORMATION The airplane came to rest against an embankment north of taxiway M with its main landing gear in a drainage ditch and its empennage extending over the taxiway.
+The nose gear was folded back into the electrical/electronic compartment and turned 90 degrees from its normal, extended position.
+The nosewheel doors were separated from the airplane, and the lower third of the radome was crushed.
+The remainder of the lower forward fuselage was wrinkled back to the forward cargo door up to the windows.
+The lower section of the aft fuselage was pushed in approximately 8 inches from the aft wing root fairing to below the left aft (L2) and right aft (R2) doors.
+The lower aft fuselage was wrinkled above the damaged area from the wing trailing edge back to the L2 and R2 doors up to the windows.
+The airplane's flap position indicator showed that the flaps had been set to 15 degrees for landing, which was consistent with AirTran's procedures for the loss of system A hydraulic pressure.
+SURVIVAL ASPECTS All of the occupants evacuated the airplane, and emergency vehicles and personnel were waiting for the airplane, as the captain had requested.
+Passengers escaped through the left forward (L1), left aft (L2), and right aft (R2) doors and through the exits located over the wings.
+(The right forward [R1] door could not be fully opened.)
+Once the passengers had evacuated the airplane, the crew evacuated using the L1 and L2 doors.
+The crew and fire personnel assisted some passengers in crossing the ditch to reach the emergency vehicles.
+Two of the slides (L1 and R1) deployed automatically although the flight attendant (no.
+1) used the assist handle in deploying the L1 slide because it inflated slowly.
+The L2 slide failed to deploy automatically, but the flight attendant (no.
+3) decided not to deploy it manually because passengers were able to step off the airplane to the ground.
+Safety Board investigators found a placard on the L2 slide cover that read, "Slide Inflates Automatically."
+However, investigators determined that the L2 slide was a manually inflated slide and that the placard was incorrect.
+On November 5, 1998, AirTran directed that all of its Boeing 737-200 airplanes be inspected for incorrect placards for emergency evacuation slides.
+The AirTran inspection uncovered two additional 737 airplanes that had manually inflated slides.
+Subsequently, AirTran issued an engineering bulletin requiring that all manually inflated slides on its Boeing 737-200 airplanes be replaced with automatically inflated slides.
+On November 7, 1998, AirTran replaced all of its manually inflated slides with automatic slides.
+TESTS AND RESEARCH During on-scene ground testing, the hydraulic system, brake system, flight controls, and thrust reversers all functioned normally after the hydraulic systems were filled with hydraulic fluid.
+However, when the left main landing gear brakes were applied and released several times, the accumulator pressures for both brake systems dropped approximately 500 psi per application.
+(Because the right main brake system was damaged, the full system could not be tested.)
+Similarly, accumulator pressure for both the inboard and the outboard brake systems was depleted in about 5 seconds when the brakes were applied while the rudder pedals were moved fore and aft or while the top of the rudder pedals were tapped slightly.
+On December 23, 1998, the Safety Board's Materials Laboratory examined the right engine hydraulic pump case drain return line.
+The laboratory confirmed that the line was chafed and found it to be perforated.
+On March 23, 1999, the right main landing gear brake assemblies were examined at AlliedSignal Landing Systems, South Bend, Indiana.
+The examination revealed severe heat damage to the right outboard brake assembly.
+The brake pads were worn beyond their limits, the pistons had overtraveled, one of the pistons was wet with hydraulic fluid and leaked when the brake assembly was pressurized, and the o-ring for that piston had split.
+Boeing's Equipment Quality Analysis Laboratory in Renton, Washington, examined the right engine hydraulic pump.
+In an April 27, 1999, letter, Boeing indicated that the gasket between the two sections of the pump housing was severely damaged and that two sections were missing.
+When the pump was pressurized, hydraulic fluid leaked from the seam between the two largest sections of the pump housing.
+ADDITIONAL INFORMATION In a postaccident interview, the manager of maintenance at MCO stated that, when mechanics called for direction on correcting a discrepancy, AirTran's standard practice was for maintenance controllers to check all available documentation to verify part numbers for all parts that the mechanics planned to use.
+However, no written policy or procedure required maintenance controllers to verify part numbers.
+Referring to the IPC, the maintenance controller identified the hydraulic pressure tube assembly (either part number 65-46858-1144 or part number 65?46858?1142) as the line that he thought the mechanic had described.
+The maintenance controller stated that, if he had understood which line was actually leaking, he would have instructed the mechanic to replace the line rather than make a temporary repair to the line by capping it.
+The Federal Aviation Administration (FAA) approved AirTran's maintenance procedures, which included the use of the IPC as a reference.
+The IPC is not an FAA-approved or -accepted maintenance document.
+If a manufacturer incorporates the IPC into a maintenance program, and if the air carrier uses that program, the IPC would then be part of the air carrier's FAA- approved maintenance procedures.
+However, the air carrier will be required to maintain the IPC by incorporating manufacturer updates.
+At the time of the accident, AirTran did not have a written procedure requiring maintenance controllers to verify part numbers against the IPC but has since developed a written procedure to that effect.
+Pilot Information Certificate: Airline Transport; Commercial; Flight Engineer Age: 55, Male Airplane Rating(s): Multi-engine Land; Single-engine Land Seat Occupied: Left Other Aircraft Rating(s): None Restraint Used: Instrument Rating(s): Airplane Second Pilot Present: Yes Instructor Rating(s): None Toxicology Performed: Yes Medical Certification: Class 1 Valid Medical--w/ waivers/lim.
+Dockets released prior to June 1, 2009 are publicly available from the NTSB™s Record Management Division at pubinq@ntsb.gov , or at 800-877-6799.
+Dockets released after this date are available at http://dms.ntsb.gov/pubdms/ .

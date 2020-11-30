@@ -1,0 +1,770 @@
+﻿    1- Which accidents have Honeywell Engine involved?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Honeywell
+
+}
+
+
+    2- which accidents are having Airplane as type of aircraft?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftCategory rdf:Airplane
+
+}
+
+    3- which accidents have Landing of type Skid?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasLandingGear rdf:Skid
+
+} 
+
+4-which accident have aircraft model 47G?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftModel rdf:47G
+}
+
+5-Which accidents are having aircraft which has Engine Manufacturer Franklin?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Franklin
+}
+
+6-display all the Engine Manufacturer of the  all Aircrafts?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?EngineManufacturer
+WHERE {?x rdf:hasEngineManufacturer ?EngineManufacturer.
+}
+
+7-which accidents are  having aircraft which does not have Engine Manufacturer Franklin?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT DISTINCT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer ?Air.
+MINUS{
+?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer rdf:Franklin.
+ }
+}
+
+8- display all the different Engine Model?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?EngineModel
+WHERE {?x rdf:hasEngineModel ?EngineModel.
+}
+
+9- which accidents have aircraft certificate Normal?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate rdf:Normal
+}
+
+10- which accidents are  having aircraft which does not have air worthiness certificate Restricted?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT DISTINCT ?Accident
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate  ?Air.
+MINUS{
+?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate rdf:Restricted.
+ }
+}
+
+12-(i)- List out various type of the aircraft involved in accident?
+12-(ii)-List out various type of the aircraft involved in incident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+}
+LIMIT 15
+
+13-(i)-show all the different types of aircraft involved in accident?
+13-(ii)-List the name of all the aircrafts involved in an accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+}
+LIMIT 15
+
+14-List different kinds of models of the aircrafts available?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT DISTINCT ?Model
+WHERE {?x rdf:hasAircraftModel ?Model.
+}
+
+15-show all the various kinds of models of the aircrafts which are involved in accidents?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?AircraftModel
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftModel ?AircraftModel
+}
+
+16-List out all the causes of an aircraft accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?Causes
+WHERE {?x rdf:hasDefiningEvent ?Causes.
+}
+
+17-display all the functions which are observed during an accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?Causes
+WHERE {?x rdf:hasDefiningEvent ?Causes.
+}
+
+18-display information about airports which are involved in various accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Airport
+WHERE {?Accident rdf:hasAirport ?Airport.
+}
+
+19-list out all airports where all different accidents have occured?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Airport
+WHERE {?Accident rdf:hasAirport ?Airport.
+}
+
+20-show the status of Runway surface during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Condition
+WHERE {?Accident rdf:hasRunwaySurfaceType ?Condition.
+}
+
+21-What was the condition of Runway during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Condition
+WHERE {?Accident rdf:hasRunwaySurfaceType ?Condition.
+}
+
+22-List out manufacturers of Aircrafts Engine?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ? EngineManufacturer
+WHERE {?m rdf:hasEngineManufacturer ?EngineManufacturer.
+}
+
+23-List out the manufacturers of Engine of an aircraft involved in an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?EM
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasEngineManufacturer ?EM 
+}
+
+24-List out all the Manufucturers of Aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  DISTINCT ?AircraftManufacturer
+WHERE {?m rdf:hasAircraftManufacturer ?AircraftManufacturer.
+}
+
+25-List out the manufacturers of all aircrafts that are involved in an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?AircraftManufacturer
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftManufacturer?AircraftManufacturer
+}
+
+26-Display date and time of all the Accidents?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?DateandTime
+WHERE {?Accident rdf:hasDateTime ?DateandTime.
+}
+
+27-Display data and time of Observation of an accident for all the Accidents?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ? ObservedDateandTime
+WHERE {?Accident rdf:hasObservationTime ?ObservedDateandTime.
+}
+
+28-What was the condition of cloud that was observed during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?CloudCondition
+WHERE {?Accident rdf:hasLowestCloudCondition ?CloudCondition.
+}
+
+29-What is the unit which was used to measure the direction of wind during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident?UnitofWindDirection
+WHERE {?Accident rdf:unitOfWindDirection ?UnitofWindDirection.
+}
+
+30-What was the direction of wind that was observed during an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindDirection
+WHERE {?Accident rdf:hasWindDirection ?WindDirection.
+}
+
+31-What is the unit which was used to measure the direction of wind during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?UnitofWindspeed
+WHERE {?Accident rdf:unitOfWindSpeed ?UnitofWindspeed.
+}
+
+32-What was the speed of wind that was observed during an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindSpeed
+WHERE {?Accident rdf:hasWindSpeed ?WindSpeed.
+}
+
+33-What was the condition of wind that was observed during  an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?WindSpeed ?WindDirection
+WHERE {?Accident rdf:hasWindSpeed ?WindSpeed;
+rdf:hasWindDirection ?WindDirection.
+}
+
+35-which unit was used to measure temperature during an accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?UnitofTemperature
+WHERE {?Accident rdf:unitOfTemperature
+?UnitofTemperature.
+}
+
+36-what was temperature that was observed during different accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Temperature
+WHERE {?Accident rdf:hasTemperature ?Temperature.
+}
+
+37-list out all  pilots that are involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot
+WHERE {?Accident rdf:hasPilot ?Pilot.}
+38-List out pilots and information about their certificate that are involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot ?PilotCertificate
+WHERE {?Accident rdf:hasPilot ?Pilot.
+?Pilot rdf:hasCertificate ?PilotCertificate.
+}
+
+39-Display information about pilot and their Airplane rating that are involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Pilot ?PilotAirplaneRating
+WHERE {?Accident rdf:hasPilot ?Pilot.
+?Pilot rdf:hasAirplaneRating ?PilotAirplaneRating.
+}
+
+40-display operator of an aircraft that was involved in an accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?Operator
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasOperator ?Operator.
+}
+
+41-What was the damaged in aircraft after accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Damage
+WHERE {?Accident rdf:hasAircraftDamage ?Damage.
+}
+
+42-List out all the accidents in which there is substantial damage of aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Substantial.
+}
+
+43-List out all the accidents in which there is Destroyment of aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Destroyed.
+}
+
+44-List out all the accidents in which there is Minor Damage of aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:Minor.
+}
+
+45-List out all the accidents in which there is No damage  of aircraft  observed?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasAircraftDamage rdf:None.
+}
+
+46-What was total number of seats in Aircraft that was involved in accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?seats
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasSeats ?seats.
+}
+
+47-list out number of passenger which got injured in any accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?numberofpassengergotinjured
+WHERE {?Accident rdf:hasPassangerInjury ?numberofpassengergotinjured
+}
+
+48-display serial number of all aircraft which are involved in accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT?serialnumber
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasSerialNumber ?serialnumber.
+}
+
+49-Display Certified Maximum Gross Weigth of all Aircraft which are involved in any accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?GrossWeight
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasCertifiedMaxGrossWeight ?GrossWeight
+}
+
+50-display how since much time the aircraft which is involved in accident is not inspected?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?Timesincelastinspection
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasTimeSinceLastInspection ?Timesincelastinspection
+}
+
+51-what is the unit of time which is used to measure the time of last inspection?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?unitoftime
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:unitOfTimeSinceLastInspection ?unitoftime
+}
+
+52-display how since much time along with unit the aircraft which is involved in accident is not inspected?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident ?Aircraft ?time ?unitoftime
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:unitOfTimeSinceLastInspection ?unitoftime;
+rdf:hasTimeSinceLastInspection ?time
+}
+
+53-display all the accidents in which there was a present of water on the runway?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Water. 
+}
+
+54-display all accidents in which snow was observed on the runway?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Snow. 
+}
+
+55-display all the accidents in which there was a present of slush on the runway?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Slush. 
+}
+
+56--display all accidents in which asphalt was observed on the runway?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasRunwaySurfaceType rdf:Asphalt. 
+}
+
+57-list out all the accidents which was caused due to friction on the runway?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Friction_on_Runway. 
+}
+
+58-show all the accidents which was caused as a result of unwanted braking action?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Unwanted_Braking. 
+}
+
+59-display all the accidents which was caused as a result of losing a control by the pilot?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Pilot_Lose_Control. 
+}
+
+60-list all the accidents which was caused due to personal error?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:hasPersonalError. 
+}
+
+61-list all the accidents which was caused due to error by Air traffic control?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:hasAirTrafficControlError. 
+}
+
+62-show all the accidents in which problem is with aircraft engine?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Engine_Failure. 
+}
+
+63-display all the accidents which was caused as a result of Engine Failure?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Engine_Failure. 
+}
+
+64-display all the accidents which was caused as a result of Uncontained Engine Failure?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?Accident 
+WHERE {?Accident rdf:hasDefiningEvent rdf:Uncontained_Engine_Failure. 
+}
+
+65- show all the accidents which was caused as a result of striking of aircraft with birds?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingOfBirds.
+}
+
+66-display list of accident in which birds where observed?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingOfBirds.
+}
+
+67-show list of all accident which was caused as a result of Bombings?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Bombings.
+}
+
+68-display all the accidents which was caused as a result of collisions with other aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:AircraftCollisions.
+}
+
+69-list out all the city where different accidents have occured?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?city
+WHERE {?Accident rdf:occurredAtCity ?city.
+}
+
+70-list out all countries where different accidents have occured?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?country
+WHERE {?Accident rdf:occurredAtCountry ?country.
+}
+
+71-List out all accidents along with its clearance status?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?clearance
+WHERE {?Accident rdf:hasClearance ?clearance.
+}
+
+72-List out all accidents along with condition of light  during accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?conditionoflight
+WHERE {?Accident rdf:hasConditionOfLight ?conditionoflight.
+}
+
+73-list out date of manufacturing of aircrafts that are involved in accidents?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?year
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasYearOfManufacture ?year
+}
+
+74-list out all different category of aircraft that are involved in accidents?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?category
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAircraftCategory ?category.
+}
+
+75-list out Airworthiness certificate of all the aircrafts that are involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?certificate
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasAirworthinessCertificate ?certificate.}
+76-display all the reason which were responsible behind accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?event
+WHERE {?Accident rdf:hasDefiningEvent ?event.
+}
+
+77-display all the causes of an accident which were responsible behind accident?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?event
+WHERE {?Accident rdf:hasDefiningEvent ?event.
+}
+
+78-show all the accidents which was caused as a result of bad judgement of pilot?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:badJudgementOfPilot.
+}
+
+79-show all the accidents which was caused as a result of bad judgement of traffic controller?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent  rdf:badJudgementOfTrafficController.
+}
+
+80-show all the accidents which was caused as a result of fire in aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:FireInAircraft.
+}
+
+81-list out all accidents and information about fire , if fire is observed in any part of aircraft?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?fire
+WHERE {?Accident rdf:hasAircraftFire ?fire.
+}
+
+82-what are the accidents that have been caused as a result of Inflight Fires?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:InflightFire.
+}
+
+83-Show all the accidents which was caused as a result of fog?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByEnvironmentIssue rdf:FogInAtmosphere.
+}
+
+84-show all the accidents which was caused as a result of fuel exhaustion?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:__hasFuelExhaustion__.
+}
+
+85-show all the accidents in which engine was not working properly as a result of fuel exhaustion?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:EngineFailureDueToFuelExhaustion.}
+86-show all the accidents which was caused as a result of fuel Starvation?
+-> PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToFuelStarvation.
+}
+
+87-show all the accidents in which engine was not working properly as a result of fuel exhaustion?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:EngineFailureDueToFuelStarvation.
+}
+
+88-display all the incidents in which aircrafts was involved in hijacking?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:DueToHijacking.
+}
+
+89-List out all the accidents that was caused as a result of pilot error?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByPersonnelIssue rdf:WrongJudgementByPilot.
+}
+
+90-List out all the accidents that was caused as a result of runway incursion?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Runway_Incursion.
+}
+91-give information about the number of runway used by the aircraft which was involved in any accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?numofrunway
+WHERE {?Accident rdf:hasAircraft ?Aircraft;
+rdf:hasRunwayUsed ?numofrunway.
+}
+
+92-give information about total runway length covered by the aircraft which was involved in any accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?runwaylength ?unit
+WHERE {
+?Accident rdf:hasRunwayLength ?runwaylength;
+rdf:unitOfRunwayLength ?unit;
+rdf:hasAircraft ?Aircraft.
+}
+
+93-list out all accidents which was caused as a result of Runway overrun?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToOverrun.
+}
+
+94-list all latitudes where different accident have taken place?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?latitude
+WHERE {?Accident rdf:occurredAtLatitude ?latitude.
+}
+
+95-list all longitudes where different accident have taken place?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?latitude
+WHERE {?Accident rdf:occurredAtLongitude ?latitude.
+}
+
+96-display all the accidents in which reason behind the accident is unknown?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:___Unknown___DefiningEvent.
+}
+
+97-list out all the accidents of aircraft which was caused as a result of aircraft strinking with projectile?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:_StrinkingWithProjectile.
+}
+
+98-list out all the accidents of aircraft which was caused as a result of aircraft strinking with ground?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:StrikingWithGround.
+}
+
+99-list out information about landing gear of different aircrafts that were involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?landinggear
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasLandingGear ?landi+nggear.
+}
+100-show all the incidents which was caused because of problem in Landing Gear?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemInLandingGear.
+}
+
+101-show all the incidents which was caused because of problem in Undercarriage?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemWithUndercarriage.
+}
+
+102-display all the accidents which was causes as a result of Undercarriage Malfunction?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:ProblemWithUndercarriage.
+}
+
+103-display all the accidents which was caused as a result of shootdown?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToShootdown.
+}
+
+104-list out all the accidents that was caused as a result of structural failure?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToStructureFailure.
+}
+
+105-list out all the incidents which was occurred as a result of Break malfunction?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:BrakeMalfunction.
+}
+
+106-display all events in which it was observed that tyre was burst at the high speed?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToTyreBurst.
+}
+
+107-show all accidents that was caused as result of failure in reverse thrusters?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:failureOfReverseTrusters.
+}
+
+108-show all accidents that was caused as result of failure in reverse thrusters?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:isCausedByAircraftIssue rdf:FailureofThrusters.
+}
+
+109-Give information whether second pilot is present on aircraft which was involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?pilot ?secondpilotpresent
+WHERE {?Accident rdf:hasPilot ?pilot.
+?pilot rdf:hasSecondPilotPresent ?secondpilotpresent.}
+110-display all accidents which was caused as a result of Foreign object damage?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:dueToFOD.
+}
+
+111-display owner of different aircrafts which are involved in any accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?Aircraft ?owner
+WHERE {?Accident rdf:hasAircraft ?Aircraft.
+?Aircraft rdf:hasRegisteredOwner ?owner
+}
+
+112-list out all accidents which was caused because of problem with centre of gravity?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident
+WHERE {?Accident rdf:hasDefiningEvent rdf:Problem_in_COG.
+}
+
+113-give information about seat which is occupied by the pilot of aircraft which was involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?pilot ?seatoccupied
+WHERE {?Accident rdf:hasPilot ?pilot.
+?pilot rdf:hasSeatOccupied ?seatoccupied
+}
+
+114-give information about Emergency Locator Transmitter in aircraft which was involved in accident?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Accident ?aircraft ?transmitter
+WHERE {?Accident rdf:hasAircraft ?aircraft.
+?aircraft rdf:hasEmergencyLocatorTransmitter ?transmitter
+}
+
+115-specify date of Last flight in which pilot was involved?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?pilot ?lastflight
+WHERE {?pilot rdf:hadLastFlightReview ?lastflight.
+}
+
+116-list all the aircrafts which have seats more than 7?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Aircraft ?seat
+WHERE {?Aircraft rdf:hasSeats ?seat.
+	FILTER(?seat >7).
+}
+
+117-list all the aircrafts which are having Aircraft category as Helicopter?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?Aircraft
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+	FILTER(?category = rdf:Helicopter)	
+}
+
+118-List out how many Aircrafts are having Aircraft category as Airplane?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT  ?category (count( ?category) as ?count)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+119-list out the category of Aircraft which is maximum?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?category (count(?category) as  ?maxtypeofaircraft)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+ORDER BY DESC(?maxtypeofaircraft) LIMIT 1
+
+
+120-list out the category of Aircraft which is minimum?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?category (count(?category) as  ?maxtypeofaircraft)
+WHERE {?Aircraft rdf:hasAircraftCategory ?category.
+}
+GROUP BY ?category
+ORDER BY(?maxtypeofaircraft) LIMIT 1
+
+121-give name of airport where Maximum number of accident have occurred?
+->PREFIX rdf: <https://www.cse.iitb.ac.in/~amitpatil/AircraftAccident.owl#>
+SELECT ?airport (count(?airport) as  ?maxaccidentatairport)
+WHERE {?Accident rdf:hasAirport ?airport.
+}
+GROUP BY ?airport
+ORDER BY DESC(?maxaccidentatairport) LIMIT 1

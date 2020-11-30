@@ -1,0 +1,13 @@
+User Interface:
+    Softwares:
+        -Python 3
+	-Owlready2
+	-Spacy library
+	-Django
+
+    Execution:
+	-Change the path in the python files of templates folder for AircraftAccident.owl file and aircraft_base.owl file
+        -Run the manage.py file in myproject folder using command: python manage.py runserver
+        -open the browser go to the url: http://127.0.0.1:8000/nlqapp/
+	-(Note: Internet Connection is required while executing the program)
+	-The query is typed on the interface and then submit button is pressed for the execution. 	

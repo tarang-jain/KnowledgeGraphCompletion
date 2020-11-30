@@ -1,0 +1,186 @@
+The helicopter experienced a partial loss of power during the transition from an out of ground 
+effect hover to forward flight, and collided with the ground in a parking lot.  About 10 seconds 
+after the transition to forward flight, at 35 knots and between 150 to 200 feet above ground 
+level, the pilot sensed the engine turbine start to spool down towards idle.  He saw a red 'GOV' 
+light illuminated on the instrument panel.  The pilot did not disengage the flight notch on the 
+collective twist grip to manually control the fuel flow to the engine and proceeded to fly the 
+helicopter about 1/8 mile towards the parking lot, working the collective to try to keep the 
+helicopter above the trees and the roofs of the houses.  He used all the available rotor rpm in an 
+attempt to arrest the landing.  The helicopter landed hard, collapsing the landing skids, and the 
+ship slid about 100 feet.  After the helicopter came to rest, the main rotor was still rotating at a 
+slower rpm, and the engine was operating at what seemed like a low idle speed.  The partial 
+loss of engine power was initiated by an inconsistency of greater than 3 percent between the 
+two N2 (free turbine speed) sensors on the engine.  This inconsistency resulted in the fuel 
+control entering a fixed mode that freezes the fuel flow at the level it was at when the 
+inconsistency was detected, and the illumination of a red 'GOV' light in the cockpit.  The power 
+required for forward flight is less than the power required to hover.  The fixed fuel flow to the 
+engine provided insufficient power to fly and land the helicopter at speeds below 35 knots, 
+which resulted in low rotor rpm and a high rate of decent prior to the hard landing.  In the 
+event of a red 'GOV' light the pilot is to disengage the flight notch and control the fuel manually 
+with the collective twist grip, which would allow the pilot to regain the full power range of the 
+engine.  At an altitude of 150 to 200 feet and airspeed of 35 knots, the pilot was operating in 
+the avoidance zone of the documented height-velocity diagram, and therefore, may not have 
+had enough time to fully respond to the partial loss of power by selecting an emergency landing 
+site, disengaging the twist grip flight notch, and exercising manual control of the engine.
+An inconsistency between the engines' two N2 sensor signals caused the fuel control to enter a 
+fixed mode, which limited the power available.  Contributing to the accident was the lack of 
+altitude and airspeed available to give the pilot time to select a landing zone, disengage the 
+flight notch, and exercise manual control of the engine after the illumination of the red 'GOV' 
+light.
+HISTORY OF FLIGHT
+On November 2, 2004, at 0731 mountain standard time, a Eurocopter AS350B3, N106LN, 
+experienced a partial power loss after takeoff followed by a hard landing into a parking lot, in 
+Sierra Vista, Arizona.  LifeNet, Inc., was operating the helicopter under the provisions of 14 
+CFR Part 91 as a positioning flight.  The commercial pilot and two medical flight crew were not 
+injured, and the helicopter was substantially damaged.  Visual meteorological conditions 
+prevailed, and a company flight plan had been filed for the flight that was destined for Portal, 
+Arizona.
+The pilot stated in the Pilot/Operator Accident Report and in a telephone interview with the 
+National Transporation Safety Board investigator (IIC), that he and two medical attendants 
+were on a flight to pickup a patient.  Prior to takeoff he checked his instrument panel and then 
+lifted the helicopter to a 50-foot hover over the elevated pad at Sierra Vista Hospital, which 
+positioned the helicopter about 100 feet above ground level (agl).  After receiving clearance 
+from the Sierra Vista Municipal Airport tower he transitioned to forward flight.  About 10 
+seconds later, at 35 knots and between 150 to 200 feet agl, he sensed the engine turbine start to 
+spool down towards idle.  He lowered the collective and saw a red 'GOV' light illuminated on 
+the instrument panel.  He identified a bank parking lot as a possible emergency landing area.  
+He flew the helicopter about 1/8 mile towards the parking lot, working the collective to try to 
+keep the helicopter above the trees and the roofs of houses.  He lined up for the parking lot and 
+used all the available rotor rpm to arrest the landing.  The helicopter landed hard collapsing 
+the landing skids, and the ship slid about 100 feet, rotating 90 degrees to the left as it did so.  
+After the helicopter's motion had stopped, the main rotor was still rotating at a slower rpm, 
+and the engine was operating at what seemed like a low idle speed.  He rolled the twist grip to 
+'min,' pulled the fuel shutoff valve, and used the rotor brake to stop the rotor.  Throughout the 
+emergency landing he did not recall hearing a "low rotor rpm" aural warning.
+PERSONNEL INFORMATION
+A review of the Federal Aviation Administration (FAA) airman records revealed that the pilot 
+held a commercial pilot certificate with ratings for rotorcraft-helicopter and instrument 
+helicopter, issued on February 28, 2002, and a flight instructor certificate rated in helicopters 
+issued November 16, 1998.  Additionally, the pilot held a private pilot certificate with a single 
+engine land rating.  The pilot held a second-class medical issued on September 9, 2004, with 
+the limitation that he must wear corrective lenses.
+The pilot reported that he had 9,992 flight hours of total time, 350 hours in the AS350B3, and 
+had flown 25 hours in the last 30 days.
+AIRCRAFT INFORMATION
+The helicopter was a Eurocopter, AS350B3, serial number 3251, that was equipped to operate 
+as an emergency medical evacuation helicopter.  The engine was a Turbomeca Arriel 2B, serial 
+number 22036, capable of producing 825 horsepower.  Examination of the maintenance 
+records revealed that the helicopter had 3,163.8 operating hours at the time of the accident, 
+and had undergone a 30-hour inspection on October 28, 2004.  On November 1, 2004, the 
+engine had undergone a 600-hour inspection and had a total time of 3,382.7 hours.
+The operator, LifeNet, Inc., reported that the helicopter weight at the time of the accident was 
+4620.4 pounds; aircraft weight of 3,200.4 pounds plus; medical equipment 198 pounds; crew 
+565 pounds; and fuel 657 pounds.
+The engine is controlled by a Digital Engine Control Unit (DECU) that receives sensor signals 
+from the gas generator turbine (NG), the free power turbine (NF), the outside air temperature 
+(OAT), rotor speed (NR), and controls the fuel flow into the engine via the hydromechanical 
+control unit.  In the event that the hydromechanical fuel control or the DECU becomes 
+inoperative the pilot is notified of the condition by the illumination of a red 'GOV' light on the 
+annunciator panel and an aural 'gong.'  By releasing the flight notch slide lock on the collective 
+twist grip the pilot can manually meter fuel to the engine by manipulating the twist grip.   
+Rotation of the twist grip mechanically controls the amount of fuel delivered to the engine.
+The AS350B3 flight manual states that aural warnings to the pilot are operative only if the 
+'horn' push button is in.  The manual also states that the red 'GOV' light will illuminate when 
+one of two conditions are present; 1- MANU mode (manual mode switch) is engaged.  This 
+switch allows the pilot to switch from 'auto' or automatic fuel governing of the engine to 
+'MANU,' or manual fuel governing of the engine for the purposes of pilot training; or 2- 
+"Governing failure:  the fuel flow is frozen at the value prior to the failure."  The red 'GOV' light 
+is accompanied by a 'gong' sound if the 'horn' button is in.   The pilot should take the following 
+steps when the red 'GOV' light is illuminated. 
+1-"Check flight parameters." 
+2- "Maintain NR in green arc."   
+3- "Unlock the 'FLIGHT' notch, the fuel flow can be increased or decreased by turning the twist 
+grip."   
+4- "Only apply small amplitude adjustments synchronized with the collective in order to 
+maintain NR in the green range." 
+5- "Fly the approach at 40 knots and adjust the fuel flow rate to maintain NR with in the upper 
+section of the green range.  Slowly reduce the speed if necessary adjust the fuel flow rate 
+slightly on the twist grip to maintain NR within the green range.  On final approach, when the 
+collective pitch is increased on reaching the hover, let the NR drop for touchdown, reduce the 
+fuel flow rate before lowering the collective pitch."  
+TESTS & RESEARCH
+Vehicle and Engine Multifunctional Display (VEMD)
+The VEMD is an instrument that displays the engine and vehicle parameters in the cockpit.  It 
+replaces the conventional indicators and presents engine information, fuel quantity, electrical 
+power, and torque readings.  Additionally the VEMD, when in maintenance mode, can display 
+recorded in-flight anomalies and discrete helicopter performance monitoring data. 
+ 
+Investigators at the scene of the accident photographed the maintenance pages on the VEMD 
+that displayed error messages from flight number 4600, which was the accident flight.  At 2 
+minutes 08 seconds into flight 4600, an "INVAL NF-A," "FL AMB GOV NF B," and "FL AMB 
+GOV NF A," errors were recorded.  At 2 minutes 36 seconds into the flight a "OUT OF RNG 
+OAT" and "FLI  LOSS" error are recorded.  The over limit page for flight 4600 displayed no 
+limit exceedences for TRQ, T4, NG, NF, or NR parameters.  The Turbomeca Arriel 2 
+Maintenance Manual defines these error messages and parameters as:
+INVAL NF-A  (Invalid NF-A parameter)
+FL AMB GOV NF B(Flashing Amber GOV light, N2 failure (B on the harness))
+FL AMB GOV NF A (Flashing Amber GOV light, N2 failure (C on the harness))
+OUT OF RNG OAT(Out of Range OAT parameter)
+FLI LOSS(Amber GOV light, T0 failure)
+T0(Outside Air Temperature (OAT))
+T4(Engine temperature measured by VEMD)
+TRQ(Torque, percent)
+NG(Engine power rating, percent)
+NF(Free turbine expressed in NR speed, rpm)
+NR(Rotor, rpm)
+Engine Exam
+On December 7, 2004, the Turbomeca Arriel 2B, serial number 22036, was examined and test 
+run, under the supervision of the Safety Board IIC, at Turbomeca USA, Grand Prairie, Texas, 
+and was observed by investigators from Turbomeca, LifeNet, Inc., and American Eurocopter.
+The engine was placed on a test stand in the test cell.  The DECU was removed and the engine 
+was connected to the test cell DECU.  The engine was started and was run up to ground idle 
+and then flight idle.  The engine was then run through a series of 1-second jam accelerations 
+from flight idle to max power.  No performance discrepancies were noted.  The T1/OAT sensor 
+was disconnected and investigators observed that the engine performed normally using the 
+default of 15C for a T1/OAT signal.  Full details of the test run are in the official docket of this 
+investigation.
+The Digital Engine Control Unit (DECU) was downloaded and the data sent to the Bureau 
+d'Enquetes et d'Analyses (BEA) in France along with the N2 sensor harness for analysis by the 
+BEA, Turbomeca France, and Eurocopter France.  The examination was performed on 
+February 16, 2005, under the supervision of the BEA.  The DECU data confirmed the 
+occurrence of a double N2 sensor failure, which triggered the red 'GOV' light shortly after 
+takeoff.  The DECU and VEMD data indicate that the red 'GOV' alarm was due to the detection 
+of an inconsistency between the two N2 sensors (N2B and N2C).  The inconsistency is triggered 
+by the DECU as soon as the two values differ more than 3 percent.  Additionally, the VEMD 
+pages show that the twist grip manual command remained neutral during the event, which is 
+consistent with the pilots' report of not disengaging the twist grip flight notch.  A functional 
+test of the DECU at temperatures ranging from -50C to 70C resulted in no anomalies.  The 
+three N2 sensors were tested for continuity, insulation, resistance, and output voltage 
+comparison, which resulted in no anomalies.  The N2 sensors harness was tested.  No anomaly 
+was found during electrical continuity and insulation tests.
+A detailed test report is contained in the official docket of this investigation.
+Airframe Examination
+On January 4, 2005, the airframe was examined at the LifeNet facility in Phoenix, Arizona, by 
+investigators from LifeNet, American Eurocopter, and Turbomeca USA, under the supervision 
+of the Safety Board IIC.
+The helicopters landing skids were completely collapsed and spread so that the underskin of 
+the helicopter contacted the pavement.  The tailboom was creased and bent downwards at the 
+base of the boom.  The outside air temperature (OAT) probe, which is located on the underside 
+of the helicopter, was sheared off.
+The AUTO/MAN switch in the cockpit was observed to be in the AUTO position and the start 
+select switch was in the 'ON' position.  The emergency fuel shutoff was closed.  Electrical circuit 
+continuity was established from the OAT probe to the VEMD.  The AUTO/MAN circuit, and the 
+OFF/IDLE/ON circuit exhibited electrical continuity to the Digital Engine Control Unit 
+(DECU) harness cannon plug.  The 'HORN' button was documented as being 'out' by a photo 
+taken on-scene.
+Helicopter Performance Calculations
+Eurocopter provided helicopter performance calculations based on the helicopter weight of 
+4620 pounds, estimated density altitude of 5,000 feet, and outside air temperature of 1C.  To 
+maintain an out of ground effect (OGE) hover using these conditions the torque would be 69 
+percent, NG would be 92.6 percent, T4 would be 746 C, and fuel flow would be 139 kg/h.  For a 
+condition of level flight at 60 knots the torque would be 37 percent, NG would be 84 percent, 
+T4 would be 638 C, and fuel flow would be 92 kg/h.  Power required for forward flight at 60 
+knots is less than the power required to maintain an OGE hover.
+The height-velocity (H-V) diagram in the AS350B3 flight manual depicts the avoidance zone as 
+the flight regime between 8 feet to 550 feet, and 0 knots to 54 knots.  The FAA Rotorcraft 
+Flying Handbook (FHH-8083-21) states that operating in the H-V diagram avoidance zone 
+"..may not allow enough time for the critical transition from powered flight to autorotation."  
+The handbook continues to state:  "An engine failure in a climb after takeoff occurring in 
+section A (the avoidance zone) of the diagram is most critical.  During a climb, a helicopter is 
+operating at higher power settings and blade angle of attack.  An engine failure at this point 
+causes a rapid rotor rpm decay because the upward movement of the helicopter must be 
+stopped, then a descent established in order to drive the rotor.  Time is also needed to stabilize, 
+then increase the rpm to the normal operating range.  The rate of descent must reach a value 
+that is normal for the airspeed at the moment.  Since altitude is insufficient for this sequence, 
+you end up with decaying rpm, an increasing sink rate, no deceleration lift, little translational 
+lift, and little response to the application of collective pitch to cushion the landing."

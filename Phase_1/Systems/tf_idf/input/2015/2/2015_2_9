@@ -1,0 +1,342 @@
+Page 1 of 7
+National Transportation Safety Board
+Aviation Accident Final Report
+Location:
+Slaton, TX
+Accident Number:
+CEN15LA138
+Date & Time:
+02/05/2015, 1510 CST 
+Registration:
+N602PB
+Aircraft:
+AIR TRACTOR INC AT 602
+Aircraft Damage:
+Substantial
+Defining Event:
+Miscellaneous/other
+Injuries:
+1 None
+Flight Conducted Under:
+Part 91: General Aviation - Ferry
+Analysis 
+The pilot, who had 3 hours of flight time in the agricultural airplane, was taking off on the 
+planned cross-country flight, which was the first flight after the installation of a digital engine 
+data monitor (EDM) on the airplane 6 days previously. The pilot reported that the initial 
+takeoff seemed normal but that, halfway down the runway, red warning lights illuminated on 
+the EDM. Although he reported that he thought the airspeed was low, the pilot was able to 
+climb the airplane to 150 ft. The airplane lost altitude, and the pilot landed in a field. The 
+landing gear dug into the soft dirt, and the airplane nosed over and came to rest inverted. The 
+pilot added that, although he added full throttle, the engine never developed full power. 
+Examination of the airplane did not reveal any anomalies that would have prevented the 
+engine from producing normal power. A review of the airplane™s maintenance records showed 
+that the EDM was installed under a supplemental type certificate, which included instructions 
+and initial setup and installation checklists. However, a completed copy of neither the setup 
+nor installation checklists were found in the records. The maintenance entry noted that ground 
+runs and leak checks were completed, and no defects were noted.
+Review of the EDM data revealed two files that contained engine starts; one from 3 days before 
+the accident flight and one from the accident flight. The first data file showed that the engine 
+propeller rpm reached a maximum of 950 rpm, indicating that this was a ground run and that 
+the engine power setting was not increased above flight idle. During the accident flight, the 
+engine propeller rpm reached a maximum of 1,730 rpm at an engine torque of 1,304 ft-lbs. 
+Although the pilot said he advanced the throttle to obtain full power, a review of the EDM data 
+revealed the torque was below its maximum value and was reduced several times during the 
+flight.
+Postaccident examination revealed that the EDM™s engine operating range for the propeller 
+was correctly set at the maximum 1,700 rpm; rpm readings above 1,700 would have been 
+indicated by red warning lights. Based on the information, it is likely that the aircraft 
+manufacturer set the maximum propeller rpm higher than 1,700 rpm (using the airplane™s 
+analog instruments), allowing the propeller rpm to exceed 1,700 rpm, which resulted in the red 
+Page 2 of 7CEN15LA138
+lights illuminating, as reported by the pilot. If maintenance personnel had followed the initial 
+setup/installation checklists that were included in the installation instructions for the EDM, 
+they likely would have identified that the maximum propeller rpm was not set properly and 
+corrected it. The accident is consistent with the pilot reacting to the EDM™s warning 
+indications, likely due to his lack of experience in the airplane make and model.
+Probable Cause and Findings
+The National Transportation Safety Board determines the probable cause(s) of this accident to be:
+Maintenance personnel™s improper installation of the engine data monitor (EDM), which was 
+not in accordance with the supplemental type certificate instructions and resulted in engine 
+warning indications and the pilot™s subsequent reaction to the warning indications due to his 
+lack of experience with the EDM and airplane.
+Findings
+Aircraft
+Maintenance/inspections - Incorrect service/maintenance (Cause)
+Personnel issues
+Total experience w/ equipment - Pilot (Cause)
+Installation - Maintenance personnel (Cause)
+Use of available resources - Maintenance personnel (Cause)
+Environmental issues
+Wet/muddy terrain - Contributed to outcome
+Page 3 of 7CEN15LA138
+Factual Information
+On February 5, 2015, about 1510 central standard time, an Air Tractor AT-602, airplane, 
+N602PB, impacted terrain shortly after departing the Slaton Municipal Airport (F49), Slaton, 
+Texas. The commercial rated pilot was not injured and the airplane was substantially damaged. 
+The airplane was registered to Neal Aircraft, Inc., Slaton, Texas and operated by Frontier Ag 
+Inc., Oakley, Kansas, under the provisions of the 14 Code of Federal Regulations Part 91 as a 
+cross country flight. Visual meteorological conditions prevailed at the time of the accident.
+The pilot reported that prior to departure the airplane was filled with fuel.  After engine start, 
+he taxied to runway 18, and conducted an engine run-up with no anomalies noted.  The initial 
+takeoff appeared normal; however, about half way down the runway, he noticed a "lack of 
+airspeed" and the engine monitor was flashing "several red lights".   About this time, the 
+airplane became airborne.  The pilot added that he was able to climb to about 150 feet, before 
+he noticed an additional power loss.   He kept adding throttle and even with full power 
+selected, the airplane lost altitude.  The pilot was able to land in a field south of the airport; 
+however, the landing gear dug into the soft dirt and the airplane nosed over, coming to rest 
+inverted. The pilot added that the engine never developed full power, even after adding full 
+throttle.
+Examination of the airplane by the responding Federal Aviation Administration (FAA) 
+inspector revealed the vertical stabilizer and wings were substantially damaged, and the engine 
+was fractured at the propeller reduction gearbox.  The airplane was equipped with an AmSafe 
+airbag system; however, the airbags did not deploy during the accident.
+The airplane was recovered to a nearby hangar for further examination.  The engine was 
+removed from the airframe and sent to Pratt & Whitney, Service Investigation Center, in 
+Bridgeport, West Virginia, for further examination.  The associated engine pressure line (Py) 
+line was retained for examination, at Air Tractor's facility in Olney, Texas.   The Electronics 
+International, MVP-50 Engine Monitor, which was recently installed, was downloaded for 
+review. Pratt & Whitney, along with Air Tractor under the supervision of the FAA conducted an 
+engine examination on April 1, 2015.  The engine a PT6A-65AG had accumulated 273 hours, 
+per the engine maintenance record, dated January 30, 2015.  The gas generator module was 
+deformed and had contact signatures with internal components.  The compressor and power 
+turbine rotational signatures were indicative of rotation at impact; however, the level of engine 
+power produced could not be determined.   Examination and bench testing of the fuel control 
+unit, fuel pump and flow divider valve, did not reveal any defects.  Additionally, a visual 
+examination and disassembly of the propeller governor did not reveal any anomalies.
+The flexible air signal line  (Py) is a reference pressure line runs from the propeller governor on 
+the forward end of the engine to the Fuel Control Unit (FCU).  The line pressure is used by the 
+FCU to regulate fuel flow to the engine. Complete loss of this pressure results in the FCU 
+reducing fuel flow. The flexible line was installed by Air Tractor during aircraft production 
+under Supplemental Type Certificate (STC) #SE8652SW and is a replacement for the Pratt & 
+Whitney rigid Py line. Examination of the Py line was conducted by Air Tractor, on September 
+9, 2015, under the supervision of the NTSB.  The line was pressurized using standard shop air 
+pressure (approximately 125 psi) and was submerged in water to check for leaks. No air leakage 
+was noted during the test.
+The engine examination did not reveal any pre-impact anomalies that would have precluded 
+Page 4 of 7CEN15LA138
+normal engine operation.
+A review of the aircraft maintenance records revealed that the Electronics International Inc., 
+MVP-50T, engine monitor's installation, was completed on January 30, 2015.  The log entry 
+noted that the monitor was installed under STC # SA02135SE. The entry noted that ground 
+runs and leak checks were completed and no defects noted.  The STC installation of the 
+monitor included instructions, an initial setup, and installation checklists.  A completed copy of 
+either the setup or installation checklists, were not found in the records. The accident flight 
+was the airplane's first flight after installation of the engine monitor.  Review of the monitor's 
+setup revealed the unit's clock was set to one hour earlier then local time, and the fuel flow 
+calibration factor, was off by a factor of 10, meaning the monitor would indicate fuel flow ten 
+times the actual fuel flow.
+Each time electrical power is applied to the engine monitor a file is created.  Download of the 
+data revealed 32 data files, with dates ranging from January 19, 2015 to February 5, 2015.  Only 
+two of the files contained engine starts; February 2, 2015 and the accident flight on February, 
+5, 2015.  The data for the February 2nd file, logged a maximum reading of 950 rpm for the 
+engine propeller.
+Reviewing the February 5 data obtained from the engine monitor, showed propeller rpm 
+increasing at 14:10:27 (engine monitor time), consistent with start of the takeoff roll.  The rpm 
+reading went to zero (propeller stops) at 14:11:41; about a one minute and fourteen second 
+flight.
+During the takeoff run, the propeller rpm reached 1,730 rpm at an engine torque of 1,304 ft-
+lbs.  About 21 seconds after power was applied for the takeoff, the torque reached 1,492 ft-lbs, 
+and was the maximum seen for the entire flight.  The torque then dropped to about 1,200 ft-lbs 
+and remained there for about 20 seconds before further reduction was noted.   The propeller 
+rpm remained at 1,730 rpm for about 32 seconds after maximum torque was reached, then 
+dropped below 1,700 rpm, with a torque reading of 736 ft-lbs,  The torque then dropped into 
+the 500 ft-lbs range, before a slight increase was noted about 10 seconds before the crash; the 
+rise was followed by a decrease in the torque.
+The engine's maximum torque was 3,245 ft lbs, with a propeller maximum limit of 1,700 rpm. 
+The maximum rpm would have been set on the propeller governor at Air Tractor, using the 
+standard airplane's analog instruments.
+The engine monitor's engine operating range for the propeller was correctly set at 1,700 rpm.  
+Rpm readings above the maximum of 1,700 would have been indicated to the pilot by red 
+warning light.
+The pilot held a commercial pilot certificate and ratings for single engine-land and instrument- 
+airplane. The pilot reported that he had 561 total flight hours and 3 hours in the accident 
+airplane make and model.
+Page 5 of 7CEN15LA138
+History of Flight
+Prior to flight
+Aircraft maintenance event
+Takeoff
+Miscellaneous/other (Defining event)
+Emergency descent
+Collision with terr/obj (non-CFIT)
+Pilot Information
+Certificate: 
+Commercial
+Age:
+23
+Airplane Rating(s):
+Single-engine Land
+Seat Occupied:
+Single
+Other Aircraft Rating(s): 
+None
+Restraint Used: 
+Instrument Rating(s):
+Airplane
+Second Pilot Present:
+No
+Instructor Rating(s): 
+None
+Toxicology Performed: 
+No
+Medical Certification:
+Class 2 Without 
+Waivers/Limitations
+Last FAA Medical Exam:
+01/29/2015
+Occupational Pilot:
+Yes
+Last Flight Review or Equivalent:
+Flight Time:
+561 hours (Total, all aircraft), 3 hours (Total, this make and model), 514 hours (Pilot In 
+Command, all aircraft), 24.1 hours (Last 90 days, all aircraft), 10.5 hours (Last 30 days, all 
+aircraft), 2.2 hours (Last 24 hours, all aircraft)
+Aircraft and Owner/Operator Information
+Aircraft Make:
+AIR TRACTOR INC
+Registration:
+N602PB
+Model/Series:
+AT 602 
+Aircraft Category:
+Airplane
+Year of Manufacture:
+Amateur Built:
+No
+Airworthiness Certificate:
+Restricted
+Serial Number:
+602-1233
+Landing Gear Type: 
+Unknown
+Seats: 
+Date/Type of Last Inspection:
+11/07/2014, Annual
+Certified Max Gross Wt.:
+Time Since Last Inspection:
+Engines:
+1 Turbo Prop
+Airframe Total Time:
+273.1 Hours at time of 
+accident
+Engine Manufacturer:
+P&W
+ELT:
+Not installed
+Engine Model/Series:
+PT-6A
+Registered Owner:
+Neal Aircraft Inc.
+Rated Power:
+Operator:
+Frontier Ag Inc.
+Operating Certificate(s) 
+Held:
+Agricultural Aircraft (137)
+Operator Does Business As:
+Operator Designator Code:
+HIXG
+Page 6 of 7CEN15LA138
+Meteorological Information and Flight Plan
+Conditions at Accident Site:
+Visual Conditions
+Condition of Light:
+Day
+Observation Facility, Elevation:
+KLBB
+Distance from Accident Site:
+13 Nautical Miles
+Observation Time:
+1453 CST
+Direction from Accident Site:
+310°
+Lowest Cloud Condition:
+Scattered / 25000 ft agl
+Visibility
+10 Miles
+Lowest Ceiling:
+None 
+Visibility (RVR):
+Wind Speed/Gusts: 
+5 knots / 
+Turbulence Type 
+Forecast/Actual:
+ / 
+Wind Direction:
+Variable
+Turbulence Severity 
+Forecast/Actual:
+ / 
+Altimeter Setting:
+30.25 inches Hg
+Temperature/Dew Point:
+6°C / 2°C
+Precipitation and Obscuration:
+No Precipitation
+Departure Point: 
+Slaton, TX (F49)
+Type of Flight Plan Filed:
+None
+Destination: 
+Oakley, KS (KOEL)
+Type of Clearance:
+VFR
+Departure Time:
+1510 CST
+Type of Airspace: 
+Airport Information
+Airport:
+Slaton Muncipal (F49)
+Runway Surface Type:
+Airport Elevation:
+3123 ft
+Runway Surface Condition:
+Runway Used:
+18
+IFR Approach:
+None
+Runway Length/Width:
+4244 ft / 75 ft
+VFR Approach/Landing:
+Forced Landing
+Wreckage and Impact Information
+Crew Injuries:
+1 None
+Aircraft Damage:
+Substantial
+Passenger Injuries:
+N/A
+Aircraft Fire:
+None
+Ground Injuries:
+N/A
+Aircraft Explosion:
+None
+Total Injuries:
+1 None
+Latitude, Longitude:
+33.483611, -101.661111 (est)
+Administrative Information
+Investigator In Charge (IIC):
+Craig Hatch
+Adopted Date:
+01/05/2016
+Additional Participating Persons:
+Daniel Vengen; FAA FSDO; Lubbock, TX
+Kyle Schroeder; Air Tractor; Olney, TX
+Publish Date:
+01/05/2016
+Note:
+The NTSB did not travel to the scene of this accident.
+Investigation Docket:
+http://dms.ntsb.gov/pubdms/search/dockList.cfm?mKey=90696
+Page 7 of 7CEN15LA138
+The National Transportation Safety Board (NTSB), established in 1967, is an independent federal agency mandated 
+by Congress through the Independent Safety Board Act of 1974 to investigate transportation accidents, determine 
+the probable causes of the accidents, issue safety recommendations, study transportation safety issues, and evaluate 
+the safety effectiveness of government agencies involved in transportation. The NTSB makes public its actions and 
+decisions through accident reports, safety studies, special investigation reports, safety recommendations, and 
+statistical reviews. 
+The Independent Safety Board Act, as codified at 49 U.S.C. Section 1154(b), precludes the admission into evidence 
+or use of any part of an NTSB report related to an incident or accident in a civil action for damages resulting from a 
+matter mentioned in the report.
